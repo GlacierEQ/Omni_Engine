@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 # Load API key from .env
 load_dotenv()
-openai.api_key = os.getenv("sk-6l9UvPJaVhx458NbJ-941-0R_jhaZ-fvE41QpsYpTntYPEDpWZ3OFpDOUBPBjJ4PP3ojozC0ZWT3BlbkFJ5fMfO_9Vi4olJslhQmfsuXCKfa7A9AS673aGp3q7-8W3Y0fbBo2RHQmBWzAT1fD4kk3ludLjAA-") 
+openai.api_key = os.getenv("API_KEY") 
 
 SUPPORTED_EXTENSIONS = ['txt', 'pdf', 'docx']
 DEBUG = "--debug" in sys.argv
