@@ -1,0 +1,1 @@
+This is a sample test file with a few words to analyze and count using the FileGPT base module.
