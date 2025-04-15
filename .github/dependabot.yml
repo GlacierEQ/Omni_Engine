@@ -5,7 +5,8 @@
 
 version: 2
 updates:
-  - package-ecosystem: "" # See documentation for possible values
+  - package-ecosystem: bun # See documentation for possible values
     directory: "/" # Location of package manifests
-    schedule: 0900
+    schedule:
       interval: "weekly"
+      time: "09:00"
