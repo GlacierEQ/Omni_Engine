@@ -1,0 +1,7 @@
+{
+  "directories": [
+    "extreme_intelligence/storage",
+    "extreme_intelligence/memory/sources",
+    "extreme_intelligence/memory/primary_matrix"
+  ]
+}
