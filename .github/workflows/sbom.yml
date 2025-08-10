@@ -1,0 +1,10 @@
+﻿name: SBOM
+on:
+  push: {branches: ["main"]}
+jobs:
+  sbom:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: anchore/sbom-action@v0
+        with: {path: "." , upload-artifact: true, artifact-name: "sbom-spdx.json"}
