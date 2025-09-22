@@ -31,3 +31,9 @@
 *.out
 *.app
 venv/
+# Ignore Python cache and logs
+__pycache__/
+modules/filegpt/__pycache__/
+logs/
+*.log
+Codex_Agent_*

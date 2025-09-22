@@ -1,0 +1,41 @@
+{
+  "filesystem": {
+    "name": "filesystem",
+    "endpoint": "@modelcontextprotocol/server-filesystem",
+    "client": "claude",
+    "status": "installed",
+    "functions": [
+      "read_file",
+      "write_file",
+      "list_directory",
+      "search_files",
+      "move_file",
+      "create_directory"
+    ]
+  },
+  "api-supermemory-ai": {
+    "name": "api-supermemory-ai",
+    "endpoint": "https://api.supermemory.ai/mcp",
+    "client": "claude",
+    "status": "installed",
+    "functions": [
+      "memory.create",
+      "memory.query",
+      "memory.delete"
+    ]
+  },
+  "api-supermemory-ai-oauth": {
+    "name": "api-supermemory-ai-oauth",
+    "endpoint": "https://api.supermemory.ai/mcp",
+    "client": "claude",
+    "status": "auth_failed",
+    "functions": []
+  },
+  "api-supermemory-ai-codex": {
+    "name": "api-supermemory-ai-codex",
+    "endpoint": "https://api.supermemory.ai/mcp",
+    "client": "codex",
+    "status": "client_invalid",
+    "functions": []
+  }
+}
