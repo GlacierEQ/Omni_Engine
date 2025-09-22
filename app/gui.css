@@ -1,0 +1,17 @@
+#dashboard {
+    height: 1fr;
+}
+
+#connectors_panel, #layers_panel, #recs_panel {
+    padding: 1;
+    border: solid green;
+}
+
+#recs_body {
+    height: 1fr;
+    overflow: auto;
+}
+
+#refresh_button {
+    margin-top: 1;
+}
