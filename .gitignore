@@ -31,3 +31,13 @@
 *.out
 *.app
 venv/
+
+# Logs and temporary scripts
+*.log
+Codex_Agent_*.sh
+logs/
+.idea/
+
+# Python cache
+__pycache__/
+*.py[cod]
