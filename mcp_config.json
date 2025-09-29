@@ -1,0 +1,210 @@
+{
+  "mcp_configuration": {
+    "version": "2.0.0",
+    "environment": "development",
+    "case_number": "1FDV-23-0001009",
+    "jurisdiction": "Hawaii Family Court",
+    "court_level": "First Circuit",
+    
+    "connector_settings": {
+      "parallel_execution": true,
+      "max_workers": 4,
+      "timeout_seconds": 300,
+      "auto_cleanup": true,
+      "forensic_logging": true
+    },
+    
+    "memory_layers": [
+      "legal_evidence",
+      "github_intelligence",
+      "cloud_evidence", 
+      "ai_execution",
+      "knowledge_base",
+      "case_timeline",
+      "witness_network"
+    ],
+    
+    "connectors": {
+      "fileboss": {
+        "enabled": true,
+        "root_path": "./data/fileboss",
+        "file_patterns": ["*.pdf", "*.docx", "*.txt", "*.csv", "*.json", "*.md"],
+        "recursive_scan": true,
+        "metadata_extraction": true
+      },
+      
+      "github_mcp": {
+        "enabled": true,
+        "token": "${GITHUB_TOKEN}",
+        "repositories": [
+          "GlacierEQ/Omni_Engine",
+          "GlacierEQ/FILEBOSS",
+          "GlacierEQ/google-drive-mcp",
+          "GlacierEQ/fileboss-whisperx-processor"
+        ],
+        "include_commits": true,
+        "include_issues": true,
+        "include_workflows": true,
+        "include_branches": true,
+        "max_commits": 50,
+        "days_back": 30
+      },
+      
+      "gdrive_mcp": {
+        "enabled": false,
+        "credentials_path": "./config/gdrive_credentials.json",
+        "token_path": "./config/gdrive_token.json",
+        "folder_ids": [],
+        "file_types": [
+          "application/pdf",
+          "application/vnd.google-apps.document",
+          "application/vnd.google-apps.spreadsheet",
+          "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "text/plain",
+          "image/jpeg",
+          "image/png"
+        ],
+        "include_permissions": true,
+        "include_revisions": false,
+        "max_files": 1000,
+        "days_back": 30
+      },
+      
+      "e2b_mcp": {
+        "enabled": false,
+        "api_key": "${E2B_API_KEY}",
+        "template": "base",
+        "timeout": 300,
+        "max_executions": 10,
+        "auto_cleanup": true,
+        "working_directory": "/tmp/omni_engine",
+        "legal_analysis_scripts": true,
+        "fileboss_integration": true
+      },
+      
+      "notion_mcp": {
+        "enabled": false,
+        "api_token": "${NOTION_API_TOKEN}",
+        "database_ids": [],
+        "page_ids": [],
+        "include_content": true,
+        "include_properties": true,
+        "include_blocks": true,
+        "max_pages": 100,
+        "days_back": 30,
+        "case_tracking_enabled": true,
+        "evidence_organization": true
+      },
+      
+      "mega_pdf": {
+        "enabled": true,
+        "pdf_directory": "./data/pdfs",
+        "ocr_enabled": false,
+        "extract_metadata": true,
+        "extract_images": false,
+        "max_file_size_mb": 100
+      },
+      
+      "whisperx": {
+        "enabled": true,
+        "audio_directory": "./data/transcripts",
+        "model_size": "base",
+        "language": "en",
+        "device": "cpu",
+        "batch_size": 16,
+        "compute_type": "int8"
+      }
+    },
+    
+    "legal_intelligence": {
+      "entity_extraction_enabled": true,
+      "timeline_analysis_enabled": true,
+      "pattern_recognition_enabled": true,
+      "risk_assessment_enabled": true,
+      "strategic_analysis_enabled": true,
+      
+      "case_specific_patterns": {
+        "family_court": [
+          "custody", "visitation", "parenting plan", "child support",
+          "best interests", "parental rights", "guardianship"
+        ],
+        "evidence_types": [
+          "text message", "email", "photo", "video", "audio recording",
+          "medical record", "school record", "witness statement"
+        ],
+        "key_dates": [
+          "incident date", "filing date", "hearing date", "deadline",
+          "court date", "mediation date", "evaluation date"
+        ]
+      }
+    },
+    
+    "security_settings": {
+      "forensic_integrity": true,
+      "audit_logging": true,
+      "access_control": true,
+      "data_encryption": false,
+      "secure_storage": true,
+      "chain_of_custody": true
+    },
+    
+    "output_settings": {
+      "report_formats": ["json", "pdf", "html"],
+      "export_directory": "./reports",
+      "auto_backup": true,
+      "retention_days": 365,
+      "compress_archives": true
+    },
+    
+    "performance_settings": {
+      "cache_enabled": true,
+      "cache_ttl_minutes": 60,
+      "batch_processing": true,
+      "batch_size": 100,
+      "memory_limit_mb": 1024,
+      "concurrent_connections": 10
+    }
+  },
+  
+  "environment_variables": {
+    "required": [
+      "GITHUB_TOKEN"
+    ],
+    "optional": [
+      "E2B_API_KEY",
+      "NOTION_API_TOKEN",
+      "GOOGLE_APPLICATION_CREDENTIALS",
+      "OPENAI_API_KEY",
+      "ANTHROPIC_API_KEY"
+    ]
+  },
+  
+  "deployment_instructions": {
+    "windows": {
+      "setup_commands": [
+        "pip install -r requirements-mcp.txt",
+        "mkdir data\\fileboss data\\pdfs data\\transcripts",
+        "copy .env.example .env",
+        "powershell -File scripts\\e2b_gateway.ps1 -Cmd 'omni-test-connectors' -Verbose"
+      ],
+      "run_command": "python -m app.gui --config mcp_config.json"
+    },
+    "linux": {
+      "setup_commands": [
+        "pip install -r requirements-mcp.txt",
+        "mkdir -p data/{fileboss,pdfs,transcripts}",
+        "cp .env.example .env",
+        "chmod +x scripts/setup_mcp.sh && ./scripts/setup_mcp.sh"
+      ],
+      "run_command": "python -m app.gui --config mcp_config.json"
+    }
+  },
+  
+  "created": "2025-09-28T21:30:00-10:00",
+  "updated": "2025-09-28T21:30:00-10:00",
+  "version_info": {
+    "config_version": "2.0.0",
+    "omni_engine_version": "2.0.0-MCP",
+    "mcp_standard": "1.0.0"
+  }
+}
