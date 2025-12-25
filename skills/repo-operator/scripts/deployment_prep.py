@@ -1,86 +1,50 @@
-import json
+from __future__ import annotations
 import os
+from pathlib import Path
 
-def run_prep():
-    if not os.path.exists("repo_map.json"):
-        print("❌ Error: Run analysis first.")
+ROOT = Path(".").resolve()
+FORCE = os.getenv("OP_FORCE", "0") == "1"
+DRY = os.getenv("OP_DRY_RUN", "0") == "1"
+
+def write_if_missing(path: Path, content: str) -> None:
+    if DRY:
         return
+    if path.exists() and not FORCE:
+        return
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(content, encoding="utf-8")
 
-    with open("repo_map.json", "r") as f:
-        repo_map = json.load(f)
+def main():
+    # Minimal Dockerfile (non-destructive)
+    dockerfile = ROOT / "Dockerfile"
+    docker_content = (
+        "FROM python:3.11-slim\n"
+        "WORKDIR /app\n"
+        "COPY . /app\n"
+        "CMD [\"python\", \"-c\", \"print('Ready')\"]\n"
+    )
+    write_if_missing(dockerfile, docker_content)
 
-    tech = repo_map.get("tech_stack", [])
-    
-    # 1. Generate Multi-stage Dockerfile
-    dockerfile = "# Multi-stage Build\n"
-    if "Node.js" in tech:
-        dockerfile += """FROM node:18-alpine AS builder
-WORKDIR /app
-COPY package*.json ./
-RUN npm install
-COPY . .
-RUN npm run build --if-present
-
-FROM node:18-alpine AS runner
-WORKDIR /app
-COPY --from=builder /app ./
-EXPOSE 3000
-CMD ["npm", "start"]
-"""
-    elif "Python" in tech:
-        dockerfile += """FROM python:3.11-slim AS builder
-WORKDIR /app
-COPY requirements.txt .
-RUN pip install --user --no-cache-dir -r requirements.txt
-
-FROM python:3.11-slim
-WORKDIR /app
-COPY --from=builder /root/.local /root/.local
-COPY . .
-ENV PATH=/root/.local/bin:$PATH
-CMD ["python", "main.py"]
-"""
-    else:
-        dockerfile += "FROM alpine\nCMD [\"echo\", \"Static Deployment Ready\"]"
-
-    with open("Dockerfile", "w") as f:
-        f.write(dockerfile)
-
-    # 2. CI/CD Pipeline
-    os.makedirs(".github/workflows", exist_ok=True)
-    with open(".github/workflows/deploy.yml", "w") as f:
-        f.write("""name: Operator-Grade CI/CD
-on:
-  push:
-    branches: [ main, develop ]
-jobs:
-  validate-and-deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - name: Security Scan
-        run: echo "Scanning..."
-      - name: Build Docker Image
-        run: docker build -t app:${{ github.sha }} .
-""")
-
-    # 3. Environment Specs
-    specs = {
-        "environments": {
-            "staging": {"platform": "k8s", "replicas": 1},
-            "production": {"platform": "k8s", "replicas": 3}
-        },
-        "version_lock": "2.0.0"
-    }
-    with open("env_specs.yaml", "w") as f:
-        import yaml
-        try:
-            import yaml
-            yaml.dump(specs, f)
-        except:
-            f.write(json.dumps(specs, indent=2))
-
-    print("✅ Deployment Prep phase complete.")
+    # Minimal GitHub Actions workflow
+    wf = ROOT / ".github/workflows/ci.yml"
+    wf_content = (
+        "name: CI\n"
+        "on: [push, pull_request]\n"
+        "jobs:\n"
+        "  test:\n"
+        "    runs-on: ubuntu-latest\n"
+        "    steps:\n"
+        "      - uses: actions/checkout@v4\n"
+        "      - uses: actions/setup-python@v5\n"
+        "        with:\n"
+        "          python-version: '3.11'\n"
+        "      - run: python -m pip install --upgrade pip\n"
+        "      - run: if [ -f requirements.txt ]; then pip install -r requirements.txt; fi\n"
+        "      - run: if command -v ruff >/dev/null 2>&1; then ruff check .; else echo 'ruff not installed'; fi\n"
+        "      - run: if command -v pytest >/dev/null 2>&1; then pytest -q; else echo 'pytest not installed'; fi\n"
+    )
+    write_if_missing(wf, wf_content)
+    print("✅ Deployment prep complete (non-destructive).")
 
 if __name__ == "__main__":
-    run_prep()
+    main()

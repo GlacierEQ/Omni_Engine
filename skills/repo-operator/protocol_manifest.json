@@ -1,52 +1,48 @@
 {
   "protocol": "Repo Operator Protocol",
-  "version": "2.0",
+  "version": "2.1",
   "meta": {
     "author": "Casey",
-    "intent": "Universal repo completion + deployment",
-    "continuity_hooks": true,
-    "rollback_enabled": true,
-    "logging": "structured_manifest.json"
+    "intent": "Hardened Universal Repo Completion + Deployment",
+    "idempotent": true,
+    "logging": "output/logs/operator.log"
   },
   "phases": [
     {
       "name": "Analysis",
-      "path": "analysis/",
-      "tasks": ["Recursive scan", "Tech-stack detection", "Dependency audit"],
-      "outputs": ["analysis_report.md", "repo_map.json"]
+      "script": "scripts/analysis.py",
+      "tasks": ["Tech-stack detection", "Hygiene audit", "Largest file scan"],
+      "outputs": ["output/repo_map.json"]
     },
     {
       "name": "Completion",
-      "path": "completion/",
-      "tasks": ["Missing file generation", "Upgrade hook embedding"],
-      "outputs": ["completion_plan.md", "upgrade_hooks.json"]
+      "script": "scripts/completion.py",
+      "tasks": ["Patch generation", "Baseline safety completion"],
+      "outputs": ["patches/*.diff"]
     },
     {
       "name": "Deployment Prep",
-      "path": "deployment-prep/",
-      "tasks": ["Multi-stage Dockerfile", "CI/CD generation", "Env specs"],
-      "outputs": ["Dockerfile", ".github/workflows/deploy.yml", "env_specs.yaml"]
+      "script": "scripts/deployment_prep.py",
+      "tasks": ["Idempotent Dockerfile", "CI Workflow generation"],
+      "outputs": ["Dockerfile", ".github/workflows/ci.yml"]
     },
     {
       "name": "Validation",
-      "path": "validation/",
-      "tasks": ["Security scan", "Container audit", "Lint check"],
-      "outputs": ["validation_report.md", "security_scan.json"]
+      "script": "scripts/validation.py",
+      "tasks": ["Static analysis", "Linting", "Security audit", "Dependency audit"],
+      "outputs": ["output/logs/operator.log"]
     },
     {
       "name": "Deploy",
-      "path": "deploy/",
-      "tasks": ["Multi-target deploy", "Rollback script generation"],
-      "outputs": ["deploy_script.sh", "rollback_instructions.md", "deployment_log.json"]
+      "script": "scripts/deploy.py",
+      "tasks": ["Zero-downtime hooks", "Custom deployment logic"],
+      "outputs": ["output/logs/operator.log"]
     }
   ],
   "operator_protocol": {
-    "output_format": "modular_blocks",
-    "explain_before_code": true,
-    "safety": {
-      "no_overwrite": true,
-      "rollback_hooks": true,
-      "manifest_logging": true
-    }
+    "strict_mode": true,
+    "dry_run_support": true,
+    "apply_patches_flag": "--apply-patches",
+    "force_flag": "--force"
   }
 }

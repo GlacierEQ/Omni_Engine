@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "timestamp": "2025-12-25 23:58:54",
+    "root": "/home/user/skills/repo-operator"
+  },
+  "metrics": {
+    "total_files": 18
+  },
+  "tech_stack": [
+    "ci",
+    "docs",
+    "python"
+  ],
+  "extensions_top": [
+    [
+      ".md",
+      7
+    ],
+    [
+      ".py",
+      6
+    ],
+    [
+      ".json",
+      1
+    ],
+    [
+      "<none>",
+      1
+    ],
+    [
+      ".toml",
+      1
+    ],
+    [
+      ".yml",
+      1
+    ],
+    [
+      ".log",
+      1
+    ]
+  ],
+  "largest_files": [
+    [
+      2592,
+      "scripts/analysis.py"
+    ],
+    [
+      2494,
+      "scripts/completion.py"
+    ],
+    [
+      2374,
+      "scripts/orchestrator.py"
+    ],
+    [
+      1681,
+      "scripts/deployment_prep.py"
+    ],
+    [
+      1629,
+      "SKILL.md"
+    ],
+    [
+      1413,
+      "protocol_manifest.json"
+    ],
+    [
+      950,
+      "scripts/validation.py"
+    ],
+    [
+      318,
+      ".github/workflows/deploy.yml"
+    ],
+    [
+      197,
+      "deploy/SKILL.md"
+    ],
+    [
+      193,
+      "completion/SKILL.md"
+    ],
+    [
+      191,
+      "deployment-prep/SKILL.md"
+    ],
+    [
+      166,
+      "analysis/SKILL.md"
+    ],
+    [
+      163,
+      "validation/SKILL.md"
+    ],
+    [
+      105,
+      "scripts/deploy.py"
+    ],
+    [
+      83,
+      "output/logs/operator.log"
+    ]
+  ],
+  "missing_elements": [
+    ".env.example",
+    ".gitignore"
+  ],
+  "flags": {
+    "has_env_file": false,
+    "has_secrets_risk": false
+  }
+}

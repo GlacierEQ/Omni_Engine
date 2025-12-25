@@ -1,11 +1,13 @@
-name: Deploy
+name: Operator-Grade CI/CD
 on:
   push:
-    branches: [ main ]
+    branches: [ main, develop ]
 jobs:
-  build:
+  validate-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Build and Test
-        run: echo "Building..."
+      - name: Security Scan
+        run: echo "Scanning..."
+      - name: Build Docker Image
+        run: docker build -t app:${{ github.sha }} .

@@ -1,117 +1,80 @@
-import os
-import json
-import datetime
-import re
+from __future__ import annotations
+import os, json, time, hashlib
+from pathlib import Path
+from collections import Counter
 
-class RepoAnalyzer:
-    def __init__(self, root_dir="."):
-        self.root_dir = root_dir
-        self.repo_map = {
-            "meta": {
-                "timestamp": str(datetime.datetime.now()),
-                "root": os.path.abspath(root_dir)
-            },
-            "structure": {},
-            "tech_stack": [],
-            "dependencies": {},
-            "missing_elements": [],
-            "metrics": {"total_files": 0, "total_lines": 0}
-        }
+ROOT = Path(".").resolve()
+OUT = ROOT / "output"
+OUT.mkdir(parents=True, exist_ok=True)
+IGNORE_DIRS = {".git", "node_modules", "__pycache__", ".venv", "dist", "build", ".next", ".cache"}
+SIGNALS = {
+    "package.json": "node",
+    "pnpm-lock.yaml": "node",
+    "yarn.lock": "node",
+    "requirements.txt": "python",
+    "pyproject.toml": "python",
+    "Pipfile": "python",
+    "Dockerfile": "docker",
+    "docker-compose.yml": "docker",
+    ".github/workflows": "ci",
+    "README.md": "docs",
+}
+REQUIRED = ["README.md", ".env.example", ".gitignore"]
 
-    def scan(self):
-        config_signatures = {
-            "package.json": "Node.js",
-            "requirements.txt": "Python",
-            "pyproject.toml": "Python (Poetry/Pip)",
-            "go.mod": "Go",
-            "Cargo.toml": "Rust",
-            "Dockerfile": "Docker",
-            "Makefile": "Build Tool",
-            ".gitignore": "Git",
-            "README.md": "Documentation",
-            "LICENSE": "Legal"
-        }
+def sha256_file(p: Path) -> str:
+    h = hashlib.sha256()
+    with p.open("rb") as f:
+        for chunk in iter(lambda: f.read(65536), b""):
+            h.update(chunk)
+    return h.hexdigest()
 
-        for root, dirs, files in os.walk(self.root_dir):
-            # Skip noise
-            for ignore in [".git", "node_modules", "__pycache__", "dist", "build", ".venv"]:
-                if ignore in dirs:
-                    dirs.remove(ignore)
-
-            rel_path = os.path.relpath(root, self.root_dir)
-            if rel_path == ".": rel_path = ""
-            
-            for file in files:
-                self.repo_map["metrics"]["total_files"] += 1
-                full_path = os.path.join(root, file)
-                
-                # Tech stack detection
-                if file in config_signatures:
-                    stack = config_signatures[file]
-                    if stack not in self.repo_map["tech_stack"]:
-                        self.repo_map["tech_stack"].append(stack)
-                
-                # Dependency parsing
-                if file == "package.json":
-                    self._parse_npm(full_path)
-                elif file == "requirements.txt":
-                    self._parse_pip(full_path)
-
-        # Check for gaps
-        required = ["Dockerfile", ".github/workflows", "README.md", "LICENSE", ".env.example"]
-        for req in required:
-            found = any(f.endswith(req) or req in f for f in self._get_all_files())
-            if not found:
-                self.repo_map["missing_elements"].append(req)
-
-        return self.repo_map
-
-    def _get_all_files(self):
-        all_files = []
-        for root, dirs, files in os.walk(self.root_dir):
-            if ".git" in dirs: dirs.remove(".git")
-            for f in files:
-                all_files.append(os.path.join(os.path.relpath(root, self.root_dir), f))
-        return all_files
-
-    def _parse_npm(self, path):
-        try:
-            with open(path, 'r') as f:
-                data = json.load(f)
-                self.repo_map["dependencies"]["npm"] = data.get("dependencies", {})
-        except: pass
-
-    def _parse_pip(self, path):
-        try:
-            with open(path, 'r') as f:
-                deps = [line.split('==')[0].strip() for line in f if line.strip() and not line.startswith('#')]
-                self.repo_map["dependencies"]["pip"] = deps
-        except: pass
-
-    def generate_report(self):
-        m = self.repo_map
-        report = f"# Repo Analysis Report - {m['meta']['timestamp']}\n\n"
-        report += "## 🏗 Tech Stack\n"
-        report += ", ".join(m['tech_stack']) if m['tech_stack'] else "Unknown"
-        report += "\n\n## 📊 Metrics\n"
-        report += f"- Total Files: {m['metrics']['total_files']}\n"
-        
-        report += "\n## 🚩 Missing Elements\n"
-        for item in m['missing_elements']:
-            report += f"- [ ] {item}\n"
-            
-        report += "\n## 📦 Dependencies\n"
-        for mgr, deps in m['dependencies'].items():
-            report += f"### {mgr}\n"
-            report += f"- {len(deps)} dependencies detected.\n"
-            
-        return report
+def scan():
+    tech = set()
+    files = 0
+    ext_counter = Counter()
+    largest = []
+    for root, dirs, fs in os.walk(ROOT):
+        r = Path(root)
+        dirs[:] = [d for d in dirs if d not in IGNORE_DIRS]
+        for f in fs:
+            p = r / f
+            if p.is_symlink():
+                continue
+            files += 1
+            ext_counter[p.suffix.lower() or "<none>"] += 1
+            # tech signals
+            rel = p.relative_to(ROOT)
+            if rel.name in SIGNALS:
+                tech.add(SIGNALS[rel.name])
+            if str(rel).startswith(".github/workflows"):
+                tech.add("ci")
+            # largest files quick list
+            try:
+                sz = p.stat().st_size
+                largest.append((sz, str(rel)))
+            except Exception:
+                pass
+    # missing required
+    missing = []
+    for req in REQUIRED:
+        if not (ROOT / req).exists():
+            missing.append(req)
+    largest.sort(reverse=True)
+    largest = largest[:15]
+    report = {
+        "meta": {"timestamp": time.strftime("%Y-%m-%d %H:%M:%S"), "root": str(ROOT)},
+        "metrics": {"total_files": files},
+        "tech_stack": sorted(list(tech)) or ["unknown"],
+        "extensions_top": ext_counter.most_common(20),
+        "largest_files": largest,
+        "missing_elements": missing,
+        "flags": {
+            "has_env_file": (ROOT / ".env").exists(),
+            "has_secrets_risk": any((ROOT / n).exists() for n in [".env", ".env.local", ".env.production"]),
+        },
+    }
+    (OUT / "repo_map.json").write_text(json.dumps(report, indent=2), encoding="utf-8")
+    print("✅ Analysis complete -> output/repo_map.json")
 
 if __name__ == "__main__":
-    analyzer = RepoAnalyzer()
-    repo_map = analyzer.scan()
-    with open("repo_map.json", "w") as f:
-        json.dump(repo_map, f, indent=2)
-    with open("analysis_report.md", "w") as f:
-        f.write(analyzer.generate_report())
-    print("✅ Analysis phase complete.")
+    scan()

@@ -1,0 +1,12 @@
+--- /home/user/skills/repo-operator/.gitignore
++++ /home/user/skills/repo-operator/.gitignore
+@@ -0,0 +1,9 @@
++.venv/
++__pycache__/
++node_modules/
++.env
++.env.*
++output/
++*.log
++dist/
++build/
