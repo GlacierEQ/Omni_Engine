@@ -12,52 +12,31 @@
     {
       "name": "Analysis",
       "path": "analysis/",
-      "tasks": [
-        "Recursive scan of repo structure",
-        "Detect incomplete modules/configs",
-        "Dependency + version audit"
-      ],
+      "tasks": ["Recursive scan", "Tech-stack detection", "Dependency audit"],
       "outputs": ["analysis_report.md", "repo_map.json"]
     },
     {
       "name": "Completion",
       "path": "completion/",
-      "tasks": [
-        "Generate missing code/tests/docs",
-        "Auto‑patch configs with diffs",
-        "Embed upgrade hooks for future runs"
-      ],
-      "outputs": ["completion_plan.md", "patches/*.diff", "upgrade_hooks.json"]
+      "tasks": ["Missing file generation", "Upgrade hook embedding"],
+      "outputs": ["completion_plan.md", "upgrade_hooks.json"]
     },
     {
       "name": "Deployment Prep",
       "path": "deployment-prep/",
-      "tasks": [
-        "Generate Dockerfile with multi‑stage build",
-        "Create CI/CD pipeline (GitHub Actions, GitLab, etc.)",
-        "Lock dependencies with reproducible hashes",
-        "Provision environment configs (AWS, GCP, Azure)"
-      ],
+      "tasks": ["Multi-stage Dockerfile", "CI/CD generation", "Env specs"],
       "outputs": ["Dockerfile", ".github/workflows/deploy.yml", "env_specs.yaml"]
     },
     {
       "name": "Validation",
       "path": "validation/",
-      "tasks": [
-        "Run lint/tests with coverage",
-        "Security + compliance scan",
-        "Build reproducibility check"
-      ],
+      "tasks": ["Security scan", "Container audit", "Lint check"],
       "outputs": ["validation_report.md", "security_scan.json"]
     },
     {
       "name": "Deploy",
       "path": "deploy/",
-      "tasks": [
-        "Simulate deployment in staging",
-        "Generate rollback + recovery scripts",
-        "Deploy to target (AWS Lambda, Vercel, Netlify, etc.)"
-      ],
+      "tasks": ["Multi-target deploy", "Rollback script generation"],
       "outputs": ["deploy_script.sh", "rollback_instructions.md", "deployment_log.json"]
     }
   ],
