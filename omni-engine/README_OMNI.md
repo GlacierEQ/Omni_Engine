@@ -31,3 +31,6 @@ Omni_Engine is the unified orchestration layer that merges your personal MCP eco
 - **Ready State**: 105% (Overclocked)
 - **Connectivity**: 100% Verified
 - **Ecosystem**: Fully Synchronized (GlacierEQ/MCP)
+
+## 🛡️ Stability Protocol
+The Omni_Engine employs a zero-trust credential policy. All local tokens are redacted before staging.
