@@ -1,0 +1,15 @@
+{
+  "id": "customer_intelligence",
+  "name": "Customer Intelligence Platform - 12 Weeks",
+  "duration_weeks": 12,
+  "skills": ["Data Analyst Pro", "ML Engineer", "Backend Engineer", "Data Viz Expert"],
+  "timeline": {
+    "weeks_1_3": {"phase": "Data Foundation", "deliverables": ["Data Integration", "Customer 360 Model", "Quality Framework"]},
+    "weeks_4_8": {"phase": "Analytics & ML", "deliverables": ["Segmentation", "Churn Prediction", "LTV Scoring"]},
+    "weeks_9_11": {"phase": "Dashboards & Apps", "deliverables": ["Executive Dashboard", "Segment Dashboard", "Targeting App"]},
+    "week_12": {"phase": "Launch & Optimization", "deliverables": ["Training", "Support", "Optimization"]}
+  },
+  "budget": "$150K-250K",
+  "team": 5,
+  "success_metrics": ["360 view live", "Churn prediction 80%+ accuracy", "30% retention improvement"]
+}

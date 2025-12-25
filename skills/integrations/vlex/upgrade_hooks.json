@@ -1,0 +1,16 @@
+{
+  "skill": "vlex-integration",
+  "version": "1.0.0",
+  "hooks": [
+    {
+      "trigger": "api_version_change",
+      "action": "update_base_url",
+      "status": "pending"
+    },
+    {
+      "trigger": "new_jurisdiction_added",
+      "action": "sync_jurisdiction_list",
+      "status": "active"
+    }
+  ]
+}

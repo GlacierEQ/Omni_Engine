@@ -1,0 +1,16 @@
+{
+  "connected_servers": [
+    "letta-ai-memory-mcp",
+    "supabase", 
+    "smithery-ai-github",
+    "notion",
+    "smithery-ai-server-sequential-thinking",
+    "bitbucket",
+    "dropbox",
+    "ssh-remote-command-executor",
+    "neo4j-knowledge-graph-memory",
+    "exa"
+  ],
+  "priorities": ["supabase", "smithery-ai-github", "notion", "exa", "lettai-memory-mcp"],
+  "dev_status": {}
+}

@@ -1,0 +1,9 @@
+env_variables:
+  VLEX_API_KEY:
+    description: "Bearer token for vLex API"
+    required: true
+    secret: true
+  VLEX_API_BASE_URL:
+    description: "Base URL for vLex API"
+    default: "https://api.vlex.com/api/v1"
+    required: false

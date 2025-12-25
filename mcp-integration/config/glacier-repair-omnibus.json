@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "name": "GLACIER-REPAIR-OMNIBUS MCP Configuration",
+  "description": "MCP Server Configuration for Federal Forensic Repair Platform - Case 1FDV-23-0001009",
+  "servers": {
+    "mem0": {
+      "enabled": true,
+      "type": "http",
+      "url": "http://localhost:8081",
+      "env": {
+        "MEM0_API_KEY": "${inputs:MEM0_API_KEY}",
+        "OPENAI_API_KEY": "${inputs:OPENAI_API_KEY}"
+      },
+      "timeout": 30,
+      "retry_attempts": 3
+    },
+    "supermemory": {
+      "enabled": true,
+      "type": "http", 
+      "url": "http://localhost:8082",
+      "env": {
+        "SUPERMEMORY_API_KEY": "${inputs:SUPERMEMORY_API_KEY}"
+      },
+      "timeout": 30,
+      "retry_attempts": 3
+    },
+    "stealth_microwave": {
+      "enabled": true,
+      "type": "http",
+      "url": "http://localhost:8083",
+      "env": {
+        "STEALTH_MICROWAVE_KEY": "${inputs:STEALTH_MICROWAVE_KEY}"
+      },
+      "timeout": 60,
+      "retry_attempts": 5
+    },
+    "memoryplugin-global": {
+      "enabled": true,
+      "type": "http",
+      "url": "https://www.memoryplugin.com/api/mcp/mcp"
+    },
+    "memoryplugin-relevance": {
+      "enabled": true,
+      "type": "http",
+      "url": "https://www.memoryplugin.com/api/mcp/sse"
+    }
+  },
+  "inputs": [
+    {"id": "MEM0_API_KEY", "description": "Mem0 API key for forensic memory"},
+    {"id": "OPENAI_API_KEY", "description": "OpenAI key for CaseBuilder 4000"},
+    {"id": "SUPERMEMORY_API_KEY", "description": "Supermemory key for cross-chat continuity"},
+    {"id": "STEALTH_MICROWAVE_KEY", "description": "Stealth microwave forensic key"}
+  ],
+  "logging": {
+    "level": "info",
+    "file": "/home/user/mcp_server.log",
+    "max_size": "10MB",
+    "max_files": 5,
+    "chain_of_custody": true
+  },
+  "security": {
+    "ssl_enabled": false,
+    "require_auth": true,
+    "operator_guid": "OPR-NS8-GE8-KC3-001-AI-GRS-GUID:983DE8C8-E120-1-B5A0-C6D8AF97BB09"
+  }
+}

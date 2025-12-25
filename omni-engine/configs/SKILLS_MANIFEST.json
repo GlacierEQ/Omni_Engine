@@ -1,0 +1,888 @@
+{
+  "version": "1.0.0",
+  "timestamp": "2024-12-01",
+  "total_skills": 65,
+  "domains": {
+    "data_analysis": {
+      "skills": [
+        {
+          "id": "data-analyst-pro",
+          "name": "Data Analyst Pro",
+          "description": "Advanced data analysis with statistical modeling, trend detection, and predictive insights",
+          "capabilities": [
+            "Statistical Analysis",
+            "Trend Detection",
+            "Pattern Recognition",
+            "Predictive Modeling"
+          ],
+          "use_cases": [
+            "Business Intelligence",
+            "Market Analysis",
+            "Performance Metrics"
+          ]
+        },
+        {
+          "id": "database-architect",
+          "name": "Database Architect",
+          "description": "Design optimized database schemas, query optimization, and data modeling expertise",
+          "capabilities": [
+            "Schema Design",
+            "Query Optimization",
+            "Normalization",
+            "Data Integrity"
+          ],
+          "use_cases": [
+            "Database Design",
+            "Performance Tuning",
+            "Data Migration"
+          ]
+        },
+        {
+          "id": "sql-master",
+          "name": "SQL Master",
+          "description": "Expert-level SQL query composition, optimization, and complex data retrieval",
+          "capabilities": [
+            "Complex Queries",
+            "Window Functions",
+            "CTEs",
+            "Query Performance"
+          ],
+          "use_cases": [
+            "Data Extraction",
+            "Reporting",
+            "Data Warehouse Queries"
+          ]
+        },
+        {
+          "id": "data-viz-expert",
+          "name": "Data Visualization Expert",
+          "description": "Create compelling visual representations of complex data with storytelling",
+          "capabilities": [
+            "Chart Design",
+            "Interactive Dashboards",
+            "Data Storytelling",
+            "Color Theory"
+          ],
+          "use_cases": [
+            "Executive Reports",
+            "Analytics Dashboards",
+            "Public Presentations"
+          ]
+        },
+        {
+          "id": "ml-engineer",
+          "name": "ML Engineer",
+          "description": "Build and deploy machine learning models with production-ready code",
+          "capabilities": [
+            "Model Training",
+            "Feature Engineering",
+            "Hyperparameter Tuning",
+            "Deployment"
+          ],
+          "use_cases": [
+            "Predictive Analytics",
+            "Classification",
+            "Regression Models"
+          ]
+        }
+      ]
+    },
+    "content_creation": {
+      "skills": [
+        {
+          "id": "content-strategist",
+          "name": "Content Strategist",
+          "description": "Develop comprehensive content strategies aligned with business goals",
+          "capabilities": [
+            "Strategy Planning",
+            "Audience Analysis",
+            "Content Calendar",
+            "Performance Metrics"
+          ],
+          "use_cases": [
+            "Marketing Campaigns",
+            "Brand Building",
+            "Content Roadmaps"
+          ]
+        },
+        {
+          "id": "copywriter-elite",
+          "name": "Copywriter Elite",
+          "description": "Craft persuasive, engaging copy that converts and resonates with audiences",
+          "capabilities": [
+            "Persuasive Writing",
+            "Headline Creation",
+            "CTA Optimization",
+            "Brand Voice"
+          ],
+          "use_cases": [
+            "Sales Pages",
+            "Ad Copy",
+            "Email Marketing"
+          ]
+        },
+        {
+          "id": "seo-optimizer",
+          "name": "SEO Optimizer",
+          "description": "Master search engine optimization with keyword strategy and technical SEO",
+          "capabilities": [
+            "Keyword Research",
+            "Technical SEO",
+            "Content Optimization",
+            "Backlink Strategy"
+          ],
+          "use_cases": [
+            "Organic Growth",
+            "Ranking Improvement",
+            "Site Architecture"
+          ]
+        },
+        {
+          "id": "storyteller-pro",
+          "name": "Storyteller Pro",
+          "description": "Craft compelling narratives that engage emotions and drive action",
+          "capabilities": [
+            "Narrative Structure",
+            "Character Development",
+            "Emotional Resonance",
+            "Plot Engineering"
+          ],
+          "use_cases": [
+            "Brand Stories",
+            "Case Studies",
+            "Marketing Videos"
+          ]
+        },
+        {
+          "id": "social-media-maven",
+          "name": "Social Media Maven",
+          "description": "Dominate social platforms with engagement strategies and viral content",
+          "capabilities": [
+            "Platform Strategy",
+            "Engagement Tactics",
+            "Community Management",
+            "Trend Riding"
+          ],
+          "use_cases": [
+            "Social Growth",
+            "Influencer Marketing",
+            "Crisis Management"
+          ]
+        },
+        {
+          "id": "video-scriptwriter",
+          "name": "Video Scriptwriter",
+          "description": "Write engaging scripts optimized for different video formats and platforms",
+          "capabilities": [
+            "Script Structure",
+            "Pacing",
+            "Visual Descriptions",
+            "Platform Optimization"
+          ],
+          "use_cases": [
+            "YouTube Videos",
+            "Ads",
+            "Training Content"
+          ]
+        }
+      ]
+    },
+    "development": {
+      "skills": [
+        {
+          "id": "fullstack-architect",
+          "name": "Full-Stack Architect",
+          "description": "Design and build complete web applications from frontend to backend",
+          "capabilities": [
+            "System Design",
+            "Frontend Dev",
+            "Backend Dev",
+            "DevOps Basics"
+          ],
+          "use_cases": [
+            "Web Applications",
+            "SaaS Products",
+            "Microservices"
+          ]
+        },
+        {
+          "id": "frontend-wizard",
+          "name": "Frontend Wizard",
+          "description": "Create stunning, responsive UIs with modern frameworks and best practices",
+          "capabilities": [
+            "React/Vue/Angular",
+            "CSS Mastery",
+            "UX Implementation",
+            "Performance"
+          ],
+          "use_cases": [
+            "Web Interfaces",
+            "Mobile Apps",
+            "Interactive Experiences"
+          ]
+        },
+        {
+          "id": "backend-engineer",
+          "name": "Backend Engineer",
+          "description": "Build robust, scalable backend systems with APIs and databases",
+          "capabilities": [
+            "REST APIs",
+            "Authentication",
+            "Caching",
+            "Load Balancing"
+          ],
+          "use_cases": [
+            "API Development",
+            "Server Architecture",
+            "Data Processing"
+          ]
+        },
+        {
+          "id": "devops-master",
+          "name": "DevOps Master",
+          "description": "Manage infrastructure, CI/CD pipelines, and system deployment",
+          "capabilities": [
+            "Docker",
+            "Kubernetes",
+            "CI/CD",
+            "Monitoring"
+          ],
+          "use_cases": [
+            "Infrastructure",
+            "Deployment",
+            "System Reliability"
+          ]
+        },
+        {
+          "id": "security-architect",
+          "name": "Security Architect",
+          "description": "Design secure systems with threat modeling and best security practices",
+          "capabilities": [
+            "Threat Modeling",
+            "Encryption",
+            "Authentication",
+            "Compliance"
+          ],
+          "use_cases": [
+            "Security Audits",
+            "System Hardening",
+            "Compliance"
+          ]
+        },
+        {
+          "id": "code-reviewer",
+          "name": "Code Reviewer",
+          "description": "Provide expert code reviews ensuring quality, performance, and security",
+          "capabilities": [
+            "Code Quality",
+            "Performance Analysis",
+            "Security Scanning",
+            "Best Practices"
+          ],
+          "use_cases": [
+            "Code Review",
+            "Quality Assurance",
+            "Mentoring"
+          ]
+        },
+        {
+          "id": "ai-integrator",
+          "name": "AI Integrator",
+          "description": "Seamlessly integrate AI/ML models and APIs into applications",
+          "capabilities": [
+            "LLM Integration",
+            "API Integration",
+            "Prompt Engineering",
+            "Optimization"
+          ],
+          "use_cases": [
+            "Chatbots",
+            "ML-Powered Apps",
+            "Automation"
+          ]
+        }
+      ]
+    },
+    "productivity": {
+      "skills": [
+        {
+          "id": "project-manager-pro",
+          "name": "Project Manager Pro",
+          "description": "Master project planning, execution, and stakeholder management",
+          "capabilities": [
+            "Project Planning",
+            "Risk Management",
+            "Team Coordination",
+            "Timeline Management"
+          ],
+          "use_cases": [
+            "Project Delivery",
+            "Team Leadership",
+            "Process Optimization"
+          ]
+        },
+        {
+          "id": "task-optimizer",
+          "name": "Task Optimizer",
+          "description": "Streamline workflows and maximize productivity with intelligent prioritization",
+          "capabilities": [
+            "Priority Mapping",
+            "Workflow Design",
+            "Time Blocking",
+            "Automation"
+          ],
+          "use_cases": [
+            "Personal Productivity",
+            "Team Efficiency",
+            "Process Automation"
+          ]
+        },
+        {
+          "id": "meeting-facilitator",
+          "name": "Meeting Facilitator",
+          "description": "Run effective meetings with clear agendas and actionable outcomes",
+          "capabilities": [
+            "Agenda Design",
+            "Discussion Facilitation",
+            "Decision Making",
+            "Action Tracking"
+          ],
+          "use_cases": [
+            "Standup Meetings",
+            "Planning Sessions",
+            "Retrospectives"
+          ]
+        },
+        {
+          "id": "knowledge-curator",
+          "name": "Knowledge Curator",
+          "description": "Organize, document, and share knowledge across teams",
+          "capabilities": [
+            "Documentation",
+            "Knowledge Mapping",
+            "Information Architecture",
+            "Training"
+          ],
+          "use_cases": [
+            "Knowledge Base",
+            "Team Training",
+            "Onboarding"
+          ]
+        }
+      ]
+    },
+    "strategy": {
+      "skills": [
+        {
+          "id": "strategic-planner",
+          "name": "Strategic Planner",
+          "description": "Develop long-term strategies aligned with organizational vision",
+          "capabilities": [
+            "Vision Setting",
+            "Goal Alignment",
+            "Roadmap Creation",
+            "Impact Analysis"
+          ],
+          "use_cases": [
+            "Business Strategy",
+            "Product Roadmaps",
+            "Transformation"
+          ]
+        },
+        {
+          "id": "market-analyst",
+          "name": "Market Analyst",
+          "description": "Analyze market trends, competition, and opportunities",
+          "capabilities": [
+            "Competitive Analysis",
+            "Market Research",
+            "Trend Forecasting",
+            "SWOT Analysis"
+          ],
+          "use_cases": [
+            "Market Entry",
+            "Product Development",
+            "Competitive Strategy"
+          ]
+        },
+        {
+          "id": "business-strategist",
+          "name": "Business Strategist",
+          "description": "Develop strategies for growth, profitability, and market positioning",
+          "capabilities": [
+            "Business Models",
+            "Growth Strategies",
+            "Profitability Analysis",
+            "Market Positioning"
+          ],
+          "use_cases": [
+            "Business Development",
+            "Revenue Optimization",
+            "Scaling"
+          ]
+        },
+        {
+          "id": "innovation-catalyst",
+          "name": "Innovation Catalyst",
+          "description": "Drive innovation through ideation, experimentation, and implementation",
+          "capabilities": [
+            "Ideation",
+            "Rapid Prototyping",
+            "Experimentation",
+            "Scaling Innovation"
+          ],
+          "use_cases": [
+            "New Product Development",
+            "Process Innovation",
+            "Digital Transformation"
+          ]
+        },
+        {
+          "id": "financial-analyst",
+          "name": "Financial Analyst",
+          "description": "Analyze financial data and provide strategic recommendations",
+          "capabilities": [
+            "Financial Modeling",
+            "ROI Analysis",
+            "Budget Planning",
+            "Forecasting"
+          ],
+          "use_cases": [
+            "Financial Planning",
+            "Investment Analysis",
+            "Cost Optimization"
+          ]
+        }
+      ]
+    },
+    "automation": {
+      "skills": [
+        {
+          "id": "workflow-automator",
+          "name": "Workflow Automator",
+          "description": "Design and build automated workflows for repetitive tasks",
+          "capabilities": [
+            "Process Automation",
+            "Integration",
+            "Error Handling",
+            "Monitoring"
+          ],
+          "use_cases": [
+            "Business Process Automation",
+            "Data Pipeline",
+            "Notification Systems"
+          ]
+        },
+        {
+          "id": "rpa-specialist",
+          "name": "RPA Specialist",
+          "description": "Implement robotic process automation for enterprise workflows",
+          "capabilities": [
+            "Bot Development",
+            "Process Mining",
+            "Exception Handling",
+            "Scalability"
+          ],
+          "use_cases": [
+            "Legacy System Automation",
+            "High-Volume Processing",
+            "Cost Reduction"
+          ]
+        },
+        {
+          "id": "api-orchestrator",
+          "name": "API Orchestrator",
+          "description": "Orchestrate complex workflows using multiple APIs",
+          "capabilities": [
+            "API Integration",
+            "Error Handling",
+            "Rate Limiting",
+            "Logging"
+          ],
+          "use_cases": [
+            "System Integration",
+            "Data Synchronization",
+            "Multi-Service Workflows"
+          ]
+        }
+      ]
+    },
+    "communication": {
+      "skills": [
+        {
+          "id": "executive-communicator",
+          "name": "Executive Communicator",
+          "description": "Communicate complex ideas clearly to executive leadership",
+          "capabilities": [
+            "Executive Summaries",
+            "Data Presentation",
+            "Strategic Communication",
+            "Influence"
+          ],
+          "use_cases": [
+            "Board Presentations",
+            "Executive Briefings",
+            "Stakeholder Updates"
+          ]
+        },
+        {
+          "id": "technical-writer",
+          "name": "Technical Writer",
+          "description": "Create clear technical documentation and user guides",
+          "capabilities": [
+            "API Documentation",
+            "User Guides",
+            "Technical Specifications",
+            "Accessibility"
+          ],
+          "use_cases": [
+            "Software Documentation",
+            "User Manuals",
+            "Knowledge Bases"
+          ]
+        },
+        {
+          "id": "negotiator-pro",
+          "name": "Negotiator Pro",
+          "description": "Master negotiation techniques to achieve win-win outcomes",
+          "capabilities": [
+            "Negotiation Strategy",
+            "Deal Structuring",
+            "Conflict Resolution",
+            "Persuasion"
+          ],
+          "use_cases": [
+            "Contract Negotiation",
+            "Sales Negotiation",
+            "Dispute Resolution"
+          ]
+        },
+        {
+          "id": "trainer-extraordinaire",
+          "name": "Trainer Extraordinaire",
+          "description": "Design and deliver engaging training programs",
+          "capabilities": [
+            "Curriculum Design",
+            "Training Delivery",
+            "Engagement",
+            "Assessment"
+          ],
+          "use_cases": [
+            "Team Training",
+            "Skill Development",
+            "Certification Programs"
+          ]
+        }
+      ]
+    },
+    "learning": {
+      "skills": [
+        {
+          "id": "learning-architect",
+          "name": "Learning Architect",
+          "description": "Design personalized learning paths and educational programs",
+          "capabilities": [
+            "Curriculum Design",
+            "Personalization",
+            "Progress Tracking",
+            "Adaptation"
+          ],
+          "use_cases": [
+            "Skills Training",
+            "Professional Development",
+            "Academic Programs"
+          ]
+        },
+        {
+          "id": "research-specialist",
+          "name": "Research Specialist",
+          "description": "Conduct rigorous research and synthesize findings",
+          "capabilities": [
+            "Research Design",
+            "Data Collection",
+            "Analysis",
+            "Synthesis"
+          ],
+          "use_cases": [
+            "Market Research",
+            "Academic Research",
+            "Competitive Intelligence"
+          ]
+        },
+        {
+          "id": "expert-synthesizer",
+          "name": "Expert Synthesizer",
+          "description": "Synthesize complex information from multiple sources",
+          "capabilities": [
+            "Information Synthesis",
+            "Pattern Recognition",
+            "Insight Generation",
+            "Reporting"
+          ],
+          "use_cases": [
+            "Literature Reviews",
+            "Trend Analysis",
+            "Expert Reports"
+          ]
+        }
+      ]
+    },
+    "integration": {
+      "skills": [
+        {
+          "id": "system-integrator",
+          "name": "System Integrator",
+          "description": "Integrate disparate systems and ensure seamless data flow",
+          "capabilities": [
+            "System Integration",
+            "Data Mapping",
+            "ETL Processes",
+            "API Management"
+          ],
+          "use_cases": [
+            "Legacy Integration",
+            "Multi-System Workflows",
+            "Data Consolidation"
+          ]
+        },
+        {
+          "id": "api-developer",
+          "name": "API Developer",
+          "description": "Design and develop robust, well-documented APIs",
+          "capabilities": [
+            "API Design",
+            "REST/GraphQL",
+            "Documentation",
+            "Versioning"
+          ],
+          "use_cases": [
+            "API Development",
+            "Third-Party Integration",
+            "Microservices"
+          ]
+        }
+      ]
+    },
+    "hyper_ops": {
+      "skills": [
+        {
+          "id": "repo-operator-protocol",
+          "name": "Repo Operator Protocol 2.0",
+          "description": "Universal repository completion, validation, and multi-target deployment system.",
+          "capabilities": [
+            "Recursive Repo Analysis",
+            "Automated Code Completion",
+            "Multi-stage Docker Generation",
+            "CI/CD Pipeline Provisioning",
+            "Security & Compliance Scanning",
+            "Simulated Staging Deployment",
+            "Automated Rollback Hooks"
+          ],
+          "use_cases": [
+            "Full Project Lifecycle Automation",
+            "Legacy Repo Modernization",
+            "Continuous Deployment Orchestration"
+          ]
+        },
+        {
+          "id": "ai-autonomous-repair",
+          "name": "AI-Autonomous Repair & Scale",
+          "description": "Self-healing infrastructure and codebases using LLM-driven diagnostics and patching.",
+          "capabilities": [
+            "Real-time Error Interception",
+            "Contextual Log Analysis",
+            "Automated Patch Generation",
+            "Resource Scaling Prediction",
+            "Dependency Conflict Resolution"
+          ],
+          "use_cases": [
+            "Zero-Downtime Incident Response",
+            "Autonomous Technical Debt Reduction",
+            "Predictive Infrastructure Management"
+          ]
+        },
+        {
+          "id": "super-agent-orchestrator",
+          "name": "Super-Agent Orchestrator",
+          "description": "Autonomous full-loop system combining forensics, completion, and validation.",
+          "capabilities": [
+            "Full-Loop Autonomy",
+            "Cross-Layer Command",
+            "Auto-Healing"
+          ],
+          "use_cases": [
+            "Autonomous Repo Management",
+            "Self-Evolving Systems"
+          ]
+        },
+        {
+          "id": "quantum-context",
+          "name": "Quantum Context Compression",
+          "description": "Dynamic context management for infinite-loop reasoning.",
+          "capabilities": [
+            "Context Pruning",
+            "Decision Pinning",
+            "Semantic Compression"
+          ],
+          "use_cases": [
+            "Long-Running Missions",
+            "Large Codebase Analysis"
+          ]
+        },
+        {
+          "id": "stealth-ghosting",
+          "name": "Stealth Ghosting",
+          "description": "High-speed, low-footprint execution protocol (Microwave Mode).",
+          "capabilities": [
+            "Ephemeral Workers",
+            "Burst Execution",
+            "Trace Scrubbing"
+          ],
+          "use_cases": [
+            "Rapid Prototyping",
+            "Stealth Forensics"
+          ]
+        }
+      ]
+    },
+    "universal_factories": {
+      "skills": [
+        {
+          "id": "universal-skill-factory",
+          "name": "Universal Skill Factory",
+          "description": "Dynamically generate and integrate new skills into the ecosystem.",
+          "capabilities": [
+            "Dynamic Provisioning",
+            "Manifest Injection",
+            "Template Generation"
+          ],
+          "use_cases": [
+            "Self-Evolution",
+            "On-demand Skill Creation"
+          ]
+        },
+        {
+          "id": "universal-mcp-factory",
+          "name": "Universal MCP Factory",
+          "description": "On-the-fly generation of MCP servers for external service integration.",
+          "capabilities": [
+            "API Mapping",
+            "Server Generation",
+            "Dynamic Registration"
+          ],
+          "use_cases": [
+            "Rapid Integration",
+            "Custom Tooling"
+          ]
+        }
+      ]
+    },
+    "mastermind": {
+      "skills": [
+        {
+          "id": "mastermind-protocol",
+          "name": "Mastermind Protocol",
+          "description": "Multi-agent OS for rapid microservice generation and advanced digital forensics.",
+          "capabilities": [
+            "9 Specialized Agent Orchestration",
+            "Forensic Artifact Extraction",
+            "Automated Technical Documentation",
+            "Adversarial Security Simulation"
+          ],
+          "use_cases": [
+            "Rapid Microservice Deployment",
+            "Incident Response & Forensics",
+            "Automated Legal Compliance"
+          ]
+        }
+      ]
+    },
+    "stealth_ops": {
+      "skills": [
+        {
+          "id": "stealth-mode",
+          "name": "Stealth Mode",
+          "description": "Unobtrusive background execution with minimal system footprint.",
+          "capabilities": [
+            "Backgrounding",
+            "Silent Logging",
+            "Automatic Cleanup"
+          ],
+          "use_cases": [
+            "Background Monitoring",
+            "Silent Patching"
+          ]
+        },
+        {
+          "id": "microwave-mode",
+          "name": "Microwave Mode",
+          "description": "High-speed,  + nuke +  style completion for rapid task execution.",
+          "capabilities": [
+            "Parallel Batching",
+            "One-Shot Logic",
+            "Fast-Track Validation"
+          ],
+          "use_cases": [
+            "Emergency Hotfixes",
+            "Rapid Prototyping"
+          ]
+        }
+      ]
+    },
+    "github_ops": {
+      "skills": [
+        {
+          "id": "github-nexus-mcp",
+          "name": "GitHub Nexus MCP Management",
+          "description": "Orchestrates and manages your personal MCP ecosystem on GitHub, specifically the Cognitive Nexus and Mastermind protocols.",
+          "capabilities": [
+            "Repo Syncing",
+            "MCP Server Deployment",
+            "Multi-Agent Configuration"
+          ],
+          "use_cases": [
+            "Ecosystem Maintenance",
+            "Dynamic Agent Provisioning"
+          ]
+        }
+      ]
+    },
+    "architect_ops": {
+      "skills": [
+        {
+          "id": "mcp-master-architect",
+          "name": "MCP Master Architect",
+          "description": "Orchestrates multi-layer MCP ecosystems, defining hierarchy and data flow between specialized servers.",
+          "capabilities": [
+            "Structural Orchestration",
+            "Cross-Server Communication",
+            "Unified Registry Management"
+          ],
+          "use_cases": [
+            "System-Wide MCP Deployment",
+            "Complex Agent Team Assembly"
+          ]
+        }
+      ]
+    },
+    "general": {
+      "skills": [
+        {
+          "id": "super-agent-orchestrator",
+          "name": "Super-Agent Orchestrator",
+          "description": "Autonomous system combining Cognitive Nexus patterns, Mastermind forensics, and Repo Operator completion."
+        },
+        {
+          "id": "testskill",
+          "name": "TestSkill",
+          "description": "TestDescription"
+        },
+        {
+          "id": "connectivity-hub",
+          "name": "Connectivity Hub",
+          "description": "Dynamic networking manager."
+        }
+      ]
+    }
+  }
+}

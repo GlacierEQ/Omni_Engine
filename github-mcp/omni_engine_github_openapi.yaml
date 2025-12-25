@@ -1,0 +1,143 @@
+openapi: 3.0.3
+info:
+  title: Omni_Engine GitHub Actions
+  description: Persistent GitHub integration for Custom GPTs - read files, commit changes, open PRs, list repos.
+  version: 1.0.0
+servers:
+  - url: https://api.github.com
+    description: GitHub API
+paths:
+  /repos/{owner}/{repo}/contents/{path}:
+    get:
+      summary: github/read_file
+      description: Read file content from GitHub repository
+      parameters:
+        - name: owner
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: repo
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: path
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: ref
+          in: query
+          schema:
+            type: string
+      responses:
+        "200":
+          description: File content
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  content:
+                    type: string
+                    description: Base64 encoded file content
+  /repos/{owner}/{repo}/contents/{path}:
+    put:
+      summary: github/commit_file
+      description: Commit file changes to GitHub repository
+      parameters:
+        - name: owner
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: repo
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: path
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                message:
+                  type: string
+                content:
+                  type: string
+                  description: Base64 encoded file content
+                branch:
+                  type: string
+                sha:
+                  type: string
+      responses:
+        "200":
+          description: Commit created
+  /repos/{owner}/{repo}/pulls:
+    post:
+      summary: github/open_pr
+      description: Open a pull request in GitHub repository
+      parameters:
+        - name: owner
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: repo
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                title:
+                  type: string
+                head:
+                  type: string
+                base:
+                  type: string
+                body:
+                  type: string
+      responses:
+        "201":
+          description: PR created
+  /user/repos:
+    get:
+      summary: github/list_repos
+      description: List user repositories
+      responses:
+        "200":
+          description: List of repositories
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    name:
+                      type: string
+                    full_name:
+                      type: string
+                    html_url:
+                      type: string
+security:
+  - githubAuth: []
+securitySchemes:
+  githubAuth:
+    type: http
+    scheme: bearer
+    bearerFormat: token

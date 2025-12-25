@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "generated_at": "2025-12-19T04:24:00",
+    "note": "Pre-built Supermemory addMemory payloads for the workspace skills system. Use each item.thingToRemember as the thingToRemember field when calling supermemory.addMemory.",
+    "source_files": [
+      "skills/SKILLS_MANIFEST.json",
+      "skills/SKILLS_50_COMPLETE.json",
+      "skills/COLLECTED_SKILLS_INDEX.md"
+    ]
+  },
+  "payloads": [
+    {
+      "id": "skills_global_overview",
+      "thingToRemember": "Workspace Power Skills System overview and manifest integration.\n\nConceptual skills: 50 total, across domains: data_analysis, content_creation, development, productivity, strategy, automation, communication, learning, integration.\nSource files: SKILLS_MANIFEST.json, SKILLS_50_COMPLETE.json, SKILLS_MASTER_INDEX.md, README_START_HERE.md.\nLocal implementation skills are defined via SKILL.md files under skills/*/*/SKILL.md.",
+      "suggestedProjectId": ""
+    },
+    {
+      "id": "skills_domain_data_analysis",
+      "domain": "data_analysis",
+      "thingToRemember": "Conceptual skills domain: Data Analysis (key: data_analysis).\n\nIncluded skills:\n- Data Analyst Pro: Advanced data analysis with statistical modeling, trend detection, and predictive insights\n- Database Architect: Design optimized database schemas, query optimization, and data modeling expertise\n- SQL Master: Expert-level SQL query composition, optimization, and complex data retrieval\n- Data Visualization Expert: Create compelling visual representations of complex data with storytelling\n- ML Engineer: Build and deploy machine learning models with production-ready code",
+      "suggestedProjectId": ""
+    },
+    {
+      "id": "skills_domain_content_creation",
+      "domain": "content_creation",
+      "thingToRemember": "Conceptual skills domain: Content Creation (key: content_creation).\n\nIncluded skills:\n- Content Strategist: Develop comprehensive content strategies aligned with business goals\n- Copywriter Elite: Craft persuasive, engaging copy that converts and resonates with audiences\n- SEO Optimizer: Master search engine optimization with keyword strategy and technical SEO\n- Storyteller Pro: Craft compelling narratives that engage emotions and drive action\n- Social Media Maven: Dominate social platforms with engagement strategies and viral content\n- Video Scriptwriter: Write engaging scripts optimized for different video formats and platforms",
+      "suggestedProjectId": ""
+    },
+    {
+      "id": "skills_domain_development",
+      "domain": "development",
+      "thingToRemember": "Conceptual skills domain: Development (key: development).\n\nIncluded skills:\n- Full-Stack Architect: Design and build complete web applications from frontend to backend\n- Frontend Wizard: Create stunning, responsive UIs with modern frameworks and best practices\n- Backend Engineer: Build robust, scalable backend systems with APIs and databases\n- DevOps Master: Manage infrastructure, CI/CD pipelines, and system deployment\n- Security Architect: Design secure systems with threat modeling and best security practices\n- Code Reviewer: Provide expert code reviews ensuring quality, performance, and security\n- AI Integrator: Seamlessly integrate AI/ML models and APIs into applications",
+      "suggestedProjectId": ""
+    },
+    {
+      "id": "skills_domain_productivity",
+      "domain": "productivity",
+      "thingToRemember": "Conceptual skills domain: Productivity (key: productivity).\n\nIncluded skills:\n- Project Manager Pro: Master project planning, execution, and stakeholder management\n- Task Optimizer: Streamline workflows and maximize productivity with intelligent prioritization\n- Meeting Facilitator: Run effective meetings with clear agendas and actionable outcomes\n- Knowledge Curator: Organize, document, and share knowledge across teams",
+      "suggestedProjectId": ""
+    },
+    {
+      "id": "skills_domain_strategy",
+      "domain": "strategy",
+      "thingToRemember": "Conceptual skills domain: Strategy (key: strategy).\n\nIncluded skills:\n- Strategic Planner: Develop long-term strategies aligned with organizational vision\n- Market Analyst: Analyze market trends, competition, and opportunities\n- Business Strategist: Develop strategies for growth, profitability, and market positioning\n- Innovation Catalyst: Drive innovation through ideation, experimentation, and implementation\n- Financial Analyst: Analyze financial data and provide strategic recommendations",
+      "suggestedProjectId": ""
+    },
+    {
+      "id": "skills_domain_automation",
+      "domain": "automation",
+      "thingToRemember": "Conceptual skills domain: Automation (key: automation).\n\nIncluded skills:\n- Workflow Automator: Design and build automated workflows for repetitive tasks\n- RPA Specialist: Implement robotic process automation for enterprise workflows\n- API Orchestrator: Orchestrate complex workflows using multiple APIs",
+      "suggestedProjectId": ""
+    },
+    {
+      "id": "skills_domain_communication",
+      "domain": "communication",
+      "thingToRemember": "Conceptual skills domain: Communication (key: communication).\n\nIncluded skills:\n- Executive Communicator: Communicate complex ideas clearly to executive leadership\n- Technical Writer: Create clear technical documentation and user guides\n- Negotiator Pro: Master negotiation techniques to achieve win-win outcomes\n- Trainer Extraordinaire: Design and deliver engaging training programs",
+      "suggestedProjectId": ""
+    },
+    {
+      "id": "skills_domain_learning",
+      "domain": "learning",
+      "thingToRemember": "Conceptual skills domain: Learning (key: learning).\n\nIncluded skills:\n- Learning Architect: Design personalized learning paths and educational programs\n- Research Specialist: Conduct rigorous research and synthesize findings\n- Expert Synthesizer: Synthesize complex information from multiple sources",
+      "suggestedProjectId": ""
+    },
+    {
+      "id": "skills_domain_integration",
+      "domain": "integration",
+      "thingToRemember": "Conceptual skills domain: Integration (key: integration).\n\nIncluded skills:\n- System Integrator: Integrate disparate systems and ensure seamless data flow\n- API Developer: Design and develop robust, well-documented APIs",
+      "suggestedProjectId": ""
+    },
+    {
+      "id": "skills_local_implementation",
+      "thingToRemember": "Local implementation skills available in this workspace (actual tools / processes).\nEach entry includes the skill name, a short description, and the file path to its SKILL.md definition.\n\n- pdf (skills/anthropics/pdf/SKILL.md): Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale.\n- gemini (skills/cexll/gemini/SKILL.md): Execute Gemini CLI for AI-powered code analysis and generation. Use when you need to leverage Google's Gemini models for complex reasoning tasks.\n- file-organizer (skills/composiohq/file-organizer/SKILL.md): Intelligently organizes your files and folders across your computer by understanding context, finding duplicates, suggesting better structures, and automating cleanup tasks. Reduces cognitive load and keeps your digital workspace tidy without manual effort.\n- Forensic & Document Analysis Tools\\n\\nBest practice toolkit for PDF/metadata extraction, timeline reconstruction, hash verification.\\n\\n## Quick Start\\n1. Install: `pip install pdfplumber exiftool autopsy`\\n2. Core commands in `forensics/tools/` (skills/forensics/tools/SKILL.md): \n- brainstorming (skills/obra/brainstorming/SKILL.md): Use when creating or developing, before writing code or implementation plans - refines rough ideas into fully-formed designs through collaborative questioning, alternative exploration, and incremental validation. Don't use during clear 'mechanical' processes",
+      "suggestedProjectId": ""
+    }
+  ]
+}

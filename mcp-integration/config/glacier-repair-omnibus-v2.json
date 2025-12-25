@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "federal-docs": {
+      "command": "node",
+      "args": ["/home/user/mcp-integration/servers/federal-docs-server.js"],
+      "env": { "OPERATOR_GUID": "OPR-NS8-GE8-KC3-001-AI-GRS-GUID:983DE8C8-E120-1-B5A0-C6D8AF97BB09" }
+    },
+    "mem0": { "type": "http", "url": "http://localhost:8081" },
+    "supermemory": { "type": "http", "url": "http://localhost:8082" },
+    "stealth_microwave": { "type": "http", "url": "http://localhost:8083" },
+    "memoryplugin-global": { "type": "http", "url": "https://www.memoryplugin.com/api/mcp/mcp" }
+  }
+}

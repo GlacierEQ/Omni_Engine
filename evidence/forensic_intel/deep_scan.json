@@ -1,0 +1,144 @@
+{
+  "target": "REAL_EVIDENCE_001.txt",
+  "timestamp": "2025-12-13T07:35:26.579687",
+  "capabilities": {
+    "pdfplumber": false,
+    "sleuthkit": false,
+    "binwalk": false,
+    "exiftool": false
+  },
+  "hashes": {
+    "sha256": "8dfa96a39e8e560c6e571d4603a21fd3672b24abee6f8b773a196cc600e89ac8",
+    "sha1": "86ce47ddfdb768c2ff2409920593b98eaecd4e55",
+    "md5": "9f4e85591c78bf735c2d78530a1d82ba"
+  },
+  "size_bytes": 22,
+  "mode": "0o100644",
+  "modified": "2025-12-13T07:34:47.135842"
+}
+{
+  "target": "REAL_EVIDENCE_002.pdf",
+  "timestamp": "2025-12-13T07:35:26.580118",
+  "capabilities": {
+    "pdfplumber": false,
+    "sleuthkit": false,
+    "binwalk": false,
+    "exiftool": false
+  },
+  "hashes": {
+    "sha256": "128d6f10e2a714dc99cf9885bdc75c548b0c2d4b4ab4a908882d5f23094b7072",
+    "sha1": "90db025b4d1860da38c4a0236ee6a1478cc20b19",
+    "md5": "129d3f492d0f4557e25ef0a52c1bdd1f"
+  },
+  "size_bytes": 22,
+  "mode": "0o100644",
+  "modified": "2025-12-13T07:34:47.135842"
+}
+{
+  "target": "deep_test.txt",
+  "timestamp": "2025-12-13T07:35:26.580282",
+  "capabilities": {
+    "pdfplumber": false,
+    "sleuthkit": false,
+    "binwalk": false,
+    "exiftool": false
+  },
+  "hashes": {
+    "sha256": "21f5c551987185cd13a9c5993cf070f8f5d686a645bc1a91a0966f00b62e1c86",
+    "sha1": "11883d6533462395d1e49de26e994c4c8debf465",
+    "md5": "ff65b0188aa446d86c746175f6f66540"
+  },
+  "size_bytes": 16,
+  "mode": "0o100644",
+  "modified": "2025-12-13T07:10:14.180763"
+}
+{
+  "target": "forensic_intel",
+  "timestamp": "2025-12-13T07:35:26.580425",
+  "capabilities": {
+    "pdfplumber": false,
+    "sleuthkit": false,
+    "binwalk": false,
+    "exiftool": false
+  },
+  "hashes": {
+    "sha256": "ERROR",
+    "sha1": "ERROR",
+    "md5": "ERROR"
+  },
+  "size_bytes": 4096,
+  "mode": "0o40755",
+  "modified": "2025-12-13T07:10:14.716812"
+}
+{
+  "target": "intel_001.txt",
+  "timestamp": "2025-12-13T07:35:26.580545",
+  "capabilities": {
+    "pdfplumber": false,
+    "sleuthkit": false,
+    "binwalk": false,
+    "exiftool": false
+  },
+  "hashes": {
+    "sha256": "d775ec940d3e2786c1afa2495a41405be4e6e1f580f17884354514be30a42761",
+    "sha1": "d4b040581c943dba93a76f1605ffcead4d4afe34",
+    "md5": "807f5e020130eac74c625cabf6ba5bd3"
+  },
+  "size_bytes": 23,
+  "mode": "0o100644",
+  "modified": "2025-12-13T07:10:20.637347"
+}
+{
+  "target": "intel_002.pdf",
+  "timestamp": "2025-12-13T07:35:26.580680",
+  "capabilities": {
+    "pdfplumber": false,
+    "sleuthkit": false,
+    "binwalk": false,
+    "exiftool": false
+  },
+  "hashes": {
+    "sha256": "ae2a84ceb7845944d6441cd8c210935ce0484026d204e8bd871b99f3301b1793",
+    "sha1": "8c46f68561f633770c013f323c292df00bb68d6b",
+    "md5": "7cb202900cdac7f0dae26e39eb464b8c"
+  },
+  "size_bytes": 10,
+  "mode": "0o100644",
+  "modified": "2025-12-13T07:10:20.641347"
+}
+{
+  "target": "intel_test.pdf",
+  "timestamp": "2025-12-13T07:35:26.580874",
+  "capabilities": {
+    "pdfplumber": false,
+    "sleuthkit": false,
+    "binwalk": false,
+    "exiftool": false
+  },
+  "hashes": {
+    "sha256": "b3c43b5b9338d62c7a74ba72cf66bd130e9e0ccce6413ded025c75897830aedd",
+    "sha1": "1fc8437e6066dd6db6de5ce6340b60f1cdb6844c",
+    "md5": "133e606a31f6c0f11a78a27e86f92020"
+  },
+  "size_bytes": 23,
+  "mode": "0o100644",
+  "modified": "2025-12-13T07:10:07.192132"
+}
+{
+  "target": "test_evidence_001.txt",
+  "timestamp": "2025-12-13T07:35:26.581010",
+  "capabilities": {
+    "pdfplumber": false,
+    "sleuthkit": false,
+    "binwalk": false,
+    "exiftool": false
+  },
+  "hashes": {
+    "sha256": "aa2ec8fafa127ff7f4fa0e8f0578172b2f22cab8422b7fb4d377cdcc65a247d5",
+    "sha1": "c083d1cb80a583c9c9fc3437a6ffdaa6757c649e",
+    "md5": "867059089e320b80f2e823baa3bfb268"
+  },
+  "size_bytes": 23,
+  "mode": "0o100644",
+  "modified": "2025-12-13T07:29:59.820249"
+}

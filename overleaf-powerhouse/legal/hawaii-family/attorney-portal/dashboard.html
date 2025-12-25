@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hawaii Family Court Attorney Portal</title>
+  <style>
+    body { font-family: Arial; margin: 40px; background: linear-gradient(135deg, #2c5aa0, #1e3d72); color: white; }
+    .dashboard { max-width: 1200px; margin: 0 auto; }
+    .card { background: rgba(255,255,255,0.1); padding: 20px; margin: 20px 0; border-radius: 10px; backdrop-filter: blur(10px); }
+    .alert { background: #ff4444; }
+    .deadline { background: #ffaa00; }
+    .jefs { background: #44ff44; }
+  </style>
+</head>
+<body>
+  <div class="dashboard">
+    <h1>🌺 Hawaii Family Court War Room</h1>
+    <div class="card alert">
+      <h2>PACER Alerts (USDC HI)</h2>
+      <div id="pacer-alerts"></div>
+    </div>
+    <div class="card deadline">
+      <h2>HFCR Deadlines (1st Circuit)</h2>
+      <div id="hfcr-deadlines"></div>
+    </div>
+    <div class="card jefs">
+      <h2>JEFS Queue (Bulk eFiling)</h2>
+      <div id="jefs-queue"></div>
+    </div>
+  </div>
+  <script>
+    // Real-time MCP dashboard
+    fetch('/api/attorney-portal/12345').then(r=>r.json()).then(data=>console.log(data));
+  </script>
+</body>
+</html>

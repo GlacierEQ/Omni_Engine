@@ -1,0 +1,25 @@
+name: VLEX Integration Test
+
+on:
+  push:
+    paths:
+      - 'skills/integrations/vlex/**'
+  pull_request:
+    paths:
+      - 'skills/integrations/vlex/**'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+      - name: Install dependencies
+        run: pip install requests pytest
+      - name: Run tests
+        env:
+          VLEX_API_KEY: ${{ secrets.VLEX_API_KEY }}
+        run: pytest skills/integrations/vlex/test_vlex.py

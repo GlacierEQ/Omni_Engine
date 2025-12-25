@@ -1,0 +1,32 @@
+{
+  "jules2_enhanced": {
+    "command": "node",
+    "args": ["/home/user/mcp-integration/servers/jules2-server-enhanced.js"],
+    "env": {
+      "JULES_API_KEY": "test-key",
+      "OPERATOR_GUID": "OPR-NS8-GE8-KC3-001-AI-GRS-GUID:983DE8C8-E120-1-B5A0-C6D8AF97BB09",
+      "ETERNAL_ASCENSION": "true",
+      "INFINITE_SWARM_SIZE": "1000"
+    }
+  },
+  "langchain_enhanced": {
+    "command": "node",
+    "args": ["/home/user/mcp-integration/servers/langchain-server-enhanced.js"],
+    "env": {
+      "LANGCHAIN_API_KEY": "test-key",
+      "OPERATOR_GUID": "OPR-NS8-GE8-KC3-001-AI-GRS-GUID:983DE8C8-E120-1-B5A0-C6D8AF97BB09",
+      "ZENITH_ORACLE": "true",
+      "TRANSCENDENTAL_LOGIC": "true"
+    }
+  },
+  "gremlin_enhanced": {
+    "command": "node",
+    "args": ["/home/user/mcp-integration/servers/gremlin-server-enhanced.js"],
+    "env": {
+      "GREMLIN_API_KEY": "test-key",
+      "OPERATOR_GUID": "OPR-NS8-GE8-KC3-001-AI-GRS-GUID:983DE8C8-E120-1-B5A0-C6D8AF97BB09",
+      "CHAOS_RESILIENCE_SHIELD": "true",
+      "SELF_HEALING_MEMORY": "true"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "product_dev",
+  "name": "Complete Product Development - 14 Week Cycle",
+  "skills": ["Product Manager Extraordinaire", "UX Designer Pro", "Frontend Wizard", "Backend Engineer", "DevOps Master"],
+  "timeline": 14,
+  "phases": [
+    {
+      "phase": 1,
+      "name": "Research & Strategy (Weeks 1-2)",
+      "deliverables": ["User research", "Competitive analysis", "Feature prioritization", "Product roadmap"],
+      "success_metric": "Clear product vision"
+    },
+    {
+      "phase": 2,
+      "name": "Design Phase (Weeks 3-4)",
+      "deliverables": ["User flows", "Wireframes", "High-fidelity designs", "Design system"],
+      "success_metric": "Design approved"
+    },
+    {
+      "phase": 3,
+      "name": "Development (Weeks 5-11)",
+      "deliverables": ["Frontend", "Backend", "Database", "Testing", "Documentation"],
+      "success_metric": "All features coded & tested"
+    },
+    {
+      "phase": 4,
+      "name": "Launch Prep (Weeks 12-14)",
+      "deliverables": ["Final testing", "Documentation", "Training", "Launch plan"],
+      "success_metric": "Ready for release"
+    }
+  ],
+  "budget": "$200K-350K",
+  "team_size": "6-8"
+}

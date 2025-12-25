@@ -1,0 +1,23 @@
+version: "3.8"
+services:
+  overleaf:
+    image: overleaf/overleaf:latest
+    ports: ["8080:80"]
+    volumes:
+      - overleaf-data:/var/lib/mongodb
+      - ./config.js:/etc/overleaf/config.js:ro
+      - ./projects:/projects
+
+  texlive:
+    image: blang/latex:tl2023
+    volumes: [ "./projects:/projects" ]
+    command: tail -f /dev/null
+
+  mcp-server:
+    build: ./mcp/server
+    ports: ["3001:3001"]
+    volumes: [ "./projects:/projects", "./templates:/templates" ]
+    depends_on: [ texlive ]
+
+volumes:
+  overleaf-data:

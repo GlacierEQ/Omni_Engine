@@ -1,0 +1,39 @@
+{
+  "version": "1.0",
+  "forensic_categories": {
+    "execution": {
+      "execution_id": "UUID",
+      "execution_timestamp": "ISO8601",
+      "execution_duration_ms": "integer",
+      "session_id": "UUID",
+      "user_id": "string",
+      "status": "success|failure|partial"
+    },
+    "source_attribution": {
+      "git_commit_hash": "SHA",
+      "git_branch": "string",
+      "git_author": "string",
+      "git_timestamp": "ISO8601",
+      "source_file": "string",
+      "source_hash": "SHA256"
+    },
+    "security": {
+      "threat_level": "low|medium|high|critical",
+      "encryption_enabled": "boolean",
+      "access_control": "string",
+      "audit_logged": "boolean"
+    },
+    "performance": {
+      "cpu_percent": "float",
+      "memory_mb": "integer",
+      "network_mbps": "float",
+      "latency_ms": "integer"
+    },
+    "compliance": {
+      "framework": "GDPR|HIPAA|SOC2|PCI-DSS",
+      "compliance_status": "compliant|non_compliant",
+      "data_retention_days": "integer",
+      "pii_encrypted": "boolean"
+    }
+  }
+}

@@ -1,0 +1,1385 @@
+{
+  "generated": 1766294674,
+  "files": [
+    {
+      "path": "/home/user/master-toolbox/mcp_health_report.md",
+      "size": 702,
+      "mtime": 1765707639,
+      "sha256": "1bcc30e2e494c4c7f927a15032bf06e038b6b6735e6c5eecd155b11f657f3128"
+    },
+    {
+      "path": "/home/user/master-toolbox/README.md",
+      "size": 3069,
+      "mtime": 1765419189,
+      "sha256": "353aaf8b5e37ac75daba57b3e70bb58667c273eeb6a6faaaa27e7ea64abe2870"
+    },
+    {
+      "path": "/home/user/master-toolbox/browser_crawler/BROWSER_MASTER.sh",
+      "size": 910,
+      "mtime": 1765610998,
+      "sha256": "2cab07aedc9ba2251897f42f98bc657a3cf07755561e2bf34dca0713b1216725"
+    },
+    {
+      "path": "/home/user/master-toolbox/case-mgmt/case-1FDV-23-0001009.json",
+      "size": 1305,
+      "mtime": 1765419189,
+      "sha256": "7ba6b6495d3546dcf09772d5b511438d4fdf4f381338f293a60c375372813e0c"
+    },
+    {
+      "path": "/home/user/master-toolbox/core/.env.template",
+      "size": 673,
+      "mtime": 1765419190,
+      "sha256": "7ae0c72edd6265fb3592302eff5c80581ee4a7ba48bccaba941fdefdc78d411e"
+    },
+    {
+      "path": "/home/user/master-toolbox/core/config.json",
+      "size": 1742,
+      "mtime": 1765419190,
+      "sha256": "eed4eced0b99c5d7a2e224dde61b0d16673efba7d00cfae0e1358eb0d7da94fc"
+    },
+    {
+      "path": "/home/user/master-toolbox/core/toolbox.py",
+      "size": 2092,
+      "mtime": 1766292822,
+      "sha256": "d59354e2f38c35c3971f699f4af45b755d563472f22ea13888e64ab32f6d17c0"
+    },
+    {
+      "path": "/home/user/master-toolbox/core/operator_protocol.yaml",
+      "size": 1339,
+      "mtime": 1765419190,
+      "sha256": "a94a07f5246cd9d05012ba80f98460e5746f531c9955233775a7209bdd5d45fa"
+    },
+    {
+      "path": "/home/user/master-toolbox/core/apex/engine.py",
+      "size": 2131,
+      "mtime": 1766292802,
+      "sha256": "168ec34d9eeb796b9437ef060c3a975f869d2f5aa263fd56d54e43e3fae402cd"
+    },
+    {
+      "path": "/home/user/master-toolbox/core/apex/__init__.py",
+      "size": 0,
+      "mtime": 1766292124,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/user/master-toolbox/core/apex/multi_memory.py",
+      "size": 1419,
+      "mtime": 1766292836,
+      "sha256": "1a4f9a9ba38c6105573e5a7c7a4cd5dff091c5c7158b138b9cd9b42fa6b86f1e"
+    },
+    {
+      "path": "/home/user/master-toolbox/core/apex/orchestrator.py",
+      "size": 8416,
+      "mtime": 1766293522,
+      "sha256": "538445c836fcf5da9dbc9ac1b96636e7c99afc4191be3836cfa26e5b91a61a27"
+    },
+    {
+      "path": "/home/user/master-toolbox/core/apex/mcp_client.py",
+      "size": 1758,
+      "mtime": 1766293298,
+      "sha256": "80872206c766773901aaf113f895f5eac26c2af1575108a3e0ca1461a64ccb9c"
+    },
+    {
+      "path": "/home/user/master-toolbox/core/apex/notion_router.py",
+      "size": 1239,
+      "mtime": 1766293298,
+      "sha256": "53a7b4379922c19e3ac4d5efad3ca1bdba240afd4ad904efa7c6d18ac9d03ddd"
+    },
+    {
+      "path": "/home/user/master-toolbox/core/apex/__pycache__/multi_memory.cpython-312.pyc",
+      "size": 2594,
+      "mtime": 1766292838,
+      "sha256": "9e13d980cb21c689f67eb36bfad33b6a00b08f2258263707cc8393941c482412"
+    },
+    {
+      "path": "/home/user/master-toolbox/core/apex/__pycache__/__init__.cpython-312.pyc",
+      "size": 144,
+      "mtime": 1766292137,
+      "sha256": "6fba639a02b3a1292575b9155a02dcae94200fdb341839c9210dc9fc0a77558f"
+    },
+    {
+      "path": "/home/user/master-toolbox/core/apex/__pycache__/engine.cpython-312.pyc",
+      "size": 3967,
+      "mtime": 1766292824,
+      "sha256": "cda2da1b550f5a23e744a673b5a8ed49014938be7ca0e7cc4f6dd792eaf7937b"
+    },
+    {
+      "path": "/home/user/master-toolbox/core/apex/__pycache__/notion_router.cpython-312.pyc",
+      "size": 2240,
+      "mtime": 1766293399,
+      "sha256": "8db1de920205fd283efa19ae3d955e28294d5814db0c3d4d0d4f5260f4d80b2e"
+    },
+    {
+      "path": "/home/user/master-toolbox/core/apex/__pycache__/orchestrator.cpython-312.pyc",
+      "size": 15489,
+      "mtime": 1766293523,
+      "sha256": "eea931ca86ac18bbf5fe34c8cd0e910cee80af78a4dd54d6bac51f6b0409cf62"
+    },
+    {
+      "path": "/home/user/master-toolbox/core/apex/__pycache__/mcp_client.cpython-312.pyc",
+      "size": 3195,
+      "mtime": 1766293399,
+      "sha256": "44d508d1922f09e348e7797cb1f7370546a33f5212df994a02ac6c24f17ed371"
+    },
+    {
+      "path": "/home/user/master-toolbox/exhibits/SUPERLUMINAL_MATRIX.py",
+      "size": 2048,
+      "mtime": 1765610154,
+      "sha256": "da48f9aebc7af860753221b2b9fd8b1b7fdc0498f03a3faf293d1fc5463d9ce4"
+    },
+    {
+      "path": "/home/user/master-toolbox/exhibits/EXHIBIT_MASTER.sh",
+      "size": 1645,
+      "mtime": 1765610153,
+      "sha256": "3949c0d8c13a6004448b0fe973758f13f87bc2a4f8e15dc293d765c723c134ab"
+    },
+    {
+      "path": "/home/user/master-toolbox/exhibits/FILEBOSS.py",
+      "size": 2212,
+      "mtime": 1765610153,
+      "sha256": "d307d59f56a02a4381df412567a6079382675ca000622f2d32a83ef680a0c048"
+    },
+    {
+      "path": "/home/user/master-toolbox/exhibits/MEGA_PDF.py",
+      "size": 1837,
+      "mtime": 1765610153,
+      "sha256": "97442d809a953641194a46617cfb7045be758d3656d628f607b58ca39bee4451"
+    },
+    {
+      "path": "/home/user/master-toolbox/exhibits/WHISPERX.py",
+      "size": 1458,
+      "mtime": 1765610154,
+      "sha256": "fe40bf57d7a77a14a3cc6448888b1f647a59dd873cac44d87e213c3c5da599d6"
+    },
+    {
+      "path": "/home/user/master-toolbox/forensics/FORENSIC_MASTER.md",
+      "size": 981,
+      "mtime": 1765609597,
+      "sha256": "966e0d1622a1201737269c27844c21532d85f480c405b2539d8ae5539c41d65e"
+    },
+    {
+      "path": "/home/user/master-toolbox/forensics/INTEL_PIPELINE.sh",
+      "size": 1343,
+      "mtime": 1765609810,
+      "sha256": "09ad03d1056a26fa2fe3caa650205a3dd89c994514177abc3e1800ca26ad558c"
+    },
+    {
+      "path": "/home/user/master-toolbox/forensics/ORCHESTRATOR.sh",
+      "size": 1378,
+      "mtime": 1765609826,
+      "sha256": "72b2bc213af6b352ad13502778d750e50f14c434eb8a6a117cf0a5f958723f19"
+    },
+    {
+      "path": "/home/user/master-toolbox/forensics/analyze_all.sh",
+      "size": 752,
+      "mtime": 1765609611,
+      "sha256": "d8c40f1db8e240c87860fe28120118dea9322512fab2f9f1251f44acc00d8e50"
+    },
+    {
+      "path": "/home/user/master-toolbox/forensics/quick.sh",
+      "size": 427,
+      "mtime": 1765609620,
+      "sha256": "c90c91799c41522a9887d2dd28fd4b843d2bce2ca91ebed93b63afe954143fc4"
+    },
+    {
+      "path": "/home/user/master-toolbox/fs_orchestrator/FS_MASTER.sh",
+      "size": 1626,
+      "mtime": 1765610774,
+      "sha256": "30445826355809c005e458643fca7a8dad0ec80e2e75492791972ff3b2f7034f"
+    },
+    {
+      "path": "/home/user/master-toolbox/scripts/healthcheck.sh",
+      "size": 570,
+      "mtime": 1766293876,
+      "sha256": "f62eeba25249b3defec1aaa181dc1a63d7550ddd3c262eaacf23dd3f66f0ab29"
+    },
+    {
+      "path": "/home/user/master-toolbox/scripts/start.sh",
+      "size": 499,
+      "mtime": 1765419191,
+      "sha256": "3793e67e481cc882e8a3390548120882c131c452463a92778cb3bae3dae1fff1"
+    },
+    {
+      "path": "/home/user/master-toolbox/logs/apex_audit.jsonl",
+      "size": 6923,
+      "mtime": 1766293547,
+      "sha256": "23697e921c632c9fa7a283839f3d30d90eaae072965ee4f2b227e21a90726a01"
+    },
+    {
+      "path": "/home/user/mcp-integration/README.md",
+      "size": 4939,
+      "mtime": 1764912607,
+      "sha256": "cacc88cfb7c9c28967cb1c63db1b3a776e9bb8d9e42f09a89c8c9034efe8bf76"
+    },
+    {
+      "path": "/home/user/mcp-integration/.env",
+      "size": 5123,
+      "mtime": 1764912603,
+      "sha256": "8b855ce69722e200936b12a2390f2346c0d1294a212d7e494ae6e0aa294b6d37"
+    },
+    {
+      "path": "/home/user/mcp-integration/CHATGPT_OPENAI_COMPLETE.md",
+      "size": 5809,
+      "mtime": 1764912605,
+      "sha256": "2ba0bad185cb833d00ec83520fa1c54f1d350c1a83545cf510a1f9df4251e412"
+    },
+    {
+      "path": "/home/user/mcp-integration/CHATGPT_MCP_COMPLETE.md",
+      "size": 6516,
+      "mtime": 1764912604,
+      "sha256": "3a4542399a1cd2fc33732e3022443b1a55b5a1ea1c009be26b2ba80c710148e5"
+    },
+    {
+      "path": "/home/user/mcp-integration/PLATFORM_SETUP_GUIDE.md",
+      "size": 1381,
+      "mtime": 1764912607,
+      "sha256": "8ad4f74ac72cd2c136da1a14dab0fe586168aad1644517f900829ca4dd88b11b"
+    },
+    {
+      "path": "/home/user/mcp-integration/ENHANCEMENT_LOG.md",
+      "size": 176,
+      "mtime": 1765578919,
+      "sha256": "7f4d8ee0f359a7a5b7bd7a5613549030d8bdeed41de78f9a468aa8f3e976ad02"
+    },
+    {
+      "path": "/home/user/mcp-integration/MCP_FIX_COMPLETE.md",
+      "size": 3211,
+      "mtime": 1764912605,
+      "sha256": "b738a13ad107c1be4172f47611a7063b8a2b10d8a456f96bc22edd85bbf69b83"
+    },
+    {
+      "path": "/home/user/mcp-integration/PLATFORMS_READY.md",
+      "size": 5085,
+      "mtime": 1764912606,
+      "sha256": "4ed28fa4b181b8a2895c3729d868725e7ea3bb3ebe032127c18a2d672e105390"
+    },
+    {
+      "path": "/home/user/mcp-integration/package-lock.json",
+      "size": 5655,
+      "mtime": 1764912608,
+      "sha256": "c09c8d768541f17b5ad74b07baa5460597771d38a30f55aeec6281892a462018"
+    },
+    {
+      "path": "/home/user/mcp-integration/package.json",
+      "size": 727,
+      "mtime": 1764912609,
+      "sha256": "60e205fdd3d7764bb8539e8304a9f107977823787a2ca44ef3fafa77ad205af6"
+    },
+    {
+      "path": "/home/user/mcp-integration/config/glacier-repair-omnibus-v2.json",
+      "size": 568,
+      "mtime": 1765579617,
+      "sha256": "b1ab981537e992a1f8470e1ca8526a53eee32b5558d09a2c29ce15c6c8cb1421"
+    },
+    {
+      "path": "/home/user/mcp-integration/config/claude_desktop_config.json",
+      "size": 1692,
+      "mtime": 1764793708,
+      "sha256": "048e8874d1dd99773179092967b56eaed23bceaef909e2dee384b2392147348b"
+    },
+    {
+      "path": "/home/user/mcp-integration/config/glacier-repair-omnibus.json",
+      "size": 1934,
+      "mtime": 1765579484,
+      "sha256": "3f4d063a80d20cb44850c8c5a217a68e893d0965dfdd0a54dd355249b6e21213"
+    },
+    {
+      "path": "/home/user/mcp-integration/config/mcp-cli-config.json",
+      "size": 1058,
+      "mtime": 1764912610,
+      "sha256": "a1ed617579bf25e8d6570625a7a799725ec5da08bbf48e873bad9111e3c11055"
+    },
+    {
+      "path": "/home/user/mcp-integration/docs/README.md",
+      "size": 6324,
+      "mtime": 1764912610,
+      "sha256": "0b18173cf0732530263e5272d58f9a5b2d5f9ea2f6d1410088d74b6fb3cd088f"
+    },
+    {
+      "path": "/home/user/mcp-integration/docs/guides/installation.md",
+      "size": 5196,
+      "mtime": 1764912611,
+      "sha256": "da9dab1a4a3d4858d146526383c85328edd4a9a82ec17c35fe90c11d9f87fafc"
+    },
+    {
+      "path": "/home/user/mcp-integration/docs/guides/usage.md",
+      "size": 10674,
+      "mtime": 1764912612,
+      "sha256": "c862a70df2dba227ebfe6505c3fb4b94f3a03136e6f94f01a6406408c760f290"
+    },
+    {
+      "path": "/home/user/mcp-integration/scripts/install-dependencies.sh",
+      "size": 1046,
+      "mtime": 1764793796,
+      "sha256": "2475718770b0b764fec4071874a12cf78c3917a1301a346904c56552b1b93bdc"
+    },
+    {
+      "path": "/home/user/mcp-integration/scripts/deploy-servers.sh",
+      "size": 1625,
+      "mtime": 1764793795,
+      "sha256": "0ac102d1714b61e333095a2cfae0389bba1c322e9f56ebf6e9a96f55ac002ceb"
+    },
+    {
+      "path": "/home/user/mcp-integration/scripts/test-servers.sh",
+      "size": 1302,
+      "mtime": 1764793797,
+      "sha256": "29aaef42ea9a56ea908edeb89c9e01994425359e599be2f58151d03b296a1953"
+    },
+    {
+      "path": "/home/user/mcp-integration/servers/utility-interface-server.js",
+      "size": 5881,
+      "mtime": 1764793798,
+      "sha256": "c9305bc20c88223c18feb112c641603706119d9f7d46c26930a6142a30c24f66"
+    },
+    {
+      "path": "/home/user/mcp-integration/servers/backend-level3-server.js",
+      "size": 5480,
+      "mtime": 1764793772,
+      "sha256": "2f65da522de4401012ce260e3a436ddf502a657a31f671f88dd7e0695ab67e31"
+    },
+    {
+      "path": "/home/user/mcp-integration/servers/backend-level5-server.js",
+      "size": 6091,
+      "mtime": 1764793773,
+      "sha256": "348e2f38753a5f04c72664f8060fbdad6ca6692d617b1d7b31ca8ec573561eec"
+    },
+    {
+      "path": "/home/user/mcp-integration/servers/federal-docs-server.js",
+      "size": 3982,
+      "mtime": 1765579617,
+      "sha256": "656cc07a65df9f829aa88921f0b8cab760008125a49b9e01b1d860b33b7b9ab6"
+    },
+    {
+      "path": "/home/user/mcp-integration/servers/gremlin-server.js",
+      "size": 6097,
+      "mtime": 1764793749,
+      "sha256": "90cdd404fd812b3f64955799810c5209742ba955574ff68f706b508344d1a268"
+    },
+    {
+      "path": "/home/user/mcp-integration/servers/jules2-server.js",
+      "size": 6144,
+      "mtime": 1764793732,
+      "sha256": "01d72d7aaed477f825a7fc8d5269980ff3537250673e1008d97bf949dd0d54a2"
+    },
+    {
+      "path": "/home/user/mcp-integration/servers/langchain-server.js",
+      "size": 5943,
+      "mtime": 1764793750,
+      "sha256": "8cb88167e30b455eb762ae4ce19ca6c053534e9d1235a3d800db14e8876dc7c3"
+    },
+    {
+      "path": "/home/user/mcp-integration/hyperbrowser/hyperbrowserai-mcp.mcpb",
+      "size": 732585,
+      "mtime": 1766087601,
+      "sha256": "cc6f51769474dffc89f917c18174c715e2f5e8c49771c61fb6378ae31cda8513"
+    },
+    {
+      "path": "/home/user/skills/README_COMPLETE_SYSTEM.md",
+      "size": 14588,
+      "mtime": 1764568638,
+      "sha256": "723eee3a1cce4ce0974edd012af2a7710c686856bbe77e4b79ca672285b4245c"
+    },
+    {
+      "path": "/home/user/skills/COMPLETE_SYSTEM_GUIDE.md",
+      "size": 15007,
+      "mtime": 1764691735,
+      "sha256": "ffa5055b046d1366c00ef650c0153bbe19b6936e83efba8634bafe1b3302c8df"
+    },
+    {
+      "path": "/home/user/skills/DEPLOYMENT_COMPLETE.txt",
+      "size": 13672,
+      "mtime": 1764568472,
+      "sha256": "8ae52d3d6b325973ad7ea06bd949727a8636f2ca2bff126c398d64da26052fea"
+    },
+    {
+      "path": "/home/user/skills/INDEX_MASTER.md",
+      "size": 11887,
+      "mtime": 1764564621,
+      "sha256": "477f786c6c99f3a243fd127867d410db6e491c12bedc60da77d78da3bf421615"
+    },
+    {
+      "path": "/home/user/skills/INTEGRATION_GUIDE.md",
+      "size": 11828,
+      "mtime": 1764694938,
+      "sha256": "c9ee5bf61016ff0b0d0665b5d55ddb939c1cf7dc8703d092a0e6b3e5ce5ab54a"
+    },
+    {
+      "path": "/home/user/skills/MASTER_REFERENCE.md",
+      "size": 12300,
+      "mtime": 1764695069,
+      "sha256": "b15d38dd1c9bbc73d3b4586c78330d0a171bc0710e491a927ab7d652087082f2"
+    },
+    {
+      "path": "/home/user/skills/MASTER_SYSTEM_INDEX.md",
+      "size": 14912,
+      "mtime": 1764555910,
+      "sha256": "98b8c60ffa3c5dfad04776f2ab73160d21f6dabb0f7faa85bdb42bace617ac7b"
+    },
+    {
+      "path": "/home/user/skills/QUICK_REFERENCE.txt",
+      "size": 19629,
+      "mtime": 1764568238,
+      "sha256": "a6a23d6650ae578367577105c6e82e1c3174a67cf2520dc4b715c23160f91176"
+    },
+    {
+      "path": "/home/user/skills/QUICK_START.md",
+      "size": 6287,
+      "mtime": 1764555304,
+      "sha256": "7cff3ccc904d612864bad1594916956e6f50d00591f5f47cee9ec9b1ea9f09b8"
+    },
+    {
+      "path": "/home/user/skills/README_START_HERE.txt",
+      "size": 9250,
+      "mtime": 1764568204,
+      "sha256": "4d17ce4b444a882edf083e8e8c9817b2f3dfae33b3b28579b21933312e0ef7a4"
+    },
+    {
+      "path": "/home/user/skills/README_START_HERE.md",
+      "size": 10183,
+      "mtime": 1764568438,
+      "sha256": "b089a4a62d87b079009001676873624df714770f4489fb1b5c100c45ac0755a8"
+    },
+    {
+      "path": "/home/user/skills/TECH_REPAIR_LIBRARY_INDEX.json",
+      "size": 10640,
+      "mtime": 1764697721,
+      "sha256": "f24fdc32c9afe4f9b74c1df5ca049e30fc4cf837212c60369797797e1863f43f"
+    },
+    {
+      "path": "/home/user/skills/README_SYSTEM_COMPLETE.md",
+      "size": 15173,
+      "mtime": 1764694900,
+      "sha256": "98049136f5ecf861603094e91d5b41a4bb6c2916e6ab9dcc87e9d737cdbbe2c0"
+    },
+    {
+      "path": "/home/user/skills/REPAIR_LIBRARY_SUMMARY.md",
+      "size": 8839,
+      "mtime": 1764697720,
+      "sha256": "0ebcf4a635246533bb17f822bf0a0b4f962136b9bfbd75734a631dc2ba662d9d"
+    },
+    {
+      "path": "/home/user/skills/SKILLS_50_COMPLETE.json",
+      "size": 22935,
+      "mtime": 1764555257,
+      "sha256": "b03088c117d475820ba61d75bd1c9c34307c022dcb5f290fc93b0a428f7d057a"
+    },
+    {
+      "path": "/home/user/skills/SKILLS_MANIFEST.json",
+      "size": 15283,
+      "mtime": 1764555016,
+      "sha256": "902e32dd5ec1f5e73bd62cead8006e8393a94fbc89da3c6c2a2d21f2ec50b60a"
+    },
+    {
+      "path": "/home/user/skills/SKILLS_MASTER_INDEX.md",
+      "size": 14643,
+      "mtime": 1764568148,
+      "sha256": "bf9751d83607e9995c1a8983b9cc96cfff2d42b19513466c1d68278dba921e7b"
+    },
+    {
+      "path": "/home/user/skills/SKILLS_SUMMARY.txt",
+      "size": 14314,
+      "mtime": 1764555282,
+      "sha256": "5afbb7799b7eeefb6114a71ee20f5d1e17d5e86e1170b61c721dc12056cc62f9"
+    },
+    {
+      "path": "/home/user/skills/SYSTEM_MANIFEST.json",
+      "size": 10550,
+      "mtime": 1764568261,
+      "sha256": "ac6fc0531627300a411872accda9324f221a5fa977ef0ebb98ae027ab9c7cdf8"
+    },
+    {
+      "path": "/home/user/skills/customer-acquisition-machine.json",
+      "size": 6350,
+      "mtime": 1764555407,
+      "sha256": "67479158c0a378d06b89f336fb6878782fb16e2146e94f81d9e03ed575279d3c"
+    },
+    {
+      "path": "/home/user/skills/TECH_REPAIR_LIBRARY_INDEX.md",
+      "size": 4611,
+      "mtime": 1764697683,
+      "sha256": "edc284918acb4d6e176dd188f706facc1af11113b1a0601e374aa4d0b2031ad8"
+    },
+    {
+      "path": "/home/user/skills/revenue-multiplier.json",
+      "size": 4376,
+      "mtime": 1764555386,
+      "sha256": "611d23cf6864cb94b84a90635b813acc400125d3208281ea78f119786d60757d"
+    },
+    {
+      "path": "/home/user/skills/COLLECTED_SKILLS_INDEX.md",
+      "size": 5657,
+      "mtime": 1766117841,
+      "sha256": "78280c3fc0c96b769cad372e9528440c022bcc6e9dabb767ec0032df093cc102"
+    },
+    {
+      "path": "/home/user/skills/SUPERMEMORY_SKILLS_PAYLOADS.json",
+      "size": 8045,
+      "mtime": 1766118240,
+      "sha256": "31bfbe4e90d965440b3f4dca62c2405b89e03627f44d24b5b233800026680bb5"
+    },
+    {
+      "path": "/home/user/skills/SUPERMEMORY_PROJECT_MAPPING.json",
+      "size": 623,
+      "mtime": 1766118973,
+      "sha256": "c174a38584c5a9e330e65c6e5a118f7db23aeff24cc8a0bcba9295499cd08cd1"
+    },
+    {
+      "path": "/home/user/skills/SUPERMEMORY_SKILLS_INTEGRATION.md",
+      "size": 3827,
+      "mtime": 1766119000,
+      "sha256": "fa9d3e22f4585ebd37b5c5a0b3993acb0914d5caea9e836b3a6ce1e0f0502de6"
+    },
+    {
+      "path": "/home/user/skills/browser_crawler/HYPER_BROWSER_CRAWLER.py",
+      "size": 5103,
+      "mtime": 1765610936,
+      "sha256": "757b21d9543ef62b345a399fcdff258a3a37235b518b4c62af0c1d6f8f5199d2"
+    },
+    {
+      "path": "/home/user/skills/browser_crawler/PRODUCTION_CRAWLER.py",
+      "size": 2856,
+      "mtime": 1765611193,
+      "sha256": "9551f7181c27356c75a29c2445a5bfbc042d8cf0742fae9939e030707f364c69"
+    },
+    {
+      "path": "/home/user/skills/cli/skills_orchestrator.py",
+      "size": 10385,
+      "mtime": 1764694852,
+      "sha256": "9857b96d7c9f134bcea49269f9d6ac0e85502fedbf348615cc291c8686ed47f3"
+    },
+    {
+      "path": "/home/user/skills/cli/skills-enhanced.py",
+      "size": 20144,
+      "mtime": 1764568204,
+      "sha256": "54b605084db207cacc9125574b64090179c685ba4549c8d45cc813ef3ace0ddc"
+    },
+    {
+      "path": "/home/user/skills/cli/skills.py",
+      "size": 10292,
+      "mtime": 1766117985,
+      "sha256": "adb58a2fc4b5a1f6205b80ad35aa33db87f0b64bcc19a0b288416019c105874c"
+    },
+    {
+      "path": "/home/user/skills/cli/skills.sh",
+      "size": 267,
+      "mtime": 1764563894,
+      "sha256": "616372513d4648b6a355c4dd59c80be24de84a2cf7f7c562da4fbf764d05aa55"
+    },
+    {
+      "path": "/home/user/skills/cli/skills_enhanced.py",
+      "size": 20133,
+      "mtime": 1764568473,
+      "sha256": "9d8fcff12c8af86b5e5e6034ee534214b66ced6ec6f9c2e54f886132a6694f06"
+    },
+    {
+      "path": "/home/user/skills/cli/push_to_supermemory.py",
+      "size": 4313,
+      "mtime": 1766118989,
+      "sha256": "cad96069f4f970bd268656c028182d17691ca5c88217fdc1b7eb4f50f023f77c"
+    },
+    {
+      "path": "/home/user/skills/domain-deepdives/DATA_ANALYTICS_EXPERT.md",
+      "size": 9184,
+      "mtime": 1764564569,
+      "sha256": "1f10834f4d674e4b4125f21e069bdcd7bc866260cf298a0f19657d6b63170605"
+    },
+    {
+      "path": "/home/user/skills/domain-deepdives/DEVELOPMENT_MASTERY.md",
+      "size": 11274,
+      "mtime": 1764691576,
+      "sha256": "10d9a2fa17144bc69e39be9389566f9e0885be5c80270c495364d881586bdc73"
+    },
+    {
+      "path": "/home/user/skills/domain-deepdives/STRATEGY_EXECUTION.md",
+      "size": 11177,
+      "mtime": 1764691628,
+      "sha256": "de3bbfc4e9443d77088496305e5f23c4c5d8ed0b0a2d89520f1302d04bf31b7d"
+    },
+    {
+      "path": "/home/user/skills/exhibits/tools/FILEBOSS.py",
+      "size": 735,
+      "mtime": 1765611260,
+      "sha256": "7837d90e5296d30b0260652820264fbaa7208bb1382e63a5daf72f3752a1252a"
+    },
+    {
+      "path": "/home/user/skills/exhibits/tools/MEGA_PDF.py",
+      "size": 1837,
+      "mtime": 1765610062,
+      "sha256": "97442d809a953641194a46617cfb7045be758d3656d628f607b58ca39bee4451"
+    },
+    {
+      "path": "/home/user/skills/exhibits/tools/WHISPERX.py",
+      "size": 1458,
+      "mtime": 1765610063,
+      "sha256": "fe40bf57d7a77a14a3cc6448888b1f647a59dd873cac44d87e213c3c5da599d6"
+    },
+    {
+      "path": "/home/user/skills/exhibits/tools/SUPERLUMINAL_MATRIX.py",
+      "size": 2048,
+      "mtime": 1765610063,
+      "sha256": "da48f9aebc7af860753221b2b9fd8b1b7fdc0498f03a3faf293d1fc5463d9ce4"
+    },
+    {
+      "path": "/home/user/skills/forensics/FORENSIC_SCHEMA_EXTENDED.json",
+      "size": 13449,
+      "mtime": 1764694829,
+      "sha256": "26943777c13a6448151a633f41c5ad833754b12e18ccb9e50461ed3e14c9d15b"
+    },
+    {
+      "path": "/home/user/skills/forensics/FORENSIC_SCHEMA_CORE.json",
+      "size": 1040,
+      "mtime": 1764570784,
+      "sha256": "41dca05651560f39b07954e6eb7ba2bfe2b79b6cd6c7b74375063e5de25a0d55"
+    },
+    {
+      "path": "/home/user/skills/forensics/tools/pdf_analyzer.py",
+      "size": 342,
+      "mtime": 1765611261,
+      "sha256": "eecb8241e8067ed9f99c88148ebceff66e687c61f2bc18f0b6d1aaf5dcc9381c"
+    },
+    {
+      "path": "/home/user/skills/forensics/tools/SKILL.md",
+      "size": 248,
+      "mtime": 1765609597,
+      "sha256": "56f1ad1d51c11bf5de6fa84b95751d2866b2785b5d63b77cc043eddc36383725"
+    },
+    {
+      "path": "/home/user/skills/forensics/tools/metadata_extractor.sh",
+      "size": 330,
+      "mtime": 1765609598,
+      "sha256": "723baf1fbddd39cef7a8ea65e5a3f44181b5152e6231dce5ec125e45b1d5a73f"
+    },
+    {
+      "path": "/home/user/skills/forensics/tools/advanced_analyzer.py",
+      "size": 2423,
+      "mtime": 1765609827,
+      "sha256": "b792ad3e8b63b6e5703ca693456c1703f842b3263f9de780d37791106c784d53"
+    },
+    {
+      "path": "/home/user/skills/fs_orchestrator/SUPREME_FILESYSTEM_BOSS.py",
+      "size": 5794,
+      "mtime": 1765610764,
+      "sha256": "a9a712d9da861f71e358ac2d5fd0d3b043af88218ef7ff02ab241c75081bff03"
+    },
+    {
+      "path": "/home/user/skills/integrations/skills_module.py",
+      "size": 3371,
+      "mtime": 1764698115,
+      "sha256": "5d2193bffcd2d026d5eb19ad134f5bfee29e527bed385c5336026f1c83e4cb20"
+    },
+    {
+      "path": "/home/user/skills/obra/brainstorming/SKILL.md",
+      "size": 2563,
+      "mtime": 1764791707,
+      "sha256": "b86d8c852679b505bdcb8055ee5e03566ad78161a4f1a73bc032a1f3e422da67"
+    },
+    {
+      "path": "/home/user/skills/powerups/POWERUPS_EXTENDED.json",
+      "size": 14186,
+      "mtime": 1764691657,
+      "sha256": "1b71612076621726b05d53c1d52acbb1a0d215ee16830aee43aa418f803f73e5"
+    },
+    {
+      "path": "/home/user/skills/powerups/POWERUPS_CORE.json",
+      "size": 1360,
+      "mtime": 1764579689,
+      "sha256": "79f076fb72bac5c623a2347aa841ec25e60d1389a16c0ff6509f967db7430b24"
+    },
+    {
+      "path": "/home/user/skills/templates/microservices-architecture.json",
+      "size": 795,
+      "mtime": 1764569025,
+      "sha256": "7a1a4d079153679613affffc2fc946a3d559b2f1fe0eb19de77f77a6fa4e4ea7"
+    },
+    {
+      "path": "/home/user/skills/templates/ai-integration-system.json",
+      "size": 807,
+      "mtime": 1764569022,
+      "sha256": "5bf80d8d72242dfc5997c337422bb2b47806d3c384069f22c6f8ba321a88e3bf"
+    },
+    {
+      "path": "/home/user/skills/templates/customer-intelligence.json",
+      "size": 845,
+      "mtime": 1764569022,
+      "sha256": "cecfb9a4d4291b730de8d37851f5dabab18f576bd5ada11c0f9083ebebd381e8"
+    },
+    {
+      "path": "/home/user/skills/templates/data-analytics-platform.json",
+      "size": 800,
+      "mtime": 1764569023,
+      "sha256": "e054448909d0816749b5ede33c935ba3ddb66416f48339dd9d9c3f50e143540f"
+    },
+    {
+      "path": "/home/user/skills/templates/enterprise-automation.json",
+      "size": 803,
+      "mtime": 1764569024,
+      "sha256": "718269692124e2a08b0114c0ab1924229199a540a31dbd61df1f9f7df3f4c7d3"
+    },
+    {
+      "path": "/home/user/skills/templates/strategy-planning.json",
+      "size": 766,
+      "mtime": 1764569027,
+      "sha256": "cf48d13d01fd38d43770e88bdfd7c578d8ef428baf93234f96970f6d1d3be261"
+    },
+    {
+      "path": "/home/user/skills/templates/product-mvp.json",
+      "size": 796,
+      "mtime": 1764569026,
+      "sha256": "2622bd2d407ed23d25a306c990a1e96c13fb7b6c76470c1891e73359d9233e3f"
+    },
+    {
+      "path": "/home/user/skills/templates/revenue-optimization.json",
+      "size": 789,
+      "mtime": 1764569027,
+      "sha256": "940ffd74a82ad328d0f270d86dc628a5f8ddfd7bd59b5eb684f16c282c78fd69"
+    },
+    {
+      "path": "/home/user/skills/tools/github_repair_scanner.py",
+      "size": 8827,
+      "mtime": 1764697684,
+      "sha256": "36b1379cdb5ddb9ef7ed0e41f9a9edaded7447edc03e48ff02ad27b52eaed484"
+    },
+    {
+      "path": "/home/user/skills/workflows/marketing-campaign.json",
+      "size": 1290,
+      "mtime": 1764568640,
+      "sha256": "312517a143012b26265291e0386c5201d435b37765ad98320329e2f38fd8eb05"
+    },
+    {
+      "path": "/home/user/skills/workflows/data-pipeline.json",
+      "size": 1307,
+      "mtime": 1764568639,
+      "sha256": "8b33dd2672bb83e869650c94dfec319073bb04b4159737d5f956cd763a14b6fa"
+    },
+    {
+      "path": "/home/user/skills/workflows/product-development.json",
+      "size": 1154,
+      "mtime": 1764568640,
+      "sha256": "c3eab46c131c91581343fd449aa9b2473b0d2b1f12224ae818c81522429109cb"
+    },
+    {
+      "path": "/home/user/skills/workflows/saas-launch.json",
+      "size": 1296,
+      "mtime": 1764568641,
+      "sha256": "31530e3e6d137ced8d267052603e7db209de940fbc136752a6a0fcab30281fc5"
+    },
+    {
+      "path": "/home/user/skills/composiohq/file-organizer/SKILL.md",
+      "size": 11312,
+      "mtime": 1765794883,
+      "sha256": "a8b91952bab7f73511db68149c4a54672b40699903a8e35ed5044c3e3039ded5"
+    },
+    {
+      "path": "/home/user/skills/cexll/gemini/SKILL.md",
+      "size": 3143,
+      "mtime": 1765886379,
+      "sha256": "f1375606712fbf49d258ca35eaa5cde0ef5eb647a9283047cac41977284c7c35"
+    },
+    {
+      "path": "/home/user/skills/cexll/gemini/scripts/gemini-standalone.py",
+      "size": 607,
+      "mtime": 1765886453,
+      "sha256": "251631e54a3346ad6912b1d8405ac2fe1293bc65ffe124d85cfb4b3c76f90a5e"
+    },
+    {
+      "path": "/home/user/skills/cexll/gemini/scripts/gemini.py",
+      "size": 3721,
+      "mtime": 1765886379,
+      "sha256": "60e5847a7829e5b8bfa8336c6dfa112a164844f4a4a79943934da76f61f9710f"
+    },
+    {
+      "path": "/home/user/skills/anthropics/pdf/LICENSE.txt",
+      "size": 1467,
+      "mtime": 1765922613,
+      "sha256": "79f6d8f5b427252fa3b1c11ecdbdb6bf610b944f7530b4de78f770f38741cfaa"
+    },
+    {
+      "path": "/home/user/skills/anthropics/pdf/SKILL.md",
+      "size": 7068,
+      "mtime": 1765922613,
+      "sha256": "38d8559d4899602f82f3560052132aa0c40cfca80203037729756bdb4fb8e0cb"
+    },
+    {
+      "path": "/home/user/skills/anthropics/pdf/forms.md",
+      "size": 9438,
+      "mtime": 1765922613,
+      "sha256": "0ab10e9095deb1c1f9f79eb04254589f55c1d16e095cb53191e03f9fc3184449"
+    },
+    {
+      "path": "/home/user/skills/anthropics/pdf/reference.md",
+      "size": 16692,
+      "mtime": 1765922613,
+      "sha256": "03a5f964f8abecbbe156f363356e927e864d7ee964f1012c84ee1bfc8acbeb95"
+    },
+    {
+      "path": "/home/user/skills/anthropics/pdf/scripts/check_bounding_boxes_test.py",
+      "size": 8818,
+      "mtime": 1765922613,
+      "sha256": "f95dca01a8b79aafd152511e9f7bf2bbcd606dde1be77d691f03a18624e002ca"
+    },
+    {
+      "path": "/home/user/skills/anthropics/pdf/scripts/check_bounding_boxes.py",
+      "size": 3139,
+      "mtime": 1765922613,
+      "sha256": "eb2a5f79c8aa10c57b5867e1f0fc75b52a68b1218442ef9d838dfb4b9eedc6f4"
+    },
+    {
+      "path": "/home/user/skills/anthropics/pdf/scripts/create_validation_image.py",
+      "size": 1603,
+      "mtime": 1765922613,
+      "sha256": "89675be66b48925d7b498eb9454521c78cf9e9ff188ebf094934b598550effe5"
+    },
+    {
+      "path": "/home/user/skills/anthropics/pdf/scripts/check_fillable_fields.py",
+      "size": 362,
+      "mtime": 1765922613,
+      "sha256": "250d5aa4e8451d6a83d17d3550c14e6c844ac347145f916ebf7980b118312b41"
+    },
+    {
+      "path": "/home/user/skills/anthropics/pdf/scripts/convert_pdf_to_images.py",
+      "size": 1123,
+      "mtime": 1765922613,
+      "sha256": "095a0105a718af75ede309cb03f84a20c81d17f1727f7686fd4b294f1f40294f"
+    },
+    {
+      "path": "/home/user/skills/anthropics/pdf/scripts/fill_pdf_form_with_annotations.py",
+      "size": 3596,
+      "mtime": 1765922613,
+      "sha256": "599d6f307edb4ee6b837f21d0ea860c41c22246e270b45d6bc750c5b87c86ce0"
+    },
+    {
+      "path": "/home/user/skills/anthropics/pdf/scripts/extract_form_field_info.py",
+      "size": 6127,
+      "mtime": 1765922613,
+      "sha256": "9db1a2720cf54223cdc4bf797080c70f4e0d27288d9f400e066c14524519021d"
+    },
+    {
+      "path": "/home/user/skills/anthropics/pdf/scripts/fill_fillable_fields.py",
+      "size": 4863,
+      "mtime": 1765922613,
+      "sha256": "65b3e41969707022283a313a4cf9696d31793cbe255dffe13370e75abda448a7"
+    },
+    {
+      "path": "/home/user/docs/README.md",
+      "size": 2867,
+      "mtime": 1765419168,
+      "sha256": "cb59c4d6be82329ba69c403ff3b1999ed7dc902e3921fba2dbcf3399c049e85e"
+    },
+    {
+      "path": "/home/user/docs/archived/00_READ_ME_FIRST_DEEP_SYNTHESIS.md",
+      "size": 7885,
+      "mtime": 1765419168,
+      "sha256": "4635efc8611f8c958eff39d58050b916c36bd50f03bfbaa23b41aaabd917ebd8"
+    },
+    {
+      "path": "/home/user/docs/archived/00_START_HERE_DEPLOYMENT.txt",
+      "size": 9584,
+      "mtime": 1765419168,
+      "sha256": "3b3acbd440e7c77ebe384abd70e100738aceda61d39633506f8dbd8cc434a6ba"
+    },
+    {
+      "path": "/home/user/docs/archived/ANALYSIS_COMPLETE_SUMMARY.txt",
+      "size": 15762,
+      "mtime": 1765419169,
+      "sha256": "cb5200929a2b74ed881780b2d61868d4ed272203303df8f8165de4813c7372e8"
+    },
+    {
+      "path": "/home/user/docs/archived/ANALYSIS_INDEX.md",
+      "size": 5332,
+      "mtime": 1765419169,
+      "sha256": "8faec95d5297a42f723ef12d2d80f8ee2369fbe830b4c2fcb8b45f82230616e1"
+    },
+    {
+      "path": "/home/user/docs/archived/CONTEXT_ANALYSIS_EXPANDED.md",
+      "size": 14697,
+      "mtime": 1765419170,
+      "sha256": "41ee40c937b24c930410a0fbc487a4b765d5f76e1a9461d673c456b98e4bcd9a"
+    },
+    {
+      "path": "/home/user/docs/archived/CONTEXT_QUICK_REFERENCE.md",
+      "size": 9700,
+      "mtime": 1765419170,
+      "sha256": "adabd77edaa0290d35939c7b2585981e1784b18f00651c5d07e545803e7d715f"
+    },
+    {
+      "path": "/home/user/docs/archived/DEEPER_FINDINGS_SUMMARY.md",
+      "size": 4723,
+      "mtime": 1765419170,
+      "sha256": "2cbc530e2d277873cce1c92c32345b5c47351f35bb048df3ad5f301e5450d17a"
+    },
+    {
+      "path": "/home/user/docs/archived/DEEP_ANALYSIS_CASE_BUILDER.md",
+      "size": 12570,
+      "mtime": 1765419171,
+      "sha256": "5effa3814719595469035d9a9dce4fbdf9e40d41c01b9e5a28682f723700dcf0"
+    },
+    {
+      "path": "/home/user/docs/archived/DEPLOYMENT_COMPLETE_SUMMARY.txt",
+      "size": 9769,
+      "mtime": 1765419171,
+      "sha256": "8d5799603e2608c5eafdb0fb4457a0a110b38497da84e9b96acbc992881352b9"
+    },
+    {
+      "path": "/home/user/docs/archived/DEPLOYMENT_NEXT_STEPS.md",
+      "size": 7999,
+      "mtime": 1765419172,
+      "sha256": "10a2240ac5c198a2a47c24deb5ad43aa062eaf4159feb365c3ece01f2f6a824e"
+    },
+    {
+      "path": "/home/user/docs/archived/DEPLOYMENT_SUMMARY.md",
+      "size": 11673,
+      "mtime": 1765419172,
+      "sha256": "590e9422de827f8d4b3669fa3494ef5937559ad3ae6e4e1561ac5922e1c5bd3d"
+    },
+    {
+      "path": "/home/user/docs/archived/EXECUTION_COMPLETE.txt",
+      "size": 5601,
+      "mtime": 1765419172,
+      "sha256": "b0a95728ef61d814916ea1b31ee696c4b3cf0081cd6364531c3bf5d484f45371"
+    },
+    {
+      "path": "/home/user/docs/archived/GITHUB_DEPLOYMENT_STATUS.md",
+      "size": 6075,
+      "mtime": 1765419173,
+      "sha256": "d9f2ffb52cd76718ea309f101945e693cbd5196ee5e03272524998775be8e72c"
+    },
+    {
+      "path": "/home/user/docs/archived/MCP_AUDIT_RESULTS.md",
+      "size": 8247,
+      "mtime": 1765419173,
+      "sha256": "09aa8217d2c5ca365c465c3149c77fee970019579735d5605dc70e56361910b5"
+    },
+    {
+      "path": "/home/user/docs/archived/MCP_CONTINUATION_PLAN.md",
+      "size": 4502,
+      "mtime": 1765419174,
+      "sha256": "1ff6fb4521413cd8f30e20c479f890460d29b479719474606c1bc85726eec2fd"
+    },
+    {
+      "path": "/home/user/docs/archived/MCP_ECOSYSTEM_AUDIT.md",
+      "size": 4563,
+      "mtime": 1765419174,
+      "sha256": "26430aa39d43d2f3a37c2cd5b8fa8febb9dab414cb723491c87a40f8dfccdd41"
+    },
+    {
+      "path": "/home/user/docs/archived/MCP_QUICK_ACTIVATION_GUIDE.md",
+      "size": 5447,
+      "mtime": 1765419174,
+      "sha256": "e76a08b2ad9f9bc8797636c623192b2e31726470748c5c0be6a8e444c980580c"
+    },
+    {
+      "path": "/home/user/docs/archived/MCP_RESEARCH_REPORT.md",
+      "size": 14287,
+      "mtime": 1765419175,
+      "sha256": "19716f4f10a94e5328fc0d045d235e905e1cb7cc9a3b9fe1dfdbfb68953df473"
+    },
+    {
+      "path": "/home/user/docs/archived/MEMORY_COMPLETE_SUMMARY.txt",
+      "size": 15027,
+      "mtime": 1765419175,
+      "sha256": "9c73e74739e53b715611602fd224b739f420de7a241c319270ce89fb54b9f10d"
+    },
+    {
+      "path": "/home/user/docs/archived/MEMORY_MCP_ANALYSIS.md",
+      "size": 14799,
+      "mtime": 1765419175,
+      "sha256": "fca730b06669596282a643b019a1840055bc148f146a703eea029fc48bb78f7b"
+    },
+    {
+      "path": "/home/user/docs/archived/MEMORY_SYSTEMS_COMPLETE.md",
+      "size": 14521,
+      "mtime": 1765419176,
+      "sha256": "a7c19652bd3f044d06f93469d3001223f43df9f5f4ab15cc08039a6c46c05054"
+    },
+    {
+      "path": "/home/user/docs/archived/MEMORY_SYSTEMS_COMPLETE_ANALYSIS.md",
+      "size": 10431,
+      "mtime": 1765419176,
+      "sha256": "311bbf22eee3856cdbe21f2fe51195c912422321ae8d141c01f8ffcae1679657"
+    },
+    {
+      "path": "/home/user/docs/archived/MEMORY_SYSTEMS_EXECUTIVE_SUMMARY.txt",
+      "size": 11821,
+      "mtime": 1765419177,
+      "sha256": "46dbe955eb61ba55ce21f1eb75483027b3e88e832427dcd6393ad6e24ed640a6"
+    },
+    {
+      "path": "/home/user/docs/archived/MEMORY_SYSTEMS_INDEX.txt",
+      "size": 6861,
+      "mtime": 1765419177,
+      "sha256": "6d2a76acda8a0f0428c58b7403bf2f88933a86958ea236dbf94717c0e6e953db"
+    },
+    {
+      "path": "/home/user/docs/archived/MEMORY_UTILIZATION_COMPLETE.md",
+      "size": 12938,
+      "mtime": 1765419177,
+      "sha256": "7b315c910bdd44cec52b9b1c8e963ed1cd564678d11e86dc7d29788ad9593622"
+    },
+    {
+      "path": "/home/user/docs/archived/ONBOARDING_START.md",
+      "size": 5558,
+      "mtime": 1765419178,
+      "sha256": "caab488322b7047c858693196b8b20bf7a495003dd052116ce2d63f3d999c70b"
+    },
+    {
+      "path": "/home/user/docs/archived/README_MCP_RESEARCH.md",
+      "size": 10410,
+      "mtime": 1765419178,
+      "sha256": "7afa1d8c5427b84260d14c92567a6a08271062f5c575f26f0b46d3044a823a81"
+    },
+    {
+      "path": "/home/user/docs/archived/START_HERE.md",
+      "size": 3627,
+      "mtime": 1765419179,
+      "sha256": "146c305b4a1697d7b1a1e2832de3aa89f47135cdd32d91a19fa6ee907f79a574"
+    },
+    {
+      "path": "/home/user/docs/archived/THREE_MEMORY_SYSTEMS_ANALYSIS.md",
+      "size": 7900,
+      "mtime": 1765419179,
+      "sha256": "0af4d94a8f13dbd2f022a2d090dbd1bf4d274acb565dfdb5cbe5c05d4ef6766c"
+    },
+    {
+      "path": "/home/user/docs/case-specific/DOCKET_ANALYSIS_1FDV-23-0001009.md",
+      "size": 11163,
+      "mtime": 1765419180,
+      "sha256": "fa86a88a78a0aeda36e093a196631ba85cf627f5f88b72dfe3213504bd35ab2a"
+    },
+    {
+      "path": "/home/user/docs/case-specific/ASPEN_GROVE_NEXT_STEPS.md",
+      "size": 8360,
+      "mtime": 1765419179,
+      "sha256": "dfd328f8203d05d464eb1f24ac841a59b98ed409c3ff618498ff25f14e593c24"
+    },
+    {
+      "path": "/home/user/docs/case-specific/FEDERAL_CASE_REALITY_ASPEN_GROVE.md",
+      "size": 14585,
+      "mtime": 1765419180,
+      "sha256": "3d7ba1a7ede1ebc77967c68e34787ac354f1aadbbe2e0deb7f4ad61d506b6762"
+    },
+    {
+      "path": "/home/user/docs/case-specific/FORENSIC_CASTLE_SECURITY_ANALYSIS.md",
+      "size": 15370,
+      "mtime": 1765419181,
+      "sha256": "d191035b4aa38b84c9a360121f27b55f03782d2fe5f7ea868666bd996f4d9505"
+    },
+    {
+      "path": "/home/user/docs/case-specific/HONEYPOT_FORENSIC_CASTLE.md",
+      "size": 13767,
+      "mtime": 1765419181,
+      "sha256": "7870c4bec8f5b826b7ce5948db5baabb51f63360e6542babfbd3b892b95f21a0"
+    },
+    {
+      "path": "/home/user/docs/case-specific/STRATEGIC_RECOMMENDATIONS_1FDV.md",
+      "size": 13072,
+      "mtime": 1765419181,
+      "sha256": "26585069464f9b5ba191fdf39b842a86082c38af9a89288c91231fce46ba7641"
+    },
+    {
+      "path": "/home/user/docs/current/MCP_BEST_PRACTICES_AND_DEPLOYMENT_PLAN.md",
+      "size": 20165,
+      "mtime": 1765419182,
+      "sha256": "5c5305d071b080efcd32bcd490f2f2726ac63d5c03973e10020a03efb1e643dc"
+    },
+    {
+      "path": "/home/user/docs/current/MEMORY_SYSTEMS_QUICK_REF.txt",
+      "size": 15748,
+      "mtime": 1765419182,
+      "sha256": "f56be8604eceec45c27a5cd760b9bae73a7c21069f4fd59ed790ae5163250874"
+    },
+    {
+      "path": "/home/user/docs/current/MEMORY_SYSTEM_GUIDE.md",
+      "size": 5380,
+      "mtime": 1765419183,
+      "sha256": "3c3a086961fa423071ddcf4704491f56c9bf1d6e996d72f54f12cfc77079174c"
+    },
+    {
+      "path": "/home/user/docs/current/NOTION_CONNECTOR_GUIDE.md",
+      "size": 14183,
+      "mtime": 1765419183,
+      "sha256": "536524a9dac5b3953b234bd77d6d63f5bf9179b35143e964169d9067e532925a"
+    },
+    {
+      "path": "/home/user/docs/current/PERPLEXITY_MCP_INTEGRATION.md",
+      "size": 9072,
+      "mtime": 1765419183,
+      "sha256": "b6b311f6fa33e486aa4b92a13a199df28812d9275d38ab0c9e5d107849567060"
+    },
+    {
+      "path": "/home/user/docs/current/SKILLS_MATRIX.txt",
+      "size": 23137,
+      "mtime": 1765419184,
+      "sha256": "6c3a793ff0926d993fdf97a129b20c6b8be9d954307cb420e6f7fd84d9a3bc74"
+    },
+    {
+      "path": "/home/user/docs/current/SMITHERY_MCP_AUDIT_REPORT.md",
+      "size": 9507,
+      "mtime": 1765419184,
+      "sha256": "aed00f762e4e02b777fd80aa4f4079585bcafa5f05801383706407f8f26617b3"
+    },
+    {
+      "path": "/home/user/docs/current/SYSTEM_INFORMATION_AUDIT.md",
+      "size": 18031,
+      "mtime": 1765419185,
+      "sha256": "f57331262c0eb640d2fc0fedb222f51f5c541e5469bfdb480533e1428f306936"
+    },
+    {
+      "path": "/home/user/docs/current/SYSTEM_INVENTORY.txt",
+      "size": 19716,
+      "mtime": 1765419185,
+      "sha256": "aa475660952d83714ed186e722e8518931ffa07e0ba16907fdf96de93840acf3"
+    },
+    {
+      "path": "/home/user/docs/reference/ADVANCED_WORKFLOWS_GUIDE.txt",
+      "size": 6843,
+      "mtime": 1765419186,
+      "sha256": "e7767a654cd5f8b1edd52087b2415863215a62dbb5cf9be62afeca01ac656d16"
+    },
+    {
+      "path": "/home/user/docs/reference/ADVANCED_WORKFLOWS.md",
+      "size": 13561,
+      "mtime": 1765419185,
+      "sha256": "f88f832e5eb02c6ed936418d92927eb8002533db8183d6f260137f0ed67bbc0b"
+    },
+    {
+      "path": "/home/user/docs/reference/COMPLETE_SYNC_ORCHESTRATOR.md",
+      "size": 10136,
+      "mtime": 1765419186,
+      "sha256": "9e0851c509b8400316065f53d34937051408f98725aebde7245023b116b345e6"
+    },
+    {
+      "path": "/home/user/docs/reference/CONTEXT_ACTIONABLE_INSIGHTS.md",
+      "size": 13391,
+      "mtime": 1765419186,
+      "sha256": "1735966ef6aa74ea75497307ce1390676ea8255c00debe4029bfe064a21f4418"
+    },
+    {
+      "path": "/home/user/docs/reference/CONTEXT_ANALYSIS_INDEX.md",
+      "size": 12845,
+      "mtime": 1765419187,
+      "sha256": "179344e0eee066f6c277a1f1b2c486dfd385cdabd2ee11a723e6b0fee4da4c8e"
+    },
+    {
+      "path": "/home/user/docs/reference/DELIVERABLES_MASTER_INDEX.md",
+      "size": 12819,
+      "mtime": 1765419187,
+      "sha256": "acc9c18dc4796ed0b1dc49a697ac8f126a78d46e5fbfd190f2d762a003037bb8"
+    },
+    {
+      "path": "/home/user/docs/reference/FINAL_VERIFICATION_REPORT.md",
+      "size": 7840,
+      "mtime": 1765419188,
+      "sha256": "2862153074b3cf408bef6e712e5753329d4d3d4ac0c2dac83c9f275d0bdbeebc"
+    },
+    {
+      "path": "/home/user/docs/reference/GITHUB_SYNC_READY.txt",
+      "size": 8330,
+      "mtime": 1765419188,
+      "sha256": "ffc591a7838ad1725cd3aba3951df32517b464143a6d49f1b1314f835036f0a8"
+    },
+    {
+      "path": "/home/user/docs/reference/SYSTEM_DIAGNOSTIC_REPORT.md",
+      "size": 2437,
+      "mtime": 1765419188,
+      "sha256": "bf4f7159f4ea095001de3ab927d351954de2dd443a1c7911e688d1f8330bb1f8"
+    },
+    {
+      "path": "/home/user/docs/max_power/MAX-POWER-CODEX-SUMMARY.md",
+      "size": 6504,
+      "mtime": 1766087602,
+      "sha256": "172af6181227f6e3c2072260846eb1284af7801716cd55ec3d0a295230eaead2"
+    },
+    {
+      "path": "/home/user/evidence/REAL_EVIDENCE_001.txt",
+      "size": 22,
+      "mtime": 1765611298,
+      "sha256": "8dfa96a39e8e560c6e571d4603a21fd3672b24abee6f8b773a196cc600e89ac8"
+    },
+    {
+      "path": "/home/user/evidence/EXHIBIT_001.txt",
+      "size": 69,
+      "mtime": 1765708439,
+      "sha256": "024af2d969f0d46a814d400dbddba9b9440ccd976dd9dde93bc5deb873c93362"
+    },
+    {
+      "path": "/home/user/evidence/REAL_EVIDENCE_002.pdf",
+      "size": 22,
+      "mtime": 1765611299,
+      "sha256": "128d6f10e2a714dc99cf9885bdc75c548b0c2d4b4ab4a908882d5f23094b7072"
+    },
+    {
+      "path": "/home/user/evidence/deep_test.txt",
+      "size": 16,
+      "mtime": 1765609822,
+      "sha256": "21f5c551987185cd13a9c5993cf070f8f5d686a645bc1a91a0966f00b62e1c86"
+    },
+    {
+      "path": "/home/user/evidence/intel_001.txt",
+      "size": 23,
+      "mtime": 1765609823,
+      "sha256": "d775ec940d3e2786c1afa2495a41405be4e6e1f580f17884354514be30a42761"
+    },
+    {
+      "path": "/home/user/evidence/intel_002.pdf",
+      "size": 10,
+      "mtime": 1765609823,
+      "sha256": "ae2a84ceb7845944d6441cd8c210935ce0484026d204e8bd871b99f3301b1793"
+    },
+    {
+      "path": "/home/user/evidence/intel_test.pdf",
+      "size": 23,
+      "mtime": 1765609809,
+      "sha256": "b3c43b5b9338d62c7a74ba72cf66bd130e9e0ccce6413ded025c75897830aedd"
+    },
+    {
+      "path": "/home/user/evidence/test_evidence_001.txt",
+      "size": 23,
+      "mtime": 1765611010,
+      "sha256": "aa2ec8fafa127ff7f4fa0e8f0578172b2f22cab8422b7fb4d377cdcc65a247d5"
+    },
+    {
+      "path": "/home/user/evidence/forensic_intel/custody_raw.txt",
+      "size": 11462,
+      "mtime": 1765611335,
+      "sha256": "e213f8456c6251d81bba13932fef2a7df9a082dbe6a1421cbe21ee5cffcc70b7"
+    },
+    {
+      "path": "/home/user/evidence/forensic_intel/custody.json",
+      "size": 21,
+      "mtime": 1765611335,
+      "sha256": "6700a4f39a8d7d8bc532edf14aef8419aa2bb7187d7f0b4d23655abf078e2ee9"
+    },
+    {
+      "path": "/home/user/evidence/forensic_intel/deep_scan.json",
+      "size": 3778,
+      "mtime": 1765611336,
+      "sha256": "7efbad690fa4a3fe41b878a091121186ac8a6c38bbbbab9e177b5740b1cf382a"
+    },
+    {
+      "path": "/home/user/evidence/forensic_intel/timeline.txt",
+      "size": 0,
+      "mtime": 1765611336,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/user/evidence/forensic_intel/timeline_raw.txt",
+      "size": 0,
+      "mtime": 1765611336,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/user/evidence/keep/Google%20Keep%20Document.pdf.pdf",
+      "size": 1158412,
+      "mtime": 1766087551,
+      "sha256": "a0d99c240a0ae0704f476ac3a4f89a5e47ee49e3e326553a6ed412be346b6cf7"
+    },
+    {
+      "path": "/home/user/exhibits/EXHIBIT_MASTER.sh",
+      "size": 1645,
+      "mtime": 1765610153,
+      "sha256": "3949c0d8c13a6004448b0fe973758f13f87bc2a4f8e15dc293d765c723c134ab"
+    },
+    {
+      "path": "/home/user/exhibits/processed/EXH-0006-demo_exhibit.pdf",
+      "size": 19,
+      "mtime": 1765611339,
+      "sha256": "b7164830679b9940dc7b7105dccb814347b51a27a59e773cd9a47f0d8155a973"
+    },
+    {
+      "path": "/home/user/exhibits/processed/EXH-0001-deep_test.txt",
+      "size": 16,
+      "mtime": 1765611337,
+      "sha256": "21f5c551987185cd13a9c5993cf070f8f5d686a645bc1a91a0966f00b62e1c86"
+    },
+    {
+      "path": "/home/user/exhibits/processed/EXH-0002-intel_001.txt",
+      "size": 23,
+      "mtime": 1765611337,
+      "sha256": "d775ec940d3e2786c1afa2495a41405be4e6e1f580f17884354514be30a42761"
+    },
+    {
+      "path": "/home/user/exhibits/processed/EXH-0003-intel_002.pdf",
+      "size": 10,
+      "mtime": 1765611338,
+      "sha256": "ae2a84ceb7845944d6441cd8c210935ce0484026d204e8bd871b99f3301b1793"
+    },
+    {
+      "path": "/home/user/exhibits/processed/EXH-0004-intel_test.pdf",
+      "size": 23,
+      "mtime": 1765611338,
+      "sha256": "b3c43b5b9338d62c7a74ba72cf66bd130e9e0ccce6413ded025c75897830aedd"
+    },
+    {
+      "path": "/home/user/exhibits/processed/EXH-0005-demo.pdf",
+      "size": 11,
+      "mtime": 1765611339,
+      "sha256": "dd52248111e543ae1caa109bb23d0dfacfc202d0fd3f6f78306561ef827b5271"
+    },
+    {
+      "path": "/home/user/exhibits/processed/EXH-0008-test_evidence_001.txt",
+      "size": 23,
+      "mtime": 1765611340,
+      "sha256": "aa2ec8fafa127ff7f4fa0e8f0578172b2f22cab8422b7fb4d377cdcc65a247d5"
+    },
+    {
+      "path": "/home/user/exhibits/processed/EXH-0007-demo_audio.wav",
+      "size": 14,
+      "mtime": 1765611340,
+      "sha256": "a6955c1415318bfa49b80ba73aaa9191deed04fdc95a5b187d27efadc2507431"
+    },
+    {
+      "path": "/home/user/exhibits/processed/EXHIBIT_INVENTORY.json",
+      "size": 1110,
+      "mtime": 1765611341,
+      "sha256": "048dc560da74590a09e665fbe305fe260a94b65ed189594a77f21f26f08696de"
+    },
+    {
+      "path": "/home/user/exhibits/raw/test_evidence_001.txt",
+      "size": 23,
+      "mtime": 1765611014,
+      "sha256": "aa2ec8fafa127ff7f4fa0e8f0578172b2f22cab8422b7fb4d377cdcc65a247d5"
+    },
+    {
+      "path": "/home/user/exhibits/raw/deep_test.txt",
+      "size": 16,
+      "mtime": 1765611012,
+      "sha256": "21f5c551987185cd13a9c5993cf070f8f5d686a645bc1a91a0966f00b62e1c86"
+    },
+    {
+      "path": "/home/user/exhibits/raw/demo.pdf",
+      "size": 11,
+      "mtime": 1765610076,
+      "sha256": "dd52248111e543ae1caa109bb23d0dfacfc202d0fd3f6f78306561ef827b5271"
+    },
+    {
+      "path": "/home/user/exhibits/raw/demo_audio.wav",
+      "size": 14,
+      "mtime": 1765610152,
+      "sha256": "a6955c1415318bfa49b80ba73aaa9191deed04fdc95a5b187d27efadc2507431"
+    },
+    {
+      "path": "/home/user/exhibits/raw/demo_exhibit.pdf",
+      "size": 19,
+      "mtime": 1765610152,
+      "sha256": "b7164830679b9940dc7b7105dccb814347b51a27a59e773cd9a47f0d8155a973"
+    },
+    {
+      "path": "/home/user/exhibits/raw/intel_001.txt",
+      "size": 23,
+      "mtime": 1765611013,
+      "sha256": "d775ec940d3e2786c1afa2495a41405be4e6e1f580f17884354514be30a42761"
+    },
+    {
+      "path": "/home/user/exhibits/raw/intel_002.pdf",
+      "size": 10,
+      "mtime": 1765611013,
+      "sha256": "ae2a84ceb7845944d6441cd8c210935ce0484026d204e8bd871b99f3301b1793"
+    },
+    {
+      "path": "/home/user/exhibits/raw/intel_test.pdf",
+      "size": 23,
+      "mtime": 1765611014,
+      "sha256": "b3c43b5b9338d62c7a74ba72cf66bd130e9e0ccce6413ded025c75897830aedd"
+    }
+  ]
+}

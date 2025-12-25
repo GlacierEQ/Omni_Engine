@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "cognitive-nexus": {
+      "command": "python3",
+      "args": [
+        "/home/user/external_repos/ai-cognitive-nexus-mcp/main.py"
+      ]
+    },
+    "mastermind-forensics": {
+      "command": "python3",
+      "args": [
+        "/home/user/skills/mastermind/agents/forensic_analyst.py"
+      ]
+    },
+    "apple-bridge": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@supermemory/apple-mcp"
+      ]
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "client_id": "hawaii-judiciary-mcp-prod-001",
+  "client_secret": "hi_jims_mcp_secret_2024_xyz789",
+  "redirect_uris": ["https://mcp.overleaf.hawaii/legal/callback"],
+  "scopes": ["jims.cases.read", "jims.hearings.read", "jims.parties.read", "jefs.filings.write"],
+  "token_url": "https://jimspss1.courts.state.hi.us/oauth2/v1/token",
+  "api_base": "https://jimspss1.courts.state.hi.us/api/v1"
+}

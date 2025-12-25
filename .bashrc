@@ -1,0 +1,9 @@
+
+# GLACIER-REPAIR-OMNIBUS API Keys (Case 1FDV-23-0001009)
+export MEM0_API_KEY=""
+export SUPERMEMORY_API_KEY="" 
+export STEALTH_MICROWAVE_KEY=""
+export OPENAI_API_KEY=""
+
+
+. "$HOME/.local/bin/env"

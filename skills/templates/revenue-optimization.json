@@ -1,0 +1,15 @@
+{
+  "id": "revenue_optimization",
+  "name": "Revenue Optimization - 10 Weeks",
+  "duration_weeks": 10,
+  "skills": ["Financial Analyst", "Data Analyst Pro", "Product Manager", "Sales Strategist"],
+  "timeline": {
+    "weeks_1_2": {"phase": "Analysis", "deliverables": ["Unit Economics Analysis", "Pricing Analysis", "Opportunity Map"]},
+    "weeks_3_6": {"phase": "Optimization", "deliverables": ["Pricing Models", "Upsell Strategy", "Churn Reduction"]},
+    "weeks_7_9": {"phase": "Implementation", "deliverables": ["System Setup", "Team Training", "Launch"]},
+    "week_10": {"phase": "Measurement", "deliverables": ["Performance Report", "ROI Analysis"]}
+  },
+  "budget": "$100K-180K",
+  "team": 4,
+  "success_metrics": ["ARPU +20%", "Churn -15%", "Gross margin +8%", "Revenue +30%"]
+}

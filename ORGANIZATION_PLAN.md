@@ -1,0 +1,45 @@
+## WORKSPACE ORGANIZATION + myreach SCAN
+/home/user/.gcs-sync/supabase-pro/types/database.types.ts
+/home/user/supabase-pro/types/database.types.ts
+\n## Database locations
+/home/user/.git/objects/02/274bfd65323db4bef2871a2bee3b49d2acce5e
+/home/user/.git/objects/0e/9c726ad9eac73db1727993fbd5816a01920161
+/home/user/.git/objects/10/3f2a9645d03bcb452285e2a1c2db2172d9ce5a
+/home/user/.git/objects/13/bc0eb8bb62c1beeb0eb5cbdbc04b3e1abce814
+/home/user/.git/objects/14/74da3d3a3643e0d309e901db200f1dc29e2187
+/home/user/.git/objects/14/8ff84b8d513db048500d80a3308b8400770378
+/home/user/.git/objects/1c/3f7464d00efa879071df6977f99ddbfe6b75ab
+/home/user/.git/objects/1e/9e76c1334b308f43a5d9de255d71369a3d6db0
+/home/user/.git/objects/20/df6f3d840fc39b704e55e8d7b85095cdb1e239
+/home/user/.git/objects/22/4c0aa9b8c4db32bd92164fba3a674f5a43c3a5
+\n## Current workspace structure
+/home/user
+/home/user/.config
+/home/user/.config/OpenAI
+/home/user/.config/OpenAI/ChatGPT
+/home/user/.config/claude-desktop
+/home/user/.config/mcp
+/home/user/.gcs-sync
+/home/user/.gcs-sync/.config
+/home/user/.gcs-sync/.config/OpenAI
+/home/user/.gcs-sync/.config/claude-desktop
+/home/user/.gcs-sync/.config/mcp
+/home/user/.gcs-sync/.git
+/home/user/.gcs-sync/.git/hooks
+/home/user/.gcs-sync/.git/info
+/home/user/.gcs-sync/.git/logs
+/home/user/.gcs-sync/.git/objects
+/home/user/.gcs-sync/.git/refs
+/home/user/.gcs-sync/.github
+/home/user/.gcs-sync/.github/workflows
+/home/user/.gcs-sync/.goose
+/home/user/.gcs-sync/.npm
+/home/user/.gcs-sync/.npm/_cacache
+/home/user/.gcs-sync/.npm/_logs
+/home/user/.gcs-sync/.vscode
+/home/user/.gcs-sync/docs
+/home/user/.gcs-sync/docs/archived
+/home/user/.gcs-sync/docs/case-specific
+/home/user/.gcs-sync/docs/current
+/home/user/.gcs-sync/docs/reference
+/home/user/.gcs-sync/evidence

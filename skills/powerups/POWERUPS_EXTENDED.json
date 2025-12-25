@@ -1,0 +1,353 @@
+{
+  "version": "2.0",
+  "timestamp": "2024-12-01",
+  "description": "Advanced skill multipliers and capability enhancers",
+  "powerup_categories": [
+    {
+      "id": 1,
+      "name": "Productivity Multipliers",
+      "description": "Tools and techniques to multiply output 2-10x",
+      "powerups": [
+        {
+          "id": "pm-001",
+          "name": "Time Blocking Mastery",
+          "description": "Dedicate focused blocks for deep work, eliminating context switching",
+          "boost": "3x productivity",
+          "implementation": "90-min focus blocks, no interruptions, async communication only",
+          "tools": ["Toggl Track", "Clockify", "Notion"],
+          "difficulty": "Easy",
+          "time_to_implement": "1 day"
+        },
+        {
+          "id": "pm-002",
+          "name": "Async-First Communication",
+          "description": "Replace 70% of meetings with written documentation and async updates",
+          "boost": "2x meeting time reclaimed",
+          "implementation": "Written RFCs, video updates, recorded standups",
+          "tools": ["Notion", "Loom", "Slack threads"],
+          "difficulty": "Medium",
+          "time_to_implement": "2 weeks"
+        },
+        {
+          "id": "pm-003",
+          "name": "Template Library System",
+          "description": "Create reusable templates for recurring tasks and workflows",
+          "boost": "5x speed on common tasks",
+          "implementation": "Document templates, email templates, code scaffolds",
+          "tools": ["Notion", "GitHub templates", "TextExpander"],
+          "difficulty": "Easy",
+          "time_to_implement": "3 days"
+        },
+        {
+          "id": "pm-004",
+          "name": "Automation Stack",
+          "description": "Automate 50+ repetitive tasks using low-code tools",
+          "boost": "10-20 hours/week saved",
+          "implementation": "Zapier workflows, Make.com automations, n8n pipelines",
+          "tools": ["Zapier", "Make.com", "n8n"],
+          "difficulty": "Medium",
+          "time_to_implement": "2 weeks (ongoing)"
+        },
+        {
+          "id": "pm-005",
+          "name": "Priority Matrix System",
+          "description": "Decision framework to eliminate 80% of non-essential work",
+          "boost": "40% more time on high-impact work",
+          "implementation": "Eisenhower matrix daily review",
+          "tools": ["Notion", "Monday.com", "Asana"],
+          "difficulty": "Easy",
+          "time_to_implement": "1 day"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Leverage Tools",
+      "description": "Platforms that multiply your capability without increasing headcount",
+      "powerups": [
+        {
+          "id": "lt-001",
+          "name": "AI Writing Assistant",
+          "description": "Use Claude/ChatGPT for content creation, code generation, analysis",
+          "boost": "3-5x writing speed",
+          "implementation": "Integrate into workflow, build prompt library",
+          "tools": ["ChatGPT", "Claude", "Jasper"],
+          "difficulty": "Easy",
+          "time_to_implement": "1 day"
+        },
+        {
+          "id": "lt-002",
+          "name": "Low-Code Platform",
+          "description": "Build apps and workflows without traditional coding",
+          "boost": "10x app development speed",
+          "implementation": "Bubble, Webflow, FlutterFlow for MVPs",
+          "tools": ["Bubble", "Webflow", "FlutterFlow", "Airtable"],
+          "difficulty": "Medium",
+          "time_to_implement": "1 week"
+        },
+        {
+          "id": "lt-003",
+          "name": "Data Analytics Stack",
+          "description": "Business intelligence tools for instant insights",
+          "boost": "5x faster decision making",
+          "implementation": "Connect data sources, build dashboards",
+          "tools": ["Tableau", "Looker", "Metabase", "Apache Superset"],
+          "difficulty": "Medium",
+          "time_to_implement": "2 weeks"
+        },
+        {
+          "id": "lt-004",
+          "name": "Content Distribution Network",
+          "description": "Multi-channel content distribution with repurposing",
+          "boost": "3x audience reach with same effort",
+          "implementation": "Write once, publish everywhere automation",
+          "tools": ["Buffer", "Hootsuite", "Later", "Airtable"],
+          "difficulty": "Easy",
+          "time_to_implement": "5 days"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Cognitive Enhancements",
+      "description": "Mental frameworks and thinking tools for better decisions",
+      "powerups": [
+        {
+          "id": "ce-001",
+          "name": "First Principles Thinking",
+          "description": "Break down complex problems into fundamental truths",
+          "boost": "2x innovation, 50% better decisions",
+          "implementation": "Question every assumption, build from basics",
+          "tools": ["Whiteboard", "Miro", "Notion"],
+          "difficulty": "Hard",
+          "time_to_implement": "4 weeks"
+        },
+        {
+          "id": "ce-002",
+          "name": "Second-Order Thinking",
+          "description": "Anticipate consequences of decisions 3-5 steps ahead",
+          "boost": "Avoid 80% of strategic mistakes",
+          "implementation": "Decision journal, scenario planning",
+          "tools": ["Notion", "Excel"],
+          "difficulty": "Hard",
+          "time_to_implement": "6 weeks"
+        },
+        {
+          "id": "ce-003",
+          "name": "Mental Model Library",
+          "description": "Master 50+ mental models for pattern recognition",
+          "boost": "5x faster pattern recognition",
+          "implementation": "Study Kahneman, Munger, learn across domains",
+          "tools": ["Farnam Street", "LessWrong", "Notion"],
+          "difficulty": "Hard",
+          "time_to_implement": "3 months"
+        },
+        {
+          "id": "ce-004",
+          "name": "System Thinking Mastery",
+          "description": "See interconnections and feedback loops",
+          "boost": "Better prediction of market & org dynamics",
+          "implementation": "Causal diagrams, simulation modeling",
+          "tools": ["Vensim", "AnyLogic", "Miro"],
+          "difficulty": "Hard",
+          "time_to_implement": "8 weeks"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Network Multipliers",
+      "description": "Exponential returns through strategic relationships",
+      "powerups": [
+        {
+          "id": "nm-001",
+          "name": "Connective Advantage",
+          "description": "Build a network where 1+1=3 through strategic connections",
+          "boost": "10x opportunity flow",
+          "implementation": "Regular connector calls, build leverage mindset",
+          "tools": ["LinkedIn", "Cal.com", "Clearbit"],
+          "difficulty": "Medium",
+          "time_to_implement": "Ongoing"
+        },
+        {
+          "id": "nm-002",
+          "name": "Thought Leadership Platform",
+          "description": "Become known in your field through content and speaking",
+          "boost": "5-10x inbound opportunities",
+          "implementation": "Blog, Twitter, speaking circuit, LinkedIn presence",
+          "tools": ["Substack", "Twitter", "LinkedIn", "Medium"],
+          "difficulty": "Medium",
+          "time_to_implement": "3-6 months"
+        },
+        {
+          "id": "nm-003",
+          "name": "Strategic Alliance Building",
+          "description": "Create win-win partnerships that expand capabilities",
+          "boost": "3x market reach without direct investment",
+          "implementation": "Identify complementary partners, co-marketing",
+          "tools": ["Notion", "CRM"],
+          "difficulty": "Medium",
+          "time_to_implement": "Ongoing"
+        },
+        {
+          "id": "nm-004",
+          "name": "Community Ownership",
+          "description": "Build communities around your expertise",
+          "boost": "5x customer loyalty, viral growth",
+          "implementation": "Discord/Slack community, forums, events",
+          "tools": ["Discord", "Mighty Networks", "Circle"],
+          "difficulty": "Hard",
+          "time_to_implement": "3-6 months"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Financial Accelerators",
+      "description": "Leverage capital and financial instruments for exponential growth",
+      "powerups": [
+        {
+          "id": "fa-001",
+          "name": "Pricing Optimization",
+          "description": "Scientific pricing strategy to increase revenue 50-200%",
+          "boost": "2-3x average revenue per customer",
+          "implementation": "Value-based pricing, tiering, packaging strategy",
+          "tools": ["Stripe", "Chargebee", "Paddle"],
+          "difficulty": "Medium",
+          "time_to_implement": "4 weeks"
+        },
+        {
+          "id": "fa-002",
+          "name": "Unit Economics Mastery",
+          "description": "Optimize CAC:LTV ratio for sustainable growth",
+          "boost": "5x growth efficiency",
+          "implementation": "Track every customer touchpoint, optimize funnel",
+          "tools": ["Tableau", "Mixpanel", "Amplitude"],
+          "difficulty": "Medium",
+          "time_to_implement": "2 weeks"
+        },
+        {
+          "id": "fa-003",
+          "name": "Fundraising Strategy",
+          "description": "Raise capital efficiently and on favorable terms",
+          "boost": "10x capital available for growth",
+          "implementation": "Build investor relationships, pitch deck mastery",
+          "tools": ["PitchBook", "Carta", "AngelList"],
+          "difficulty": "Hard",
+          "time_to_implement": "3 months"
+        },
+        {
+          "id": "fa-004",
+          "name": "Revenue Streams Diversification",
+          "description": "Multiple revenue models for stability and growth",
+          "boost": "3x sustainable revenue",
+          "implementation": "Subscriptions + services + marketplace model",
+          "tools": ["Stripe", "Gumroad", "Lemon Squeezy"],
+          "difficulty": "Hard",
+          "time_to_implement": "6-12 months"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Team Multiplication",
+      "description": "Scale impact through leadership and team effectiveness",
+      "powerups": [
+        {
+          "id": "tm-001",
+          "name": "Leadership Multiplier",
+          "description": "Develop 10 people to work at 80% of your level",
+          "boost": "10x organizational capacity",
+          "implementation": "1-on-1s, mentoring framework, clear delegation",
+          "tools": ["15Five", "Lattice", "Notion"],
+          "difficulty": "Hard",
+          "time_to_implement": "6-12 months"
+        },
+        {
+          "id": "tm-002",
+          "name": "Hiring Excellence",
+          "description": "Hire top 10% talent that multiplies team productivity",
+          "boost": "5x team output",
+          "implementation": "Referral bonuses, strategic recruiting, rigorous interviews",
+          "tools": ["Lever", "Greenhouse", "LinkedIn"],
+          "difficulty": "Hard",
+          "time_to_implement": "Ongoing"
+        },
+        {
+          "id": "tm-003",
+          "name": "Culture Design",
+          "description": "Build culture that attracts & retains high performers",
+          "boost": "3x retention, 2x referrals",
+          "implementation": "Mission clarity, values, celebration, transparency",
+          "tools": ["Notion", "Slack", "Bonusly"],
+          "difficulty": "Hard",
+          "time_to_implement": "6-12 months"
+        },
+        {
+          "id": "tm-004",
+          "name": "Delegation Mastery",
+          "description": "Free up 80% of your time through strategic delegation",
+          "boost": "Work on most important tasks only",
+          "implementation": "Develop people, clear systems, trust autonomy",
+          "tools": ["Asana", "Monday.com", "Notion"],
+          "difficulty": "Medium",
+          "time_to_implement": "4 weeks"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Learning Accelerators",
+      "description": "Compress years of learning into months",
+      "powerups": [
+        {
+          "id": "la-001",
+          "name": "Deliberate Practice System",
+          "description": "Learn skills 10x faster through targeted practice",
+          "boost": "Expert-level proficiency in 6-12 months",
+          "implementation": "Identify weaknesses, targeted practice, feedback loops",
+          "tools": ["Deliberate Practice sheets", "Video recording"],
+          "difficulty": "Hard",
+          "time_to_implement": "Ongoing"
+        },
+        {
+          "id": "la-002",
+          "name": "Master Mind Groups",
+          "description": "Learn from 5-10 peers solving similar problems",
+          "boost": "2x faster problem solving",
+          "implementation": "Monthly calls with high-performers in your field",
+          "tools": ["Zoom", "Mighty Networks"],
+          "difficulty": "Medium",
+          "time_to_implement": "4 weeks setup"
+        },
+        {
+          "id": "la-003",
+          "name": "Mentorship Network",
+          "description": "Access to mentors 5-10 years ahead",
+          "boost": "Skip 5 years of mistakes, 10x faster growth",
+          "implementation": "Build relationships, offer value first",
+          "tools": ["LinkedIn", "Twitter", "Email"],
+          "difficulty": "Hard",
+          "time_to_implement": "3-6 months"
+        },
+        {
+          "id": "la-004",
+          "name": "Reading Mastery",
+          "description": "Extract 50x value from reading through active learning",
+          "boost": "3x knowledge retention and application",
+          "implementation": "Annotation, spaced repetition, teach others",
+          "tools": ["Readwise", "Roam Research", "Notion"],
+          "difficulty": "Medium",
+          "time_to_implement": "2 weeks"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "total_powerups": 32,
+    "max_multiplier": "20x productivity, 10x revenue potential",
+    "stacking_strategy": "Combine 3-5 powerups for exponential results",
+    "implementation_approach": "Start with 1 easy powerup, then add 1 medium monthly",
+    "investment": "Most are free or low-cost, high ROI"
+  }
+}

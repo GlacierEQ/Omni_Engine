@@ -1,0 +1,2 @@
+KONG_ADMIN_URL=http://localhost:8001
+KONG_ADMIN_TOKEN=your-admin-token

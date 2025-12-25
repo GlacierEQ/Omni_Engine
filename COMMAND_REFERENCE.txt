@@ -1,0 +1,98 @@
+╔════════════════════════════════════════════════════════════════════════════╗
+║                       MASTER TOOLBOX - COMMAND REFERENCE                   ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+BASIC COMMANDS
+──────────────────────────────────────────────────────────────────────────────
+
+Start All Systems
+  cd /home/user/master-toolbox
+  ./scripts/start.sh
+
+Check Status
+  python3 core/toolbox.py status
+
+System Health
+  python3 core/toolbox.py health
+
+Monitor Agents
+  python3 core/toolbox.py monitor
+
+CASE OPERATIONS
+──────────────────────────────────────────────────────────────────────────────
+
+Process Evidence File
+  python3 core/toolbox.py process /path/to/file.pdf
+
+Generate Federal Filing
+  python3 core/toolbox.py filing "findings here"
+
+View Case Info
+  cat case-mgmt/case-1FDV-23-0001009.json
+
+View Configuration
+  cat core/config.json
+
+DOCUMENTATION
+──────────────────────────────────────────────────────────────────────────────
+
+Entry Point (Start Here)
+  cat /home/user/START_MASTER_TOOLBOX_HERE.md
+
+Quick Start (5 minutes)
+  cat /home/user/MASTER_TOOLBOX_QUICKSTART.md
+
+Full Deployment Status
+  cat /home/user/MASTER_TOOLBOX_DEPLOYMENT_STATUS.md
+
+Complete Guide (60 minutes)
+  cat /home/user/MASTER_TOOLBOX_UPGRADE_PLAN.md
+
+QUICK START SEQUENCE
+──────────────────────────────────────────────────────────────────────────────
+
+1. Navigate
+   cd /home/user/master-toolbox
+
+2. Check Status
+   python3 core/toolbox.py status
+
+3. Start Systems
+   ./scripts/start.sh
+
+4. Verify Health
+   python3 core/toolbox.py health
+
+5. Process Evidence
+   python3 core/toolbox.py process /path/to/evidence
+
+6. Generate Filing
+   python3 core/toolbox.py filing "findings"
+
+TROUBLESHOOTING
+──────────────────────────────────────────────────────────────────────────────
+
+Config Not Found
+  ls -la core/config.json
+
+MCP Servers Not Connecting
+  cd /home/user/mcp-integration
+  npm start &
+  sleep 5
+  cd /home/user/master-toolbox
+  python3 core/toolbox.py health
+
+Notion Not Syncing
+  grep NOTION_API_KEY core/.env
+  echo "NOTION_API_KEY=your-key-here" >> core/.env
+
+Reset Everything
+  python3 core/toolbox.py health
+
+═════════════════════════════════════════════════════════════════════════════
+
+YOUR FIRST COMMAND NOW:
+
+  cd /home/user/master-toolbox && python3 core/toolbox.py status
+
+═════════════════════════════════════════════════════════════════════════════

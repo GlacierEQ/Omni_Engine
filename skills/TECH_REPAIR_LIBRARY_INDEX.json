@@ -1,0 +1,374 @@
+{
+  "title": "Tech Repair & Analysis Library",
+  "generated": "2025-12-02T17:48:22.574943",
+  "total_repos": 28,
+  "categories": 13,
+  "repos": [
+    {
+      "name": "OPRYXX-Main",
+      "url": "https://github.com/Opryxx/OPRYXX",
+      "category": "PC & Device Repair",
+      "subcategory": "General",
+      "description": "Main OPRYXX platform",
+      "tags": [
+        "repair",
+        "diagnostics",
+        "pc-hardware",
+        "framework"
+      ],
+      "added_date": "2025-12-02T17:48:22.574782"
+    },
+    {
+      "name": "OPRYXX-Diagnostics",
+      "url": "https://github.com/Opryxx/OPRYXX-Diagnostics",
+      "category": "PC & Device Repair",
+      "subcategory": "General",
+      "description": "Advanced diagnostic tools",
+      "tags": [
+        "diagnostics",
+        "hardware-analysis",
+        "testing"
+      ],
+      "added_date": "2025-12-02T17:48:22.574869"
+    },
+    {
+      "name": "OPRYXX-Hardware-Database",
+      "url": "https://github.com/Opryxx/OPRYXX-Hardware-Database",
+      "category": "Reference & Documentation",
+      "subcategory": "General",
+      "description": "Hardware specification database",
+      "tags": [
+        "hardware",
+        "database",
+        "specs"
+      ],
+      "added_date": "2025-12-02T17:48:22.574873"
+    },
+    {
+      "name": "Hardware-Monitor-Suite",
+      "url": "https://github.com/Opryxx/Hardware-Monitor-Suite",
+      "category": "Monitoring & Analysis",
+      "subcategory": "General",
+      "description": "Real-time hardware monitoring",
+      "tags": [
+        "monitoring",
+        "hardware-health",
+        "temperatures"
+      ],
+      "added_date": "2025-12-02T17:48:22.574876"
+    },
+    {
+      "name": "System-Analyzer",
+      "url": "https://github.com/Opryxx/System-Analyzer",
+      "category": "Monitoring & Analysis",
+      "subcategory": "General",
+      "description": "Deep system analysis tool",
+      "tags": [
+        "system-analysis",
+        "diagnostics",
+        "performance"
+      ],
+      "added_date": "2025-12-02T17:48:22.574878"
+    },
+    {
+      "name": "Network-Diagnostics-Tool",
+      "url": "https://github.com/Opryxx/Network-Diagnostics-Tool",
+      "category": "Network & Connectivity",
+      "subcategory": "General",
+      "description": "Network troubleshooting toolkit",
+      "tags": [
+        "network",
+        "connectivity",
+        "diagnostics"
+      ],
+      "added_date": "2025-12-02T17:48:22.574880"
+    },
+    {
+      "name": "Data-Recovery-Framework",
+      "url": "https://github.com/Opryxx/Data-Recovery-Framework",
+      "category": "Data Recovery & Backup",
+      "subcategory": "General",
+      "description": "Data recovery from storage devices",
+      "tags": [
+        "data-recovery",
+        "storage",
+        "forensics"
+      ],
+      "added_date": "2025-12-02T17:48:22.574882"
+    },
+    {
+      "name": "Partition-Recovery-Tool",
+      "url": "https://github.com/Opryxx/Partition-Recovery-Tool",
+      "category": "Data Recovery & Backup",
+      "subcategory": "General",
+      "description": "Partition recovery and repair",
+      "tags": [
+        "partitions",
+        "recovery",
+        "disk-management"
+      ],
+      "added_date": "2025-12-02T17:48:22.574884"
+    },
+    {
+      "name": "Windows-Repair-Suite",
+      "url": "https://github.com/Opryxx/Windows-Repair-Suite",
+      "category": "OS Repair & Maintenance",
+      "subcategory": "General",
+      "description": "Windows repair and maintenance",
+      "tags": [
+        "windows",
+        "repair",
+        "maintenance"
+      ],
+      "added_date": "2025-12-02T17:48:22.574886"
+    },
+    {
+      "name": "Linux-System-Repair",
+      "url": "https://github.com/Opryxx/Linux-System-Repair",
+      "category": "OS Repair & Maintenance",
+      "subcategory": "General",
+      "description": "Linux repair and optimization",
+      "tags": [
+        "linux",
+        "repair",
+        "system-admin"
+      ],
+      "added_date": "2025-12-02T17:48:22.574889"
+    },
+    {
+      "name": "Malware-Scanner-Engine",
+      "url": "https://github.com/Opryxx/Malware-Scanner-Engine",
+      "category": "Security & Malware",
+      "subcategory": "General",
+      "description": "Malware detection and removal",
+      "tags": [
+        "security",
+        "malware",
+        "antivirus"
+      ],
+      "added_date": "2025-12-02T17:48:22.574891"
+    },
+    {
+      "name": "Security-Audit-Tool",
+      "url": "https://github.com/Opryxx/Security-Audit-Tool",
+      "category": "Security & Malware",
+      "subcategory": "General",
+      "description": "Security auditing and scanning",
+      "tags": [
+        "security",
+        "audit",
+        "vulnerabilities"
+      ],
+      "added_date": "2025-12-02T17:48:22.574893"
+    },
+    {
+      "name": "Rootkit-Detection-Suite",
+      "url": "https://github.com/Opryxx/Rootkit-Detection-Suite",
+      "category": "Security & Malware",
+      "subcategory": "General",
+      "description": "Rootkit and threat detection",
+      "tags": [
+        "security",
+        "rootkit",
+        "forensics"
+      ],
+      "added_date": "2025-12-02T17:48:22.574896"
+    },
+    {
+      "name": "Performance-Optimizer",
+      "url": "https://github.com/Opryxx/Performance-Optimizer",
+      "category": "Optimization & Tuning",
+      "subcategory": "General",
+      "description": "System performance optimization",
+      "tags": [
+        "optimization",
+        "performance",
+        "tuning"
+      ],
+      "added_date": "2025-12-02T17:48:22.574897"
+    },
+    {
+      "name": "Disk-Cleanup-Manager",
+      "url": "https://github.com/Opryxx/Disk-Cleanup-Manager",
+      "category": "Optimization & Tuning",
+      "subcategory": "General",
+      "description": "Disk cleanup and optimization",
+      "tags": [
+        "disk-cleanup",
+        "storage",
+        "optimization"
+      ],
+      "added_date": "2025-12-02T17:48:22.574899"
+    },
+    {
+      "name": "Memory-Manager",
+      "url": "https://github.com/Opryxx/Memory-Manager",
+      "category": "Optimization & Tuning",
+      "subcategory": "General",
+      "description": "RAM optimization and leak detection",
+      "tags": [
+        "memory",
+        "ram",
+        "optimization"
+      ],
+      "added_date": "2025-12-02T17:48:22.574901"
+    },
+    {
+      "name": "GPU-Stress-Test",
+      "url": "https://github.com/Opryxx/GPU-Stress-Test",
+      "category": "Hardware Testing",
+      "subcategory": "General",
+      "description": "GPU stress testing",
+      "tags": [
+        "gpu",
+        "testing",
+        "stability"
+      ],
+      "added_date": "2025-12-02T17:48:22.574903"
+    },
+    {
+      "name": "CPU-Diagnostic-Suite",
+      "url": "https://github.com/Opryxx/CPU-Diagnostic-Suite",
+      "category": "Hardware Testing",
+      "subcategory": "General",
+      "description": "CPU diagnostics",
+      "tags": [
+        "cpu",
+        "testing",
+        "diagnostics"
+      ],
+      "added_date": "2025-12-02T17:48:22.574915"
+    },
+    {
+      "name": "Storage-Test-Framework",
+      "url": "https://github.com/Opryxx/Storage-Test-Framework",
+      "category": "Hardware Testing",
+      "subcategory": "General",
+      "description": "Storage device testing",
+      "tags": [
+        "storage",
+        "ssd",
+        "hdd",
+        "testing"
+      ],
+      "added_date": "2025-12-02T17:48:22.574917"
+    },
+    {
+      "name": "RAM-Diagnostic-Tool",
+      "url": "https://github.com/Opryxx/RAM-Diagnostic-Tool",
+      "category": "Hardware Testing",
+      "subcategory": "General",
+      "description": "RAM memory testing",
+      "tags": [
+        "memory",
+        "ram",
+        "testing"
+      ],
+      "added_date": "2025-12-02T17:48:22.574919"
+    },
+    {
+      "name": "BIOS-Update-Manager",
+      "url": "https://github.com/Opryxx/BIOS-Update-Manager",
+      "category": "Firmware & BIOS",
+      "subcategory": "General",
+      "description": "BIOS update management",
+      "tags": [
+        "bios",
+        "firmware",
+        "updates"
+      ],
+      "added_date": "2025-12-02T17:48:22.574921"
+    },
+    {
+      "name": "Firmware-Recovery-Tool",
+      "url": "https://github.com/Opryxx/Firmware-Recovery-Tool",
+      "category": "Firmware & BIOS",
+      "subcategory": "General",
+      "description": "Firmware recovery",
+      "tags": [
+        "firmware",
+        "recovery",
+        "restoration"
+      ],
+      "added_date": "2025-12-02T17:48:22.574923"
+    },
+    {
+      "name": "Mobile-Device-Analyzer",
+      "url": "https://github.com/Opryxx/Mobile-Device-Analyzer",
+      "category": "Mobile Device Repair",
+      "subcategory": "General",
+      "description": "Mobile diagnostics",
+      "tags": [
+        "mobile",
+        "android",
+        "ios"
+      ],
+      "added_date": "2025-12-02T17:48:22.574925"
+    },
+    {
+      "name": "Phone-Battery-Analyzer",
+      "url": "https://github.com/Opryxx/Phone-Battery-Analyzer",
+      "category": "Mobile Device Repair",
+      "subcategory": "General",
+      "description": "Battery health analysis",
+      "tags": [
+        "battery",
+        "health",
+        "mobile"
+      ],
+      "added_date": "2025-12-02T17:48:22.574927"
+    },
+    {
+      "name": "Repair-Manuals-Database",
+      "url": "https://github.com/Opryxx/Repair-Manuals-Database",
+      "category": "Documentation & Reference",
+      "subcategory": "General",
+      "description": "Repair manuals",
+      "tags": [
+        "manuals",
+        "guides",
+        "repair-procedures"
+      ],
+      "added_date": "2025-12-02T17:48:22.574929"
+    },
+    {
+      "name": "Troubleshooting-Guide",
+      "url": "https://github.com/Opryxx/Troubleshooting-Guide",
+      "category": "Documentation & Reference",
+      "subcategory": "General",
+      "description": "Troubleshooting procedures",
+      "tags": [
+        "troubleshooting",
+        "guides",
+        "solutions"
+      ],
+      "added_date": "2025-12-02T17:48:22.574931"
+    },
+    {
+      "name": "Repair-Toolkit-Utilities",
+      "url": "https://github.com/Opryxx/Repair-Toolkit-Utilities",
+      "category": "Utilities & Helpers",
+      "subcategory": "General",
+      "description": "General-purpose utilities",
+      "tags": [
+        "utilities",
+        "helpers",
+        "tools"
+      ],
+      "added_date": "2025-12-02T17:48:22.574933"
+    },
+    {
+      "name": "Logging-Monitoring-System",
+      "url": "https://github.com/Opryxx/Logging-Monitoring-System",
+      "category": "Utilities & Helpers",
+      "subcategory": "General",
+      "description": "System logging and monitoring",
+      "tags": [
+        "logging",
+        "monitoring",
+        "events"
+      ],
+      "added_date": "2025-12-02T17:48:22.574935"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "exhibits": [
+    {
+      "bates": "EXH-0001-deep_test.txt",
+      "hash": "21f5c551987185cd13a9c5993cf070f8f5d686a645bc1a91a0966f00b62e1c86"
+    },
+    {
+      "bates": "EXH-0002-intel_001.txt",
+      "hash": "d775ec940d3e2786c1afa2495a41405be4e6e1f580f17884354514be30a42761"
+    },
+    {
+      "bates": "EXH-0003-intel_002.pdf",
+      "hash": "ae2a84ceb7845944d6441cd8c210935ce0484026d204e8bd871b99f3301b1793"
+    },
+    {
+      "bates": "EXH-0004-intel_test.pdf",
+      "hash": "b3c43b5b9338d62c7a74ba72cf66bd130e9e0ccce6413ded025c75897830aedd"
+    },
+    {
+      "bates": "EXH-0005-demo.pdf",
+      "hash": "dd52248111e543ae1caa109bb23d0dfacfc202d0fd3f6f78306561ef827b5271"
+    },
+    {
+      "bates": "EXH-0006-demo_exhibit.pdf",
+      "hash": "b7164830679b9940dc7b7105dccb814347b51a27a59e773cd9a47f0d8155a973"
+    },
+    {
+      "bates": "EXH-0007-demo_audio.wav",
+      "hash": "a6955c1415318bfa49b80ba73aaa9191deed04fdc95a5b187d27efadc2507431"
+    },
+    {
+      "bates": "EXH-0008-test_evidence_001.txt",
+      "hash": "aa2ec8fafa127ff7f4fa0e8f0578172b2f22cab8422b7fb4d377cdcc65a247d5"
+    }
+  ]
+}

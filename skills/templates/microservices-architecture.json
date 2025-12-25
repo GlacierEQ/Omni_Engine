@@ -1,0 +1,15 @@
+{
+  "id": "microservices",
+  "name": "Microservices Migration - 20 Weeks",
+  "duration_weeks": 20,
+  "skills": ["Full-Stack Architect", "Backend Engineer", "DevOps Master", "Security Architect"],
+  "timeline": {
+    "weeks_1_3": {"phase": "Design", "deliverables": ["Service Boundaries", "API Contracts", "Data Strategy"]},
+    "weeks_4_12": {"phase": "Development", "deliverables": ["Microservices", "APIs", "Data Pipelines"]},
+    "weeks_13_17": {"phase": "Deployment", "deliverables": ["Kubernetes Setup", "CI/CD", "Monitoring"]},
+    "weeks_18_20": {"phase": "Migration & Optimization", "deliverables": ["Legacy Migration", "Performance Tuning"]}
+  },
+  "budget": "$300K-500K",
+  "team": 8,
+  "success_metrics": ["Zero downtime", "Service reliability 99.99%", "Deployment frequency 10x+"]
+}

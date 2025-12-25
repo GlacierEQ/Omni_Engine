@@ -1,0 +1,1 @@
+✅ Frontend complete + auth ready

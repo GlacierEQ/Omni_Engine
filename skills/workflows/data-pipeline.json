@@ -1,0 +1,34 @@
+{
+  "id": "data_pipeline",
+  "name": "Enterprise Data Pipeline - 12 Week Build",
+  "skills": ["Database Architect", "Data Analyst Pro", "ML Engineer", "Data Visualization Expert", "Backend Engineer"],
+  "timeline": 12,
+  "phases": [
+    {
+      "phase": 1,
+      "name": "Requirements & Architecture (Weeks 1-2)",
+      "deliverables": ["Data audit", "Requirements doc", "Architecture design", "Tech stack selection", "Cost estimation"],
+      "success_metric": "Architecture approved"
+    },
+    {
+      "phase": 2,
+      "name": "Infrastructure Setup (Weeks 3-5)",
+      "deliverables": ["Cloud infrastructure", "Data lake/warehouse", "Ingestion pipelines", "Security config", "Monitoring"],
+      "success_metric": "Pipelines running"
+    },
+    {
+      "phase": 3,
+      "name": "Transformation & Modeling (Weeks 6-8)",
+      "deliverables": ["ETL pipelines", "Dimensional models", "Data quality framework", "Lineage documentation"],
+      "success_metric": "Quality score 95%+"
+    },
+    {
+      "phase": 4,
+      "name": "Analytics & Optimization (Weeks 9-12)",
+      "deliverables": ["ML pipelines", "Dashboards", "Self-service analytics", "Performance optimization", "Runbooks"],
+      "success_metric": "Query latency <1s, uptime 99.5%"
+    }
+  ],
+  "budget": "$180K-280K",
+  "team_size": "5-7"
+}

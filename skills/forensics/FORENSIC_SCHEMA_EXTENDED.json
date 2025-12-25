@@ -1,0 +1,387 @@
+{
+  "version": "2.0",
+  "timestamp": "2024-12-01",
+  "description": "Comprehensive forensic analysis and tracking system for skill deployment",
+  "forensic_categories": [
+    {
+      "id": 1,
+      "name": "Performance Forensics",
+      "description": "Track and analyze skill execution performance",
+      "metrics": [
+        {
+          "metric_id": "pf-001",
+          "name": "Execution Time",
+          "unit": "minutes",
+          "description": "Time taken to execute skill from start to completion",
+          "track_method": "Timestamp before & after",
+          "benchmark": "Compare against historical average"
+        },
+        {
+          "metric_id": "pf-002",
+          "name": "Quality Score",
+          "unit": "percentage",
+          "description": "Output quality measured against criteria",
+          "track_method": "Checklist validation, peer review",
+          "benchmark": "Target: 90%+ quality"
+        },
+        {
+          "metric_id": "pf-003",
+          "name": "Resource Utilization",
+          "unit": "percentage",
+          "description": "How efficiently the skill uses available resources",
+          "track_method": "CPU, memory, API calls monitoring",
+          "benchmark": "Optimal < 70% utilization"
+        },
+        {
+          "metric_id": "pf-004",
+          "name": "Error Rate",
+          "unit": "percentage",
+          "description": "Percentage of failed executions",
+          "track_method": "Exception logging",
+          "benchmark": "Target: < 2% error rate"
+        },
+        {
+          "metric_id": "pf-005",
+          "name": "Output Consistency",
+          "unit": "score",
+          "description": "Consistency of results across repeated executions",
+          "track_method": "Run skill multiple times, measure variance",
+          "benchmark": "< 5% variance acceptable"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Business Impact Forensics",
+      "description": "Measure business value and ROI of skills",
+      "metrics": [
+        {
+          "metric_id": "bf-001",
+          "name": "Revenue Generated",
+          "unit": "currency",
+          "description": "Direct revenue attributed to skill execution",
+          "track_method": "Tagged transactions, revenue attribution",
+          "benchmark": "Compare to cost of skill deployment"
+        },
+        {
+          "metric_id": "bf-002",
+          "name": "Cost Saved",
+          "unit": "currency",
+          "description": "Operational costs eliminated by skill",
+          "track_method": "Before/after cost comparison",
+          "benchmark": "Payback period < 6 months"
+        },
+        {
+          "metric_id": "bf-003",
+          "name": "Time Saved",
+          "unit": "hours",
+          "description": "Total team hours freed up",
+          "track_method": "Estimate hours per task × frequency",
+          "benchmark": "10+ hours/week minimum for worthwhile skill"
+        },
+        {
+          "metric_id": "bf-004",
+          "name": "Customer Satisfaction Impact",
+          "unit": "NPS points",
+          "description": "Change in customer satisfaction due to skill",
+          "track_method": "Survey before & after, NPS change",
+          "benchmark": "Target: +5 NPS improvement"
+        },
+        {
+          "metric_id": "bf-005",
+          "name": "Competitive Advantage",
+          "unit": "score",
+          "description": "How much skill differentiates from competitors",
+          "track_method": "Market analysis, competitive research",
+          "benchmark": "Score 1-10, target 7+"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Usage Pattern Forensics",
+      "description": "Track how and when skills are used",
+      "metrics": [
+        {
+          "metric_id": "uf-001",
+          "name": "Deployment Frequency",
+          "unit": "times per week",
+          "description": "How often skill is deployed",
+          "track_method": "Execution logs",
+          "benchmark": "Weekly deployment indicates live value"
+        },
+        {
+          "metric_id": "uf-002",
+          "name": "Adoption Rate",
+          "unit": "percentage",
+          "description": "% of team using skill",
+          "track_method": "Active users / total team",
+          "benchmark": "Target: > 60% adoption for team skills"
+        },
+        {
+          "metric_id": "uf-003",
+          "name": "Use Case Variety",
+          "unit": "number of scenarios",
+          "description": "How many different scenarios skill addresses",
+          "track_method": "Tag each execution with use case",
+          "benchmark": "3+ distinct use cases = high value"
+        },
+        {
+          "metric_id": "uf-004",
+          "name": "Peak Usage Times",
+          "unit": "time of day",
+          "description": "When skill is most heavily used",
+          "track_method": "Timestamp analysis",
+          "benchmark": "Identify load patterns for optimization"
+        },
+        {
+          "metric_id": "uf-005",
+          "name": "User Retention",
+          "unit": "percentage",
+          "description": "% of users who keep using skill",
+          "track_method": "Active users month N vs month N-1",
+          "benchmark": "Target: > 80% retention"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Quality & Compliance Forensics",
+      "description": "Ensure skills meet standards and compliance",
+      "metrics": [
+        {
+          "metric_id": "qf-001",
+          "name": "Security Score",
+          "unit": "percentage",
+          "description": "Skill passes security audit",
+          "track_method": "Security review, penetration testing",
+          "benchmark": "Target: 100% secure"
+        },
+        {
+          "metric_id": "qf-002",
+          "name": "Documentation Quality",
+          "unit": "score 1-10",
+          "description": "Completeness and clarity of skill documentation",
+          "track_method": "Documentation audit",
+          "benchmark": "Target: 8/10 or higher"
+        },
+        {
+          "metric_id": "qf-003",
+          "name": "Test Coverage",
+          "unit": "percentage",
+          "description": "Code/logic covered by tests",
+          "track_method": "Code coverage tools",
+          "benchmark": "Target: > 80% coverage"
+        },
+        {
+          "metric_id": "qf-004",
+          "name": "Compliance Status",
+          "unit": "pass/fail",
+          "description": "Meets regulatory and policy requirements",
+          "track_method": "Compliance checklist",
+          "benchmark": "Target: PASS all checks"
+        },
+        {
+          "metric_id": "qf-005",
+          "name": "Accessibility Score",
+          "unit": "percentage",
+          "description": "Skill accessible to all users",
+          "track_method": "Accessibility audit",
+          "benchmark": "Target: WCAG AA compliance"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Evolution & Learning Forensics",
+      "description": "Track skill improvement and learning over time",
+      "metrics": [
+        {
+          "metric_id": "ef-001",
+          "name": "Version Improvements",
+          "unit": "number of versions",
+          "description": "How many versions/iterations released",
+          "track_method": "Version control history",
+          "benchmark": "1 major update per quarter healthy"
+        },
+        {
+          "metric_id": "ef-002",
+          "name": "Bug Fix Rate",
+          "unit": "bugs per month",
+          "description": "Rate at which bugs are identified and fixed",
+          "track_method": "Issue tracker",
+          "benchmark": "< 5 bugs per 1000 executions"
+        },
+        {
+          "metric_id": "ef-003",
+          "name": "Feature Addition Rate",
+          "unit": "features per quarter",
+          "description": "New capabilities added to skill",
+          "track_method": "Feature logs",
+          "benchmark": "1-2 significant features per quarter"
+        },
+        {
+          "metric_id": "ef-004",
+          "name": "Learning Velocity",
+          "unit": "score",
+          "description": "Speed at which skill improves",
+          "track_method": "Quality score trend over 3 months",
+          "benchmark": "Target: +10% improvement per quarter"
+        },
+        {
+          "metric_id": "ef-005",
+          "name": "Community Feedback Score",
+          "unit": "1-5 stars",
+          "description": "User satisfaction and feedback",
+          "track_method": "User surveys, reviews",
+          "benchmark": "Target: 4.5+ stars"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Integration Forensics",
+      "description": "Track skill integration with systems and workflows",
+      "metrics": [
+        {
+          "metric_id": "if-001",
+          "name": "System Integration Points",
+          "unit": "number",
+          "description": "How many systems skill integrates with",
+          "track_method": "Integration audit",
+          "benchmark": "3+ integrations = highly valuable"
+        },
+        {
+          "metric_id": "if-002",
+          "name": "Data Pipeline Health",
+          "unit": "percentage",
+          "description": "Uptime of data flowing through skill",
+          "track_method": "System monitoring",
+          "benchmark": "Target: 99.9% uptime"
+        },
+        {
+          "metric_id": "if-003",
+          "name": "API Response Time",
+          "unit": "milliseconds",
+          "description": "Average time to execute skill",
+          "track_method": "Performance monitoring",
+          "benchmark": "Target: < 500ms for user-facing"
+        },
+        {
+          "metric_id": "if-004",
+          "name": "Dependency Risk",
+          "unit": "score 1-10",
+          "description": "Risk of external dependencies failing",
+          "track_method": "Dependency audit",
+          "benchmark": "Target: < 5 risk score"
+        },
+        {
+          "metric_id": "if-005",
+          "name": "Scalability Score",
+          "unit": "score 1-10",
+          "description": "How well skill scales with volume",
+          "track_method": "Load testing",
+          "benchmark": "Target: 8+ for scalability"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Team Adoption Forensics",
+      "description": "Track team engagement and adoption metrics",
+      "metrics": [
+        {
+          "metric_id": "af-001",
+          "name": "Training Completion Rate",
+          "unit": "percentage",
+          "description": "% of team who completed skill training",
+          "track_method": "Training platform tracking",
+          "benchmark": "Target: > 85% completion"
+        },
+        {
+          "metric_id": "af-002",
+          "name": "Support Ticket Volume",
+          "unit": "tickets per month",
+          "description": "Support requests related to skill",
+          "track_method": "Ticket tracker",
+          "benchmark": "Decreasing trend over time = adoption"
+        },
+        {
+          "metric_id": "af-003",
+          "name": "Power User Percentage",
+          "unit": "percentage",
+          "description": "% of users who master all features",
+          "track_method": "Usage pattern analysis",
+          "benchmark": "Target: 20% power users"
+        },
+        {
+          "metric_id": "af-004",
+          "name": "Peer Recommendations",
+          "unit": "percentage",
+          "description": "% of users who recommend to colleagues",
+          "track_method": "Surveys",
+          "benchmark": "Target: > 70%"
+        },
+        {
+          "metric_id": "af-005",
+          "name": "Dependency Index",
+          "unit": "score 1-10",
+          "description": "How critical skill is to daily work",
+          "track_method": "Impact survey",
+          "benchmark": "Target: 7+ = critical skill"
+        }
+      ]
+    }
+  ],
+  "forensic_reports": {
+    "weekly_digest": {
+      "description": "Quick 5-minute weekly health check",
+      "includes": ["Execution Count", "Error Rate", "User Adoption %", "Top Issues", "Action Items"]
+    },
+    "monthly_analysis": {
+      "description": "Deep dive into skill performance",
+      "includes": ["All metrics above", "Trend analysis", "ROI calculation", "Recommendations", "Competitive analysis"]
+    },
+    "quarterly_review": {
+      "description": "Strategic assessment for continuation/improvement",
+      "includes": ["Annual impact", "Evolution roadmap", "Team feedback", "Strategic alignment", "Budget recommendations"]
+    }
+  },
+  "forensic_alerts": [
+    {
+      "alert_id": "fa-001",
+      "name": "High Error Rate",
+      "trigger": "Error rate > 5%",
+      "severity": "Critical",
+      "action": "Investigate immediately, rollback if needed"
+    },
+    {
+      "alert_id": "fa-002",
+      "name": "Adoption Stalling",
+      "trigger": "Active users decline > 20%",
+      "severity": "High",
+      "action": "Increase training, gather feedback"
+    },
+    {
+      "alert_id": "fa-003",
+      "name": "Performance Degradation",
+      "trigger": "Response time > 2s",
+      "severity": "High",
+      "action": "Performance audit, optimize"
+    },
+    {
+      "alert_id": "fa-004",
+      "name": "Security Concern",
+      "trigger": "Security audit fails",
+      "severity": "Critical",
+      "action": "Halt deployment, remediate immediately"
+    },
+    {
+      "alert_id": "fa-005",
+      "name": "Low ROI",
+      "trigger": "Cost > benefit for 2 months",
+      "severity": "Medium",
+      "action": "Review strategy, consider deprecation"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "product_mvp",
+  "name": "Product MVP Launch - 12 Weeks",
+  "duration_weeks": 12,
+  "skills": ["Product Manager", "UX Designer", "Frontend Wizard", "Backend Engineer", "DevOps Master", "QA"],
+  "timeline": {
+    "weeks_1_2": {"phase": "Discovery & Design", "deliverables": ["Features", "Personas", "Wireframes", "Design System"]},
+    "weeks_3_8": {"phase": "Development", "deliverables": ["Frontend", "Backend API", "Database", "CI/CD"]},
+    "weeks_9_10": {"phase": "Testing", "deliverables": ["QA Report", "Bug Fixes", "Performance"]},
+    "weeks_11_12": {"phase": "Launch", "deliverables": ["Documentation", "Support", "Analytics"]}
+  },
+  "budget": "$150K-250K",
+  "team": 6,
+  "success_metrics": ["Ship on schedule", "Zero critical bugs", "<2s load time", "50+ signups week 1"]
+}

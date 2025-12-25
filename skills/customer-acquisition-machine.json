@@ -1,0 +1,169 @@
+{
+  "id": "customer-acquisition-machine",
+  "name": "🎯 Customer Acquisition Machine",
+  "type": "growth_engine",
+  "power_level": "CRITICAL",
+  "description": "Build unstoppable customer acquisition engines - 10-100x scaling of qualified leads at unit economics that improve",
+  
+  "core_mechanisms": {
+    "distribution_architecture": {
+      "paid_channels": {
+        "google_search": {
+          "mechanism": "Capture high-intent keywords actively searching",
+          "unit_economics": "CPA $5-50, LTV $200-2000 = 4-40x ROAS",
+          "scaling_lever": "Expand keyword themes while ROAS > 3x",
+          "optimization": "Negative keywords + landing page quality score"
+        },
+        "facebook_instagram": {
+          "mechanism": "Interest + behavior targeting to lookalikes",
+          "unit_economics": "CPA $10-30, LTV $300+ = profitable at scale",
+          "scaling_lever": "New audience expansion via lookalikes (10x scale)",
+          "optimization": "Creative rotation (50+ variations), audience fatigue management"
+        },
+        "linkedin": {
+          "mechanism": "B2B targeting by company/role/seniority",
+          "unit_economics": "CPA $50-200, LTV $5000+ = 10-50x ROAS",
+          "scaling_lever": "Account-based marketing + retargeting",
+          "optimization": "Native content + sponsored InMail"
+        }
+      },
+      
+      "organic_channels": {
+        "seo": {
+          "mechanism": "Compounding organic search visibility",
+          "unit_economics": "CPA $0, LTV $500+ = infinite ROAS long-term",
+          "scaling_lever": "Content clusters (10-30x expansion over 6 months)",
+          "optimization": "Keyword → intent → content type matching"
+        },
+        "content_marketing": {
+          "mechanism": "Educational content attracts + educates prospects",
+          "unit_economics": "CPA $0 (amplified via distribution)",
+          "scaling_lever": "Content library (100+ pieces) + viral mechanics",
+          "optimization": "Data-driven topics, multi-format distribution"
+        },
+        "referral_loops": {
+          "mechanism": "Existing customers become sales force",
+          "unit_economics": "CPA $0-10 (lowest cost), LTV $500+ = 50-100x ROAS",
+          "scaling_lever": "Incentive + friction reduction (friction = 0.5x scale)",
+          "optimization": "Gamification + easy share mechanics"
+        }
+      }
+    },
+    
+    "lead_quality_system": {
+      "qualification_framework": {
+        "scoring_model": "BANT variant - fit score 1-100",
+        "fit_indicators": ["Budget available", "Authority present", "Need demonstrated", "Timeline realistic"],
+        "lead_segments": {
+          "hot": "Score 80-100 → instant sales outreach",
+          "warm": "Score 50-79 → nurture sequence",
+          "cold": "Score <50 → educational content"
+        }
+      },
+      
+      "lead_magnets": {
+        "concept": "High-value bait for qualified leads",
+        "examples": [
+          "Free tool (template, calculator, audit)",
+          "Research report (data nobody has)",
+          "Mini-course (transformed into paid)",
+          "Exclusive access (beta, early bird)"
+        ],
+        "conversion_rates": "2-5% for mediocre, 10-20% for exceptional"
+      }
+    },
+    
+    "sales_acceleration": {
+      "outreach_sequencing": {
+        "email_sequence": "5-7 touchpoints over 14-21 days",
+        "pattern": [
+          "1: Hook + value prop",
+          "2: Social proof + credibility",
+          "3: Address objection",
+          "4: New angle/data",
+          "5: Scarcity/urgency",
+          "6: 'Final attempt'",
+          "7: (Optional) Alumni offer"
+        ],
+        "response_rate": "1-3% for cold, 5-15% for warm"
+      },
+      
+      "sales_call_framework": {
+        "discovery": "80% listening, 20% speaking - ask questions",
+        "pattern": [
+          "Build rapport (2 min)",
+          "Ask about current situation (5 min)",
+          "Identify pain/goal (5 min)",
+          "Pitch only if fit (3 min)",
+          "Close for next step (2 min)"
+        ],
+        "conversion_rate": "20-40% of calls → next step"
+      }
+    },
+    
+    "scaling_multipliers": {
+      "viral_coefficient": "Each customer refers 0.5+ new customers → self-sustaining growth",
+      "content_leverage": "1 piece of content = 10+ distribution formats = 5x reach",
+      "automation": "Sequences + chatbots = 100x more personal touches",
+      "team_multiplication": "Hire sales person at 1:100 LTV:salary ratio = sustainable"
+    }
+  },
+  
+  "deployment": {
+    "month_1": {
+      "tasks": [
+        "Pick 1 paid channel (highest LTV match)",
+        "Create 3 lead magnets",
+        "Build email nurture sequence (5 emails)",
+        "Run first ad campaign ($1000 test spend)"
+      ],
+      "targets": "100-500 qualified leads"
+    },
+    "month_2": {
+      "tasks": [
+        "Optimize winning ad (aim for 0.5-1% CPA)",
+        "Build referral program",
+        "Start SEO content plan (1 post/week)",
+        "Add cold outreach (5 touches per lead)"
+      ],
+      "targets": "500-1500 qualified leads"
+    },
+    "month_3": {
+      "tasks": [
+        "Scale paid to 3x budget if ROAS > 3x",
+        "Expand organic (content + referral)",
+        "Add second paid channel",
+        "Implement sales automation"
+      ],
+      "targets": "1500-5000 qualified leads"
+    },
+    "month_4_6": {
+      "tasks": [
+        "Optimize CAC down 20-30%",
+        "Build content flywheel (20+ pieces)",
+        "Expand to 3-4 channels simultaneously",
+        "Add partnership/affiliate channel"
+      ],
+      "targets": "5000-15000 qualified leads"
+    }
+  },
+  
+  "real_world_results": [
+    "B2B SaaS: 50 → 500 MQLs/month ($3000 → $50k revenue) in 3 months",
+    "E-commerce: 1000 → 10000 orders/month via paid + organic combo",
+    "Service biz: 5 → 50 clients/month via referral + outreach flywheel",
+    "Course: 200 → 2000 students/cohort via email + content sequences"
+  ],
+  
+  "measurement": {
+    "top_metrics": [
+      "Cost Per Acquisition (CPA)",
+      "Lead Quality Score",
+      "Sales Conversion Rate",
+      "Customer Lifetime Value",
+      "Return on Ad Spend (ROAS)"
+    ],
+    "channel_attribution": "Track which channel → lead → customer",
+    "optimization_cadence": "Weekly channel review, monthly strategic adjustment"
+  }
+}

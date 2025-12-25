@@ -1,0 +1,34 @@
+{
+  "tier1": [
+    {
+      "mcp": "supabase",
+      "elevation": "Database + Edge Functions → HFCR Case Management",
+      "priority": "CRITICAL",
+      "capacity": "10K cases/month"
+    },
+    {
+      "mcp": "smithery-ai-github", 
+      "elevation": "Repo → Exhibit GitHub + Forensic versioning",
+      "priority": "CRITICAL",
+      "capacity": "1TB/hr exhibit sync"
+    },
+    {
+      "mcp": "notion",
+      "elevation": "Knowledge Base → HFCR Templates + Attorney Portal",
+      "priority": "HIGH",
+      "capacity": "500 attorneys"
+    },
+    {
+      "mcp": "dropbox",
+      "elevation": "Cloud Storage → CaseBuilder 4000 Perpetual Scan",
+      "priority": "CRITICAL",
+      "capacity": "4x redundant 1TB/hr"
+    },
+    {
+      "mcp": "exa",
+      "elevation": "Web Research → Live HFCR/HRS case law",
+      "priority": "HIGH",
+      "capacity": "Unlimited research"
+    }
+  ]
+}

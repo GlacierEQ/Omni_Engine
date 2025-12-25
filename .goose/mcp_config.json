@@ -1,0 +1,61 @@
+{
+  "mcpServers": {
+    "jules2_enhanced": {
+      "command": "node",
+      "args": ["/home/user/mcp-integration/servers/jules2-server-enhanced.js"],
+      "env": {
+        "JULES_API_KEY": "your-jules-key",
+        "OPERATOR_GUID": "OPR-NS8-GE8-KC3-001-AI-GRS-GUID:983DE8C8-E120-1-B5A0-C6D8AF97BB09",
+        "ETERNAL_ASCENSION": "true",
+        "INFINITE_SWARM_SIZE": "1000"
+      }
+    },
+    "langchain_enhanced": {
+      "command": "node",
+      "args": ["/home/user/mcp-integration/servers/langchain-server-enhanced.js"],
+      "env": {
+        "LANGCHAIN_API_KEY": "your-langchain-key",
+        "OPERATOR_GUID": "OPR-NS8-GE8-KC3-001-AI-GRS-GUID:983DE8C8-E120-1-B5A0-C6D8AF97BB09",
+        "ZENITH_ORACLE": "true",
+        "TRANSCENDENTAL_LOGIC": "true"
+      }
+    },
+    "gremlin_enhanced": {
+      "command": "node",
+      "args": ["/home/user/mcp-integration/servers/gremlin-server-enhanced.js"],
+      "env": {
+        "GREMLIN_API_KEY": "your-gremlin-key",
+        "OPERATOR_GUID": "OPR-NS8-GE8-KC3-001-AI-GRS-GUID:983DE8C8-E120-1-B5A0-C6D8AF97BB09",
+        "CHAOS_RESILIENCE_SHIELD": "true",
+        "SELF_HEALING_MEMORY": "true"
+      }
+    },
+    "backend_level3": {
+      "command": "node",
+      "args": ["/home/user/mcp-integration/servers/backend-level3-server.js"],
+      "env": {
+        "LEVEL3_KEY": "your-level3-key",
+        "OPERATOR_GUID": "OPR-NS8-GE8-KC3-001-AI-GRS-GUID:983DE8C8-E120-1-B5A0-C6D8AF97BB09",
+        "FORTRESS_MODE": "true"
+      }
+    },
+    "backend_level5": {
+      "command": "node",
+      "args": ["/home/user/mcp-integration/servers/backend-level5-server.js"],
+      "env": {
+        "LEVEL5_KEY": "your-level5-key",
+        "OPERATOR_GUID": "OPR-NS8-GE8-KC3-001-AI-GRS-GUID:983DE8C8-E120-1-B5A0-C6D8AF97BB09",
+        "OMNIPOTENCE_MODE": "true"
+      }
+    },
+    "utility_interface": {
+      "command": "node",
+      "args": ["/home/user/mcp-integration/servers/utility-interface-server.js"],
+      "env": {
+        "OPERATOR_GUID": "OPR-NS8-GE8-KC3-001-AI-GRS-GUID:983DE8C8-E120-1-B5A0-C6D8AF97BB09",
+        "HARMONY_ORCHESTRATE": "true",
+        "COOL_UI": "true"
+      }
+    }
+  }
+}

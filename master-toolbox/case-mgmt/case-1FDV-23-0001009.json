@@ -1,0 +1,51 @@
+{
+  "case_metadata": {
+    "case_id": "1FDV-23-0001009",
+    "case_title": "Federal Prosecution - Aspen Grove Client",
+    "client": "Aspen Grove",
+    "created": "2025-12-08T00:00:00Z",
+    "status": "ACTIVE",
+    "court": "Federal"
+  },
+  
+  "evidence_management": {
+    "total_items": 0,
+    "hub": "Notion",
+    "backup": "S3 + MongoDB",
+    "tracking": "Chain of custody log",
+    "formats": ["PDF", "DOC", "DOCX", "MP3", "WAV", "PPTX", "CSV"]
+  },
+  
+  "audio_forensics": {
+    "processor": "File Extractor + E2B",
+    "transcription": "enabled",
+    "analysis": "enabled",
+    "chain_of_custody": "tracked"
+  },
+  
+  "federal_filings": {
+    "generated": 0,
+    "template_engine": "Perplexity + LangChain",
+    "research_integration": "Perplexity sonar-deep-research",
+    "automation_level": "high"
+  },
+  
+  "research_engine": {
+    "provider": "Perplexity",
+    "mode": "sonar-deep-research",
+    "capabilities": ["deep_dive", "broad_research", "legal_precedents"]
+  },
+  
+  "automation": {
+    "agents": 1000,
+    "orchestrator": "Jules2 + LangChain",
+    "speed": "microsecond_response"
+  },
+  
+  "timeline": {
+    "week_1": "Foundation consolidation",
+    "week_2_3": "Automation + skills integration",
+    "week_4": "Resilience + monitoring",
+    "week_5_plus": "Continuous evolution"
+  }
+}

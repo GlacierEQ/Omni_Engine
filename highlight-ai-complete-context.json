@@ -1,0 +1,24 @@
+{
+  "highlight_ai": {
+    "max_power": true,
+    "multiplier": "20x",
+    "powerups": {
+      "execution_velocity": 3.5,
+      "parallel_processing": 256,
+      "reasoning_depth": 5.0,
+      "context_retention": 100,
+      "pattern_recognition": 8.0
+    },
+    "skills_stack": ["AI Integrator", "Backend Engineer", "Full-Stack Architect", "Security Architect", "Frontend Wizard"],
+    "workflows": "/home/user/skills/workflows/ai-integration.json",
+    "research": "/home/user/highlight-ai-research.md",
+    "config": "/home/user/highlight-ai-max-power.json",
+    "orchestrator": "/home/user/skills/cli/skills_enhanced.py",
+    "mcp_tools": ["hi-ai", "context7"]
+  },
+  "activation_commands": [
+    "mcp hi-ai recall_memory 'Highlight AI'",
+    "cd /home/user/skills/cli && python3 skills_enhanced.py list",
+    "cat /home/user/highlight-ai-research.md"
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "page": 1,
+    "table_index": 1,
+    "rows": [
+      [
+        "STATEOF HAWAII\nFAMILYCOURTOFTHE\nFIRST CIRCUIT",
+        "",
+        null,
+        ""
+      ],
+      [
+        "CASENUMBER\n1FDV-23-0001009",
+        null,
+        "FILINGPARTY/ATTORNEYNAME&\nNO.,ADDRESS,PHONE,EMAIL\nCaseydelCarpioBarton,\nVeritasPrime,\n2665LilihaStAptA\nTheHouseofJudd",
+        null
+      ],
+      [
+        "CASENAME\nCASEYDELCARPIOBARTON\nV\nTERESADELCARPIOBARTON",
+        null,
+        null,
+        null
+      ],
+      [
+        "STAY OF PROCEEDINGS PURSUANT TO DEEP FORENSIC INVESTIGATION OF SYSTEMIC\nPROCEDURAL ABUSE, MANIPULATION OF PUBLIC RECORD, MANIPULATION OF\nPOSITION, ABUSE OF DISCRETION, AND ADMITTED CHILD ABUSE",
+        null,
+        null,
+        null
+      ]
+    ]
+  }
+]

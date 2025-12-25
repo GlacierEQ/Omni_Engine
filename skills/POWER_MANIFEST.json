@@ -1,0 +1,23 @@
+{
+  "system_name": "MCP Powerhouse",
+  "version": "2.1-Integrated",
+  "core_components": {
+    "skills": "/home/user/skills",
+    "mcp_servers": 69,
+    "orchestrator": "/home/user/skills/cli/skills_enhanced.py"
+  },
+  "preferred_tools": {
+    "communication": ["slack", "gmail"],
+    "knowledge_base": ["notion", "google-docs"],
+    "search": ["exa", "perplexity-mcp"],
+    "coding": ["github", "sequential-thinking"],
+    "automation": ["n8n", "browser-tool"]
+  },
+  "status": {
+    "github": "CONNECTED",
+    "notion": "CONNECTED",
+    "exa": "CONNECTED",
+    "linear": "AUTH_REQUIRED",
+    "supabase": "CONFIG_REQUIRED"
+  }
+}

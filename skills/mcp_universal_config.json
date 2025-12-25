@@ -1,0 +1,54 @@
+{
+  "mcpServers": {
+    "memoryplugin": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@memoryplugin/mcp-server"
+      ],
+      "env": {
+        "MEMORY_PLUGIN_TOKEN": "PLACEHOLDER_REQUIRED"
+      }
+    },
+    "linear": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-linear"
+      ],
+      "env": {
+        "LINEAR_API_KEY": "PLACEHOLDER_REQUIRED"
+      }
+    },
+    "supabase": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-supabase"
+      ],
+      "env": {
+        "SUPABASE_URL": "PLACEHOLDER_REQUIRED",
+        "SUPABASE_KEY": "PLACEHOLDER_REQUIRED"
+      }
+    },
+    "github": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-github"
+      ],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "PLACEHOLDER_REQUIRED"
+      }
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/home/user/skills"
+      ],
+      "env": {}
+    }
+  }
+}

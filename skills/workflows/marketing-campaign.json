@@ -1,0 +1,34 @@
+{
+  "id": "marketing_campaign",
+  "name": "Integrated Marketing Campaign - 8 Week Sprint",
+  "skills": ["Content Strategist", "Copywriter Elite", "Social Media Maven", "Video Scriptwriter", "SEO Optimizer", "Sales Strategist"],
+  "timeline": 8,
+  "phases": [
+    {
+      "phase": 1,
+      "name": "Strategy & Planning (Weeks 1-2)",
+      "deliverables": ["Campaign brief", "Audience personas", "Channel strategy", "Content calendar", "Budget allocation"],
+      "success_metric": "Stakeholder alignment"
+    },
+    {
+      "phase": 2,
+      "name": "Content Creation (Weeks 3-5)",
+      "deliverables": ["Blog posts", "Social content", "Video scripts", "Email sequences", "Landing pages"],
+      "success_metric": "All content created & approved"
+    },
+    {
+      "phase": 3,
+      "name": "Campaign Execution (Weeks 6-7)",
+      "deliverables": ["Content publishing", "Ad setup", "Email campaigns", "Social posts", "SEO optimization"],
+      "success_metric": "All channels live"
+    },
+    {
+      "phase": 4,
+      "name": "Measurement & Optimization (Week 8)",
+      "deliverables": ["Performance report", "ROI analysis", "Optimization recommendations", "Next phase planning"],
+      "success_metric": "45%+ conversion lift"
+    }
+  ],
+  "budget": "$50K-100K",
+  "team_size": "4-6"
+}

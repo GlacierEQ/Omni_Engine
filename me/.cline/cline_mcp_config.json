@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "supermemory": {
+      "command": "npx", "args": ["-y", "@supermemory/mcp-server"],
+      "env": {"SUPERMEMORY_API_KEY": "${SUPERMEMORY_API_KEY}"}
+    },
+    "highlight-ai": {
+      "command": "npx", "args": ["-y", "highlight-ai-mcp"],
+      "env": {"HIGHLIGHTAI_TOKEN": "${HIGHLIGHTAI_TOKEN}"}
+    },
+    "mem0ai-mem0-memory-mcp": {
+      "command": "npx", "args": ["-y", "@mem0ai/mem0-memory-mcp"],
+      "env": {"MEM0_API_KEY": "${MEM0_API_KEY}"}
+    },
+    "letta-ai-memory-mcp": {
+      "command": "npx", "args": ["-y", "@letta-ai/memory-mcp"]
+    },
+    "hi-ai": {
+      "command": "npx", "args": ["-y", "@su-record/hi-ai"]
+    },
+    "ref-mcp": {
+      "type": "http",
+      "url": "https://api.ref.tools/mcp?apiKey=ref-0e17c31da90b5c966164"
+    }
+  },
+  "highlight_ai_power": {"max_power": true, "memory_layers": 6}
+}

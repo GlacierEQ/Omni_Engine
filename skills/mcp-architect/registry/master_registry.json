@@ -1,0 +1,59 @@
+{
+  "version": "2.0.0",
+  "owner": "GlacierEQ",
+  "layers": {
+    "orchestration": [
+      "ai-cognitive-nexus-mcp",
+      "mastermind-orchestrator"
+    ],
+    "operations": [
+      "repo-operator",
+      "mastermind-agents",
+      "stealth-ops"
+    ],
+    "integrations": [
+      "apple-mcp",
+      "universal-mcp-factory",
+      "stealthmole"
+    ],
+    "memory": [
+      "supermemory",
+      "letta-ai-memory"
+    ]
+  },
+  "endpoints": {
+    "cognitive-nexus": {
+      "type": "python",
+      "path": "skills/mastermind/agents/orchestrator.py",
+      "repo": "GlacierEQ/ai-cognitive-nexus-mcp"
+    },
+    "apple-mcp": {
+      "type": "node",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@supermemory/apple-mcp"
+      ],
+      "repo": "GlacierEQ/apple-mcp"
+    },
+    "universal-factory": {
+      "type": "python",
+      "path": "skills/universal-mcp/scripts/mcp_gen.py"
+    }
+  },
+  "patterns": {
+    "grouping_logic": "hierarchical_team_orchestration",
+    "state_management": "session_persistence",
+    "dependency_resolver": "topological_sort"
+  },
+  "sync_report": {
+    "mastermind_agents": "100% MATCH"
+  },
+  "discovered_bridges": {
+    "apple": [
+      "Notes.app_direct_write",
+      "Calendar_event_injection",
+      "System_Volume_Control"
+    ]
+  }
+}

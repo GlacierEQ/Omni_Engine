@@ -1,0 +1,15 @@
+{
+  "id": "strategy_planning",
+  "name": "Strategic Planning - 3 Months",
+  "duration_weeks": 12,
+  "skills": ["Strategic Planner", "Market Analyst", "Business Strategist", "Financial Analyst"],
+  "timeline": {
+    "weeks_1_4": {"phase": "Assessment", "deliverables": ["Current State", "Market Analysis", "Competitive Review"]},
+    "weeks_5_8": {"phase": "Strategy Development", "deliverables": ["Strategic Options", "Business Case", "3-Year Plan"]},
+    "weeks_9_11": {"phase": "Planning", "deliverables": ["Roadmap", "OKRs", "Budget"]},
+    "week_12": {"phase": "Alignment", "deliverables": ["Board Presentation", "Kickoff", "Metrics"]}
+  },
+  "budget": "$80K-150K",
+  "team": 3,
+  "success_metrics": ["Executive alignment", "Clear roadmap", "Measurable OKRs"]
+}

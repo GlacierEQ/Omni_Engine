@@ -1,0 +1,149 @@
+{
+  "_type": "export",
+  "resources": [
+    {
+      "name": "Kong Admin API",
+      "parentId": null,
+      "modified": 1734240000000,
+      "created": 1734240000000,
+      "description": "Complete Kong Admin API collection for Insomnia",
+      "_type": "collection",
+      "order": [],
+      "actions": [],
+      "meta": { "insomnia": { "name": "Kong Admin", "created": 1734240000000 } },
+      "cookies": [],
+      "id": "kong-admin-root",
+      "children": [
+        {
+          "name": "Services",
+          "parentId": "kong-admin-root",
+          "modified": 1734240000000,
+          "created": 1734240000000,
+          "_type": "group",
+          "id": "services-group",
+          "meta": { "insomnia": { "name": "Services" } },
+          "children": [
+            {
+              "name": "List Services",
+              "parentId": "services-group",
+              "modified": 1734240000000,
+              "created": 1734240000000,
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "name": "Kong-Admin-Token",
+                    "value": "{{ kongAdminToken }}",
+                    "id": "header-kong-token"
+                  }
+                ],
+                "url": {
+                  "raw": "{{ kongAdminUrl }}/services",
+                  "host": ["{{ kongAdminUrl }}"],
+                  "path": ["services"]
+                },
+                "authentication": {},
+                "body": {}
+              },
+              "_type": "request",
+              "id": "req-list-services"
+            },
+            {
+              "name": "Create Service",
+              "parentId": "services-group",
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "name": "Kong-Admin-Token",
+                    "value": "{{ kongAdminToken }}"
+                  }
+                ],
+                "body": {
+                  "mimeType": "application/json",
+                  "text": "{\n  \"name\": \"my-service\",\n  \"url\": \"http://upstream:8000\"\n}"
+                },
+                "url": {
+                  "raw": "{{ kongAdminUrl }}/services",
+                  "host": ["{{ kongAdminUrl }}"],
+                  "path": ["services"]
+                }
+              },
+              "_type": "request",
+              "id": "req-create-service"
+            }
+          ]
+        },
+        {
+          "name": "Routes",
+          "parentId": "kong-admin-root",
+          "_type": "group",
+          "id": "routes-group",
+          "children": [
+            {
+              "name": "List Routes",
+              "parentId": "routes-group",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "name": "Kong-Admin-Token",
+                    "value": "{{ kongAdminToken }}"
+                  }
+                ],
+                "url": {
+                  "raw": "{{ kongAdminUrl }}/routes",
+                  "host": ["{{ kongAdminUrl }}"],
+                  "path": ["routes"]
+                }
+              },
+              "_type": "request",
+              "id": "req-list-routes"
+            }
+          ]
+        },
+        {
+          "name": "Plugins",
+          "parentId": "kong-admin-root",
+          "_type": "group",
+          "id": "plugins-group",
+          "children": [
+            {
+              "name": "List Plugins",
+              "parentId": "plugins-group",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "name": "Kong-Admin-Token",
+                    "value": "{{ kongAdminToken }}"
+                  }
+                ],
+                "url": {
+                  "raw": "{{ kongAdminUrl }}/plugins",
+                  "host": ["{{ kongAdminUrl }}"],
+                  "path": ["plugins"]
+                }
+              },
+              "_type": "request",
+              "id": "req-list-plugins"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "insomnia": {
+      "name": "Kong Admin API",
+      "created": 1734240000000,
+      "lastExportDate": 1734240000000,
+      "lastRequestDate": 1734240000000
+    }
+  },
+  "_type": "export"
+}

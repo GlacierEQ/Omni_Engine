@@ -1,0 +1,15 @@
+/home/user/skills/forensics
+|-- FORENSIC_SCHEMA_CORE.json
+|-- FORENSIC_SCHEMA_EXTENDED.json
+`-- tools
+    |-- SKILL.md
+    |-- metadata_extractor.sh
+    `-- pdf_analyzer.py
+/home/user/master-toolbox/forensics
+|-- FORENSIC_MASTER.md
+|-- analyze_all.sh
+|-- quick.sh
+`-- tools -> /home/user/skills/forensics/tools
+/home/user/evidence
+
+4 directories, 8 files

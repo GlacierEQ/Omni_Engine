@@ -1,0 +1,46 @@
+{
+  "version": "2.0",
+  "powerups": [
+    {
+      "id": "speed_boost",
+      "name": "⚡ Speed Boost",
+      "tier": "gold",
+      "effects": {
+        "execution_velocity": {"min": 1.0, "max": 3.5},
+        "parallel_processing": {"min": 1, "max": 256},
+        "async_optimization": {"min": 0, "max": 10}
+      },
+      "cost": 50,
+      "duration_sec": 300
+    },
+    {
+      "id": "intelligence_amplifier",
+      "name": "🧠 Intelligence Amplifier",
+      "tier": "platinum",
+      "effects": {
+        "reasoning_depth": {"min": 1.0, "max": 5.0},
+        "context_retention": {"min": 0, "max": 100},
+        "pattern_recognition": {"min": 1.0, "max": 8.0}
+      },
+      "cost": 75,
+      "duration_sec": 600
+    },
+    {
+      "id": "resource_optimizer",
+      "name": "♻️ Resource Optimizer",
+      "tier": "gold",
+      "effects": {
+        "memory_efficiency": {"min": 0, "max": 60},
+        "cpu_utilization": {"min": 1.0, "max": 4.0},
+        "bandwidth_optimization": {"min": 1.0, "max": 10.0}
+      },
+      "cost": 40,
+      "duration_sec": 900
+    }
+  ],
+  "synergies": [
+    {"powerups": ["speed_boost", "intelligence_amplifier"], "bonus": 1.25},
+    {"powerups": ["resource_optimizer", "scalability_accelerator"], "bonus": 1.30},
+    {"powerups": ["error_recovery", "security_hardening", "debugging_supercharger"], "bonus": 1.40}
+  ]
+}

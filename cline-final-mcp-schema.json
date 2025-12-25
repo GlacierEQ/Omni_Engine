@@ -1,0 +1,80 @@
+{
+  "cline_schema": {
+    "version": "1.0.0",
+    "platform": "termux+cline",
+    "name": "HIGHLIGHT AI - ULTIMATE MCP (Termux/Cline)",
+    "total_servers": 85,
+    "memory_layers": 12,
+    "power_multiplier": "20x"
+  },
+  "env_file": "/home/user/highlight-ai-complete.env",
+  "mcpServers": {
+    "memory_core": {
+      "supermemory": {
+        "command": "npx",
+        "args": ["-y", "@supermemory/mcp-server"],
+        "env": {"SUPERMEMORY_API_KEY": "${SUPERMEMORY_API_KEY}"},
+        "status": "ready"
+      },
+      "hi-ai": {
+        "command": "npx",
+        "args": ["-y", "@su-record/hi-ai"],
+        "tools": 34,
+        "status": "connected"
+      },
+      "mem0ai-mem0-memory-mcp": {
+        "command": "npx",
+        "args": ["-y", "@mem0ai/mem0-memory-mcp"],
+        "env": {"MEM0_API_KEY": "${MEM0_API_KEY}"}
+      },
+      "letta-ai-memory-mcp": {
+        "command": "npx",
+        "args": ["-y", "@letta-ai/memory-mcp"]
+      }
+    },
+    "highlight_ai": {
+      "highlight-ai": {
+        "command": "npx",
+        "args": ["-y", "highlight-ai-mcp"],
+        "env": {"HIGHLIGHTAI_TOKEN": "${HIGHLIGHTAI_TOKEN}"}
+      }
+    },
+    "llm_platforms": {
+      "openai": {"env": {"OPENAI_API_KEY": "${OPENAI_API_KEY}"}},
+      "groq": {"env": {"GROQ_API_KEY": "${GROQ_API_KEY}"}},
+      "perplexity": {"env": {"PERPLEXITY_API_KEY": "${PERPLEXITY_API_KEY}"}}
+    },
+    "devops": {
+      "github": {},
+      "supabase": {"env": {"SUPABASE_API_KEY": "${SUPABASE_API_KEY}"}},
+      "notion": {"env": {"NOTION_API_KEY": "${NOTION_API_KEY}"}}
+    },
+    "enterprise": {
+      "ref-mcp": {
+        "type": "http",
+        "url": "https://api.ref.tools/mcp?apiKey=ref-0e17c31da90b5c966164"
+      }
+    }
+  },
+  "skills": {
+    "total": 368,
+    "path": "/home/user/skills/",
+    "orchestrator": "/home/user/skills/cli/skills_enhanced.py",
+    "core": ["obra/brainstorming", "composiohq/file-organizer"]
+  },
+  "termux_integration": {
+    "install": [
+      "pkg install nodejs python git",
+      "npm i -g npx @supermemory/mcp-server @su-record/hi-ai",
+      "source /home/user/highlight-ai-complete.env"
+    ],
+    "cline_config_path": "~/.cline/cline_mcp_config.json",
+    "activation": "/home/user/activate-highlight-ai-max.sh"
+  },
+  "activation_commands": {
+    "load_env": "source /home/user/highlight-ai-complete.env",
+    "start_mcp": "mcp",
+    "test_memory": "mcp hi-ai list_memories",
+    "deploy_ai": "cd /home/user/skills/cli && python3 skills_enhanced.py deploy ai"
+  }
+}

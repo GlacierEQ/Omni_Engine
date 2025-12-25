@@ -1,0 +1,18 @@
+{
+  "default_project": "sm_project_memory_master",
+  "by_payload_id": {
+    "skills_global_overview": "sm_project_memory_master",
+    "skills_local_implementation": "sm_project_computers"
+  },
+  "by_domain": {
+    "data_analysis": "sm_project_business",
+    "content_creation": "sm_project_business",
+    "development": "sm_project_computers",
+    "productivity": "sm_project_task_scheduled_ops",
+    "strategy": "sm_project_business",
+    "automation": "sm_project_task_scheduled_ops",
+    "communication": "sm_project_business",
+    "learning": "sm_project_memory_master",
+    "integration": "sm_project_computers"
+  }
+}

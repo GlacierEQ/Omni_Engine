@@ -1,0 +1,15 @@
+{
+  "id": "ai_integration",
+  "name": "AI-Powered Feature - 8 Weeks",
+  "duration_weeks": 8,
+  "skills": ["AI Integrator", "Backend Engineer", "Frontend Wizard", "Security Architect"],
+  "timeline": {
+    "weeks_1_2": {"phase": "Design & Planning", "deliverables": ["Use Cases", "LLM Selection", "Architecture", "Security Plan"]},
+    "weeks_3_5": {"phase": "Development", "deliverables": ["API Integration", "RAG System", "Prompt Optimization"]},
+    "weeks_6_7": {"phase": "Testing & Deployment", "deliverables": ["A/B Testing", "Monitoring", "Documentation"]},
+    "week_8": {"phase": "Launch & Scale", "deliverables": ["Production", "Analytics", "Optimization"]}
+  },
+  "budget": "$80K-150K",
+  "team": 4,
+  "success_metrics": ["Latency <500ms", "Accuracy 85%+", "User adoption 60%+", "Support -30%"]
+}

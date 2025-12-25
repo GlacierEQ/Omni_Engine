@@ -1,0 +1,30 @@
+[api]
+enabled = true
+port = 54321
+schemas = ["public", "graphql_public"]
+extra_search_path = ["extensions", "graphql_public"]
+max_rows = 1000
+
+[auth]
+enabled = true
+site_url = "http://localhost"
+additional_redirect_urls = ["https://localhost:3000"]
+jwt_expiry = 3600
+jwt_secret = "your-super-secret-jwt-signing-secret-key-change-me!"
+enable_signup = true
+
+[storage]
+enabled = true
+file_size_limit = 5242880
+file_storage_limit = 1000000000
+
+[functions]
+enabled = true
+
+[studio]
+port = 54323
+
+[projects.demo]
+[projects.demo.db]
+port = 54322
+

@@ -1,0 +1,49 @@
+{
+  "protocol": "Repo Operator Protocol",
+  "version": "2.0-APEX",
+  "meta": {
+    "author": "Casey",
+    "intent": "Universal repo completion + deployment",
+    "case_id": "1FDV-23-0001009",
+    "continuity_hooks": true,
+    "rollback_enabled": true,
+    "logging": "structured_manifest.json"
+  },
+  "phases": [
+    {
+      "name": "Analysis",
+      "status": "COMPLETED",
+      "tasks": [
+        "Recursive scan of repo structure",
+        "Detect incomplete modules/configs",
+        "Dependency + version audit",
+        "Apex Case Awareness Infusion"
+      ],
+      "outputs": ["analysis_report.md", "repo_map.json", "APEX_CASE_DASHBOARD.md"]
+    },
+    {
+      "name": "Completion",
+      "status": "IN_PROGRESS",
+      "tasks": [
+        "Generate missing code/tests/docs",
+        "Auto-patch configs with diffs",
+        "Draft Motion to Stay (Hawaii Family Court)",
+        "Ingest XTREME MEMORY to Apex Engine"
+      ],
+      "outputs": ["completion_plan.md", "DRAFT_MOTION_TO_STAY.md", "apex_mem0_master.py"]
+    },
+    {
+      "name": "Deployment Prep",
+      "status": "PENDING",
+      "tasks": [
+        "Generate Dockerfile with multi-stage build",
+        "Create CI/CD pipeline",
+        "Lock dependencies",
+        "Provision environment configs"
+      ],
+      "outputs": ["Dockerfile", ".github/workflows/deploy.yml", "env_specs.yaml"]
+    }
+  ],
+  "last_action": "Bulk Evidence Processing + Motion Drafting",
+  "next_action": "Finalize Federal Filing Package + ODC Complaint Update"
+}

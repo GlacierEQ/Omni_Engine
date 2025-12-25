@@ -1,0 +1,8 @@
+{
+  "hooks": {
+    "pre_upgrade": "python3 master-toolbox/core/toolbox.py health",
+    "post_upgrade": "./master-toolbox/scripts/start.sh",
+    "rollback": "docker system prune -f"
+  },
+  "version": "2.0"
+}

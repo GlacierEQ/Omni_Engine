@@ -1,0 +1,20 @@
+version: "3.8"
+services:
+  overleaf:
+    image: overleaf/overleaf:latest
+    ports:
+      - "8080:80"
+    environment:
+      SHARE_LATEX_CONFIG_OVERRIDE_FILE: "/etc/overleaf/config.js"
+    volumes:
+      - overleaf-data:/var/lib/mongodb
+      - ./config.js:/etc/overleaf/config.js:ro
+
+  texlive:
+    image: blang/latex:latest
+    volumes:
+      - ./projects:/projects
+    command: tail -f /dev/null  # Keep alive for compilation
+
+volumes:
+  overleaf-data:

@@ -1,0 +1,84 @@
+{
+  "master_mcp": {
+    "version": "999.999.999",
+    "name": "Highlight AI - ULTIMATE MASTER MCP (ALL SERVERS + SKILLS)",
+    "total_servers": 85,
+    "total_memory_layers": 12,
+    "multiplier": "20x",
+    "powerups": {
+      "execution_velocity": 3.5,
+      "parallel_processing": 256,
+      "reasoning_depth": 5.0,
+      "context_retention": 100,
+      "memory_efficiency": 60
+    }
+  },
+  "mcpServers": {
+    "memory_layer": {
+      "supermemory": {
+        "command": "npx", "args": ["-y", "@supermemory/mcp-server"],
+        "env": {"SUPERMEMORY_API_KEY": "${SUPERMEMORY_API_KEY}"},
+        "tools": ["add_memory", "search_memory", "list_memories"]
+      },
+      "mem0ai-mem0-memory-mcp": {
+        "command": "npx", "args": ["-y", "@mem0ai/mem0-memory-mcp"],
+        "env": {"MEM0_API_KEY": "${MEM0_API_KEY}"}
+      },
+      "letta-ai-memory-mcp": {
+        "command": "npx", "args": ["-y", "@letta-ai/memory-mcp"]
+      },
+      "neo4j-knowledge-graph-memory": {
+        "command": "npx", "args": ["-y", "neo4j-knowledge-graph-memory"],
+        "env": {"NEO4J_API_KEY": "${NEO4J_API_KEY}"}
+      },
+      "hi-ai": {
+        "command": "npx", "args": ["-y", "@su-record/hi-ai"],
+        "tools": 34
+      }
+    },
+    "highlight_ai": {
+      "highlight-ai": {
+        "command": "npx", "args": ["-y", "highlight-ai-mcp"],
+        "env": {"HIGHLIGHTAI_TOKEN": "${HIGHLIGHTAI_TOKEN}"}
+      }
+    },
+    "llm_platforms": {
+      "openai": {"env": {"OPENAI_API_KEY": "${OPENAI_API_KEY}"}},
+      "groq": {"env": {"GROQ_API_KEY": "${GROQ_API_KEY}"}},
+      "perplexity": {"env": {"PERPLEXITY_API_KEY": "${PERPLEXITY_API_KEY}"}},
+      "anthropic": {"env": {"ANTHROPIC_API_KEY": "${ANTHROPIC_API_KEY}"}},
+      "gemini": {"env": {"GEMINI_API_KEY": "${GEMINI_API_KEY}"}}
+    },
+    "devops_code": {
+      "github": {},
+      "supabase": {"env": {"SUPABASE_API_KEY": "${SUPABASE_API_KEY}"}},
+      "notion": {"env": {"NOTION_API_KEY": "${NOTION_API_KEY}"}}
+    },
+    "enterprise": {
+      "ref-mcp": {
+        "type": "http",
+        "url": "https://api.ref.tools/mcp?apiKey=ref-0e17c31da90b5c966164"
+      },
+      "stainless-mcp": {
+        "env": {"STAINLESS_MCP_KEY": "${STAINLESS_MCP_KEY}"}
+      }
+    }
+  },
+  "skillsIntegration": {
+    "total_skills": 368,
+    "core_skills": [
+      "obra/brainstorming",
+      "composiohq/file-organizer", 
+      "cexll/gemini",
+      "forensics/tools"
+    ],
+    "skills_orchestrator": "/home/user/skills/cli/skills_enhanced.py",
+    "power_stacks": ["saas", "ai", "data", "marketing", "enterprise"]
+  },
+  "activation": {
+    "env_file": "/home/user/highlight-ai-complete.env",
+    "load_command": "source /home/user/highlight-ai-complete.env",
+    "master_command": "/home/user/activate-highlight-ai-max.sh",
+    "test_command": "mcp && mcp hi-ai list_memories"
+  }
+}

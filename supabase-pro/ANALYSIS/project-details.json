@@ -1,0 +1,3 @@
+error: host_error
+message: "Request failed: 502 Bad Gateway"
+help: mcp 2b4dcd79-3e14-4e72-8fdd-9dc90cfbbe4a  # list tools

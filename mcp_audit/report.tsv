@@ -1,0 +1,175 @@
+slug	status	detail
+AgentOps-AI-agentops-mcp	CONNECTED	OK
+EenticE-scaffold	CONNECTED	OK
+github	CONNECTED	OK
+github-integration	CONNECTED	OK
+Kastalien-Research-clear-thought-two	ERROR	fetch failed
+ai-research-assistant	UNAUTHORIZED	OAuth needed
+anirbanbasu-pymcp	UNAUTHORIZED	OAuth needed
+atimevil-kali	UNAUTHORIZED	OAuth needed
+bitbucket	CONNECTED	OK
+blockscout	CONNECTED	OK
+bright-data	UNAUTHORIZED	OAuth needed
+browser-tool	UNAUTHORIZED	OAuth needed
+browserbase	UNAUTHORIZED	OAuth needed
+browserous-instant-browser-for-your-agent	UNAUTHORIZED	OAuth needed
+clay	UNAUTHORIZED	OAuth needed
+clickup	CONNECTED	OK
+context7	CONNECTED	OK
+coti	CONNECTED	OK
+courtlistener-case-law-explorer	UNAUTHORIZED	OAuth needed
+docfork	ERROR	500 down
+dropbox	CONNECTED	OK
+e2b-remote	UNAUTHORIZED	OAuth needed
+edubase	UNAUTHORIZED	OAuth needed
+exa	UNAUTHORIZED	OAuth needed
+figstra-usewebhook-mcp	UNAUTHORIZED	OAuth needed
+file-extractor	CONNECTED	OK
+filesystem	UNAUTHORIZED	OAuth needed
+flowengine-n8n-workflow-builder	UNAUTHORIZED	OAuth needed
+flrngel-mcp-painter	CONNECTED	OK
+gen-pdf	ERROR	500 down
+google-docs	CONNECTED	OK
+googlephotos	CONNECTED	OK
+github	CONNECTED	OK
+hi-ai	CONNECTED	OK
+github-integration	UNAUTHORIZED	OAuth needed
+infranodus-mcp-server-infranodus	UNAUTHORIZED	OAuth
+google-docs	UNAUTHORIZED	OAuth needed
+instagram	UNAUTHORIZED	OAuth
+googlephotos	UNAUTHORIZED	OAuth needed
+kiennd-reference-servers	UNAUTHORIZED	OAuth
+hi-ai	UNAUTHORIZED	OAuth needed
+letta-ai-memory-mcp	UNAUTHORIZED	OAuth
+infranodus-mcp-server-infranodus	UNAUTHORIZED	OAuth needed
+linear	UNAUTHORIZED	OAuth
+instagram	UNAUTHORIZED	OAuth needed
+linkup	UNAUTHORIZED	OAuth
+kiennd-reference-servers	UNAUTHORIZED	OAuth needed
+mem0-private	UNAUTHORIZED	OAuth
+letta-ai-memory-mcp	UNAUTHORIZED	OAuth needed
+mem0ai-mem0-memory-mcp	UNAUTHORIZED	OAuth
+linear	UNAUTHORIZED	OAuth needed
+microsoft-learn	UNAUTHORIZED	OAuth
+linkup	UNAUTHORIZED	OAuth needed
+mingxiao300-notion-smithery	UNAUTHORIZED	OAuth
+mem0-private	UNAUTHORIZED	OAuth needed
+mongodb-js-mongodb-mcp-server	UNAUTHORIZED	OAuth
+mem0ai-mem0-memory-mcp	UNAUTHORIZED	OAuth needed
+msaltnet-excel-search	UNAUTHORIZED	OAuth
+microsoft-learn	UNAUTHORIZED	OAuth needed
+multi-orchestrator	UNAUTHORIZED	OAuth
+mingxiao300-notion-smithery	UNAUTHORIZED	OAuth needed
+neo4j-knowledge-graph-memory	UNAUTHORIZED	OAuth
+mongodb-js-mongodb-mcp-server	UNAUTHORIZED	OAuth needed
+new-relic-observability-integration	UNAUTHORIZED	OAuth
+msaltnet-excel-search	UNAUTHORIZED	OAuth needed
+notion	UNAUTHORIZED	OAuth
+multi-orchestrator	UNAUTHORIZED	OAuth needed
+npm-sentinel	UNAUTHORIZED	OAuth
+neo4j-knowledge-graph-memory	UNAUTHORIZED	OAuth needed
+one-drive	UNAUTHORIZED	OAuth
+new-relic-observability-integration	UNAUTHORIZED	OAuth needed
+oxylabs	UNAUTHORIZED	OAuth
+notion	UNAUTHORIZED	OAuth needed
+palolxx-geminimcptest	UNAUTHORIZED	OAuth
+npm-sentinel	UNAUTHORIZED	OAuth needed
+pdf-reader	UNAUTHORIZED	OAuth
+one-drive	UNAUTHORIZED	OAuth needed
+perplexity-mcp	UNAUTHORIZED	OAuth
+oxylabs	UNAUTHORIZED	OAuth needed
+plantops-graphql-explorer	UNAUTHORIZED	OAuth
+palolxx-geminimcptest	UNAUTHORIZED	OAuth needed
+ref	UNAUTHORIZED	OAuth
+pdf-reader	UNAUTHORIZED	OAuth needed
+scapegraph	UNAUTHORIZED	OAuth
+perplexity-mcp	UNAUTHORIZED	OAuth needed
+smithery-ai-github	UNAUTHORIZED	OAuth
+plantops-graphql-explorer	UNAUTHORIZED	OAuth needed
+smithery-ai-server-sequential-thinking	UNAUTHORIZED	OAuth
+ref	UNAUTHORIZED	OAuth needed
+smithery-notion	UNAUTHORIZED	OAuth
+scapegraph	UNAUTHORIZED	OAuth needed
+ssh-remote-command-executor	UNAUTHORIZED	OAuth
+smithery-ai-github	UNAUTHORIZED	OAuth needed
+supabase	UNAUTHORIZED	OAuth
+smithery-ai-server-sequential-thinking	UNAUTHORIZED	OAuth needed
+supabase-community-supabase-mcp	UNAUTHORIZED	OAuth
+smithery-notion	UNAUTHORIZED	OAuth needed
+supabase-f597	UNAUTHORIZED	OAuth
+ssh-remote-command-executor	UNAUTHORIZED	OAuth needed
+supermemory	UNAUTHORIZED	OAuth
+supabase	UNAUTHORIZED	OAuth needed
+taskmaster	UNAUTHORIZED	OAuth
+supabase-community-supabase-mcp	UNAUTHORIZED	OAuth needed
+waldzellai-clear-thought	UNAUTHORIZED	OAuth
+supabase-f597	UNAUTHORIZED	OAuth needed
+supermemory	UNAUTHORIZED	OAuth needed
+taskmaster	UNAUTHORIZED	OAuth needed
+waldzellai-clear-thought	UNAUTHORIZED	OAuth needed
+Kastalien-Research-clear-thought-two	ERROR	fetch failed
+ai-research-assistant	UNAUTHORIZED	OAuth needed
+anirbanbasu-pymcp	UNAUTHORIZED	OAuth needed
+atimevil-kali	UNAUTHORIZED	OAuth needed
+bitbucket	UNAUTHORIZED	OAuth needed
+blockscout	UNAUTHORIZED	OAuth needed
+bright-data	UNAUTHORIZED	OAuth needed
+browser-tool	UNAUTHORIZED	OAuth needed
+browserbase	UNAUTHORIZED	OAuth needed
+browserous-instant-browser-for-your-agent	UNAUTHORIZED	OAuth needed
+clay	UNAUTHORIZED	OAuth needed
+clickup	UNAUTHORIZED	OAuth needed
+context7	UNAUTHORIZED	OAuth needed
+coti	UNAUTHORIZED	OAuth needed
+courtlistener-case-law-explorer	UNAUTHORIZED	OAuth needed
+docfork	UNAUTHORIZED	OAuth needed
+dropbox	UNAUTHORIZED	OAuth needed
+e2b-remote	UNAUTHORIZED	OAuth needed
+edubase	UNAUTHORIZED	OAuth needed
+exa	UNAUTHORIZED	OAuth needed
+figstra-usewebhook-mcp	UNAUTHORIZED	OAuth needed
+file-extractor	UNAUTHORIZED	OAuth needed
+filesystem	UNAUTHORIZED	OAuth needed
+flowengine-n8n-workflow-builder	UNAUTHORIZED	OAuth needed
+flrngel-mcp-painter	UNAUTHORIZED	OAuth needed
+gen-pdf	UNAUTHORIZED	OAuth needed
+github	UNAUTHORIZED	OAuth needed
+github-integration	UNAUTHORIZED	OAuth needed
+google-docs	UNAUTHORIZED	OAuth needed
+googlephotos	UNAUTHORIZED	OAuth needed
+hi-ai	UNAUTHORIZED	OAuth needed
+infranodus-mcp-server-infranodus	UNAUTHORIZED	OAuth needed
+instagram	UNAUTHORIZED	OAuth needed
+kiennd-reference-servers	UNAUTHORIZED	OAuth needed
+letta-ai-memory-mcp	UNAUTHORIZED	OAuth needed
+linear	UNAUTHORIZED	OAuth needed
+linkup	UNAUTHORIZED	OAuth needed
+mem0-private	UNAUTHORIZED	OAuth needed
+mem0ai-mem0-memory-mcp	UNAUTHORIZED	OAuth needed
+microsoft-learn	UNAUTHORIZED	OAuth needed
+mingxiao300-notion-smithery	UNAUTHORIZED	OAuth needed
+mongodb-js-mongodb-mcp-server	UNAUTHORIZED	OAuth needed
+msaltnet-excel-search	UNAUTHORIZED	OAuth needed
+multi-orchestrator	UNAUTHORIZED	OAuth needed
+neo4j-knowledge-graph-memory	UNAUTHORIZED	OAuth needed
+new-relic-observability-integration	UNAUTHORIZED	OAuth needed
+notion	UNAUTHORIZED	OAuth needed
+npm-sentinel	UNAUTHORIZED	OAuth needed
+one-drive	UNAUTHORIZED	OAuth needed
+oxylabs	UNAUTHORIZED	OAuth needed
+palolxx-geminimcptest	UNAUTHORIZED	OAuth needed
+pdf-reader	UNAUTHORIZED	OAuth needed
+perplexity-mcp	UNAUTHORIZED	OAuth needed
+plantops-graphql-explorer	UNAUTHORIZED	OAuth needed
+ref	UNAUTHORIZED	OAuth needed
+scapegraph	UNAUTHORIZED	OAuth needed
+smithery-ai-github	UNAUTHORIZED	OAuth needed
+smithery-ai-server-sequential-thinking	UNAUTHORIZED	OAuth needed
+smithery-notion	UNAUTHORIZED	OAuth needed
+ssh-remote-command-executor	UNAUTHORIZED	OAuth needed
+supabase	UNAUTHORIZED	OAuth needed
+supabase-community-supabase-mcp	UNAUTHORIZED	OAuth needed
+supabase-f597	UNAUTHORIZED	OAuth needed
+supermemory	UNAUTHORIZED	OAuth needed
+taskmaster	UNAUTHORIZED	OAuth needed
+waldzellai-clear-thought	UNAUTHORIZED	OAuth needed

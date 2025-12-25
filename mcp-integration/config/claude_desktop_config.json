@@ -1,0 +1,55 @@
+{
+  "mcpServers": {
+    "jules2": {
+      "command": "node",
+      "args": ["~/mcp-integration/servers/jules2-server.js"],
+      "env": {
+        "JULES_API_KEY": "${JULES_API_KEY:-your-jules-key}",
+        "SWARM_SIZE": "${SWARM_SIZE:-100}",
+        "HYPER_SPEED": "${HYPER_SPEED:-true}"
+      }
+    },
+    "langchain": {
+      "command": "node", 
+      "args": ["~/mcp-integration/servers/langchain-server.js"],
+      "env": {
+        "LANGCHAIN_API_KEY": "${LANGCHAIN_API_KEY:-your-langchain-key}",
+        "ZENITH_ORACLE": "${ZENITH_ORACLE:-true}",
+        "SWARM_GOVERN": "${SWARM_GOVERN:-true}"
+      }
+    },
+    "gremlin": {
+      "command": "node",
+      "args": ["~/mcp-integration/servers/gremlin-server.js"],
+      "env": {
+        "GREMLIN_API_KEY": "${GREMLIN_API_KEY:-your-gremlin-key}",
+        "CHAOS_SHIELD": "${CHAOS_SHIELD:-true}",
+        "SELF_HEALING": "${SELF_HEALING:-true}"
+      }
+    },
+    "backend_level3": {
+      "command": "node",
+      "args": ["~/mcp-integration/servers/backend-level3-server.js"],
+      "env": {
+        "LEVEL3_KEY": "${LEVEL3_KEY:-your-level3-key}",
+        "FORTRESS_MODE": "${FORTRESS_MODE:-true}"
+      }
+    },
+    "backend_level5": {
+      "command": "node",
+      "args": ["~/mcp-integration/servers/backend-level5-server.js"],
+      "env": {
+        "LEVEL5_KEY": "${LEVEL5_KEY:-your-level5-key}",
+        "OMNIPOTENCE_MODE": "${OMNIPOTENCE_MODE:-true}"
+      }
+    },
+    "utility_interface": {
+      "command": "node",
+      "args": ["~/mcp-integration/servers/utility-interface-server.js"],
+      "env": {
+        "HARMONY_ORCHESTRATE": "${HARMONY_ORCHESTRATE:-true}",
+        "COOL_UI": "${COOL_UI:-true}"
+      }
+    }
+  }
+}

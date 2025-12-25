@@ -1,0 +1,26 @@
+npm error code ERESOLVE
+npm error ERESOLVE unable to resolve dependency tree
+npm error
+npm error While resolving: supabase-pro-frontend@0.1.0
+npm error Found: react@18.3.1
+npm error node_modules/react
+npm error   react@"^18" from the root project
+npm error
+npm error Could not resolve dependency:
+npm error peer react@"19.0.0-rc-f994737d14-20240522" from next@15.0.0-rc.0
+npm error node_modules/next
+npm error   next@"15.0.0-rc.0" from the root project
+npm error
+npm error Fix the upstream dependency conflict, or retry
+npm error this command with --force or --legacy-peer-deps
+npm error to accept an incorrect (and potentially broken) dependency resolution.
+npm error
+npm error
+npm error For a full report see:
+npm error /home/user/.npm/_logs/2025-12-14T09_01_53_391Z-eresolve-report.txt
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+npm error A complete log of this run can be found in: /home/user/.npm/_logs/2025-12-14T09_01_53_391Z-debug-0.log

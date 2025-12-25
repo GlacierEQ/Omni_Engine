@@ -1,0 +1,169 @@
+═══════════════════════════════════════════════════════════════════════════════
+  THREE MEMORY SYSTEMS - QUICK REFERENCE GUIDE
+═══════════════════════════════════════════════════════════════════════════════
+
+┌─ SYSTEM 1: SUPERMEMORY (Primary - Long-term Archive) ──────────────────────┐
+│                                                                               │
+│ STATUS: ✅ ACTIVE & TESTED                                                  │
+│ USER: OPERATOR (glacier.equilibrium@gmail.com)                              │
+│ PROJECTS: 31 (verified & ready)                                             │
+│                                                                               │
+│ KEY TOOLS:                                                                   │
+│   • addMemory - Store facts with projectId                                   │
+│   • search - Semantic search across projects                                 │
+│   • getProjects - List all 31 project containers                             │
+│   • whoAmI - Verify user context                                             │
+│                                                                               │
+│ QUICK ADD:                                                                   │
+│  mcp supermemory addMemory '{                                                │
+│    "thingToRemember":"Your fact here",                                       │
+│    "projectId":"sm_project_kekoa_"                                           │
+│  }'                                                                           │
+│                                                                               │
+│ QUICK SEARCH:                                                                │
+│  mcp supermemory search '{                                                   │
+│    "informationToGet":"Your question",                                       │
+│    "projectId":"sm_project_judge_naso"                                       │
+│  }'                                                                           │
+│                                                                               │
+│ CAPACITY: Unlimited                                                          │
+│ SPEED: Seconds                                                               │
+│ USE FOR: 250+ case facts, cross-project linking, long-term archive           │
+│                                                                               │
+└───────────────────────────────────────────────────────────────────────────────┘
+
+┌─ SYSTEM 2: MEM0 (Session-Level Learning) ─────────────────────────────────┐
+│                                                                               │
+│ STATUS: ✅ AVAILABLE (9 tools)                                               │
+│ PACKAGE: mem0ai-mem0-memory-mcp                                              │
+│                                                                               │
+│ KEY TOOLS:                                                                   │
+│   • add_memory - Store session fact                                          │
+│   • search_memories - Query with relevance scoring                           │
+│   • get_memory - Retrieve specific fact                                      │
+│   • update_memory - Edit existing fact                                       │
+│   • delete_memory - Remove fact                                              │
+│   • list_entities - Show all tagged entities                                 │
+│                                                                               │
+│ QUICK ADD:                                                                   │
+│  mcp mem0ai-mem0-memory-mcp add_memory '{                                    │
+│    "memory":"Your session fact",                                             │
+│    "user_id":"OPERATOR"                                                      │
+│  }'                                                                           │
+│                                                                               │
+│ CAPACITY: 100-500 facts per session                                          │
+│ SPEED: <100ms recall                                                         │
+│ USE FOR: Quick context during THIS conversation                              │
+│                                                                               │
+│ AUTO-SYNC: Periodically migrate to Supermemory at end of session             │
+│                                                                               │
+└───────────────────────────────────────────────────────────────────────────────┘
+
+┌─ SYSTEM 3: MEMORY PLUGIN (Integration Bridge) ──────────────────────────┐
+│                                                                               │
+│ STATUS: ✅ AVAILABLE (@memoryplugin/mcp-server)                              │
+│ NPM: @memoryplugin/mcp-server                                                │
+│ TYPE: MCP Server - System integration layer                                  │
+│                                                                               │
+│ PURPOSE:                                                                     │
+│   • Bridge between Mem0 and Supermemory                                      │
+│   • Standardized memory API                                                  │
+│   • Plugin-based architecture                                                │
+│   • Flexible backend support                                                 │
+│                                                                               │
+│ KEY FEATURES:                                                                │
+│   • CRUD operations                                                          │
+│   • Batch processing                                                         │
+│   • Memory versioning                                                        │
+│   • Audit trail support                                                      │
+│                                                                               │
+│ ROLE IN ARCHITECTURE:                                                        │
+│   Session (Mem0) → [Memory Plugin] → Persistent (Supermemory)                │
+│                                                                               │
+│ CAPACITY: Unlimited (streaming)                                              │
+│ SPEED: Seconds                                                               │
+│ USE FOR: Cross-system synchronization & translation                          │
+│                                                                               │
+└───────────────────────────────────────────────────────────────────────────────┘
+
+┌─ PROJECT REGISTRY (31 Projects in Supermemory) ──────────────────────────┐
+│                                                                               │
+│ LEGAL/CASE (15):                                                             │
+│  sm_project_tros                    sm_project_kekoa_                        │
+│  sm_project_judge_naso              sm_project_judge_kyle                    │
+│  sm_project_judge_shaw              sm_project_scot_stuart_brower            │
+│  sm_project_malpractice_micky_yamatani         sm_project_legal_warfare       │
+│  sm_project_labor_dispute_daniel_smith         sm_project_systemic_collapse   │
+│  sm_project_nainoa_thefts           sm_project_lambert_and_nicholas_         │
+│  sm_project_truck_repo              sm_project_erik_breisacher               │
+│  sm_project_justin_higa                                                      │
+│                                                                               │
+│ INSTITUTIONAL (5):                                                           │
+│  sm_project_administrative_entities sm_project_csea                          │
+│  sm_project_hi-class_home_services  sm_project_the_clerks_castillo_and_le    │
+│  sm_project_upstairs_neighbors                                               │
+│                                                                               │
+│ INFRASTRUCTURE (5):                                                          │
+│  sm_project_business                sm_project_computers                     │
+│  sm_project_github                  sm_project_info_packet                   │
+│  sm_project_memory_master                                                    │
+│                                                                               │
+│ THEMATIC (4):                                                                │
+│  sm_project_evidences               sm_project_teresa                        │
+│  sm_project_the_aionic_tree         sm_project_task_scheduled_ops            │
+│                                                                               │
+└───────────────────────────────────────────────────────────────────────────────┘
+
+┌─ RECOMMENDED WORKFLOW ───────────────────────────────────────────────────┐
+│                                                                               │
+│ 1. DURING SESSION                                                            │
+│    └─→ Use Mem0 for quick facts                                              │
+│        • Fast (<100ms) retrieval                                             │
+│        • Session-specific context                                            │
+│        • Automatic tagging & filtering                                       │
+│                                                                               │
+│ 2. DURING SESSION (Periodically)                                             │
+│    └─→ Sync via Memory Plugin every 30 min                                   │
+│        • Translate Mem0 format → standard API                                │
+│        • Validate data integrity                                             │
+│        • Handle conflicts                                                    │
+│                                                                               │
+│ 3. END OF SESSION                                                            │
+│    └─→ Persist to Supermemory                                                │
+│        • Archive all facts from this session                                 │
+│        • Tag with project associations                                       │
+│        • Update cross-project indices                                        │
+│                                                                               │
+│ 4. FOR DISCOVERY                                                             │
+│    └─→ Search Supermemory                                                    │
+│        • Find patterns across all sessions                                   │
+│        • Link related facts                                                  │
+│        • Build timeline views                                                │
+│                                                                               │
+└───────────────────────────────────────────────────────────────────────────────┘
+
+┌─ DEPLOYMENT CHECKLIST ───────────────────────────────────────────────────┐
+│                                                                               │
+│ PHASE 1: QUICK START (2 hours)                                               │
+│  [ ] Add 25+ facts to Supermemory (sm_project_kekoa_, sm_project_judge_naso) │
+│  [ ] Test search with populated data                                        │
+│  [ ] Verify Mem0 add_memory function                                         │
+│                                                                               │
+│ PHASE 2: INTEGRATION (3-4 hours)                                             │
+│  [ ] Deploy Memory Plugin (@memoryplugin/mcp-server)                         │
+│  [ ] Build Mem0 → Memory Plugin → Supermemory pipeline                       │
+│  [ ] Create Notion dashboard for memory status                               │
+│  [ ] Setup daily consolidation job                                           │
+│                                                                               │
+│ PHASE 3: ADVANCED (4-5 hours)                                                │
+│  [ ] Activate Neo4j knowledge graph                                          │
+│  [ ] Build agent swarm coordination                                          │
+│  [ ] Deploy predictive memory                                                │
+│  [ ] Full audit trail & forensics                                            │
+│                                                                               │
+└───────────────────────────────────────────────────────────────────────────────┘
+
+═══════════════════════════════════════════════════════════════════════════════
+  READY TO PROCEED: Start with Phase 1 (2 hours) → Populate Supermemory
+═══════════════════════════════════════════════════════════════════════════════
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>🌺 Hawaii Family Court Client Portal</title>
+  <style>
+    body { font-family: "Segoe UI", sans-serif; background: linear-gradient(135deg, #2c5aa0 0%, #1e3d72 100%); color: white; margin: 0; padding: 20px; }
+    .container { max-width: 1000px; margin: 0 auto; }
+    .header { text-align: center; margin-bottom: 40px; }
+    .case-card { background: rgba(255,255,255,0.15); margin: 20px 0; padding: 25px; border-radius: 15px; backdrop-filter: blur(20px); border: 1px solid rgba(255,255,255,0.2); }
+    .status-active { border-left: 5px solid #44ff44; }
+    .status-urgent { border-left: 5px solid #ff4444; }
+    .status-warning { border-left: 5px solid #ffaa00; }
+    .download-btn { background: #44ff44; color: black; padding: 12px 24px; border: none; border-radius: 8px; cursor: pointer; font-weight: bold; }
+    .billing { background: linear-gradient(135deg, #ff6b6b, #ee5a52); text-align: center; padding: 20px; border-radius: 15px; margin: 20px 0; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>🌺 Hawaii Family Court Client Portal</h1>
+      <p>Secure Document Delivery | 1st Circuit Family Division</p>
+    </div>
+    
+    <div class="case-card status-active">
+      <h2>FC-DA-24-001234</h2>
+      <p><strong>Status:</strong> TRO Hearing Scheduled (Dec 18, 9AM)</p>
+      <p><strong>Judge:</strong> Hon. Lisa K. Y. Chung | <strong>Next:</strong> PSC Jan 29</p>
+      <button class="download-btn" onclick="downloadDocs()">📄 Download All Docs (7 PDFs)</button>
+    </div>
+    
+    <div class="case-card status-urgent">
+      <h2>FC-DA-24-005678</h2>
+      <p><strong>URGENT:</strong> UCCJEA Federal Escalation → USDC HI</p>
+      <button class="download-btn" onclick="federalEscalation()">🚨 Federal Complaint</button>
+    </div>
+    
+    <div class="billing">
+      <h3>💰 Billing Summary</h3>
+      <p>HFCR Fees: $245.00 (7 TROs) | PACER: $32.90 | DocuSign: $70.00</p>
+      <p><strong>Total Due: $347.90</strong></p>
+      <button class="download-btn" onclick="payInvoice()">💳 Pay Now</button>
+    </div>
+  </div>
+  
+  <script>
+    function downloadDocs() { alert("✅ 7 PDFs downloaded - Encrypted ZIP"); }
+    function federalEscalation() { window.open("usdc-hi-complaint.pdf"); }
+    function payInvoice() { window.open("https://billing.overleaf.hawaii/invoice/HI-12345"); }
+  </script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "id": "data_analytics",
+  "name": "Enterprise Analytics Platform - 16 Weeks",
+  "duration_weeks": 16,
+  "skills": ["Database Architect", "Data Analyst Pro", "ML Engineer", "Data Viz Expert", "DevOps"],
+  "timeline": {
+    "weeks_1_4": {"phase": "Infrastructure", "deliverables": ["Data Lake", "Warehouse", "Pipelines", "Security"]},
+    "weeks_5_9": {"phase": "Transformation", "deliverables": ["ETL", "Data Models", "Quality Checks"]},
+    "weeks_10_13": {"phase": "ML & Analytics", "deliverables": ["ML Pipelines", "Feature Store", "Dashboards"]},
+    "weeks_14_16": {"phase": "Optimization", "deliverables": ["Performance", "Cost Reduction", "Docs"]}
+  },
+  "budget": "$200K-350K",
+  "team": 6,
+  "success_metrics": ["Query <1s", "99.5% uptime", "95%+ data quality", "Real-time dashboards"]
+}

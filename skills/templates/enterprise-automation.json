@@ -1,0 +1,15 @@
+{
+  "id": "enterprise_automation",
+  "name": "Enterprise Automation - 10 Weeks",
+  "duration_weeks": 10,
+  "skills": ["Workflow Automator", "RPA Specialist", "System Integrator", "DevOps Master"],
+  "timeline": {
+    "weeks_1_2": {"phase": "Process Analysis", "deliverables": ["Current State Map", "Automation Candidates", "ROI Analysis"]},
+    "weeks_3_7": {"phase": "Bot Development", "deliverables": ["Bot Code", "Testing", "Documentation"]},
+    "weeks_8_9": {"phase": "Deployment", "deliverables": ["Production Setup", "Training", "Monitoring"]},
+    "week_10": {"phase": "Optimization", "deliverables": ["Performance Tuning", "ROI Report"]}
+  },
+  "budget": "$120K-200K",
+  "team": 4,
+  "success_metrics": ["80%+ process automation", "40%+ cost reduction", "95%+ accuracy", "3-6 month payback"]
+}
