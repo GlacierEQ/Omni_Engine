@@ -1,36 +1,45 @@
-# 🌌 Omni_Engine: The Ultimate AI Operating System
+# 🌌 Omni_Engine: Universal AI Orchestration OS
+**Version**: 1.0.0-MAX | **Build**: Hardened | **State**: Overclocked (105%)
 
-Omni_Engine is the unified orchestration layer that merges your personal MCP ecosystem, the Mastermind protocol, and autonomous repo operations into a single, hyper-powered build.
+Omni_Engine is a high-velocity orchestration framework designed to unify disparate MCP servers, autonomous agents, and repository operation protocols into a single, cohesive intelligence layer.
 
-## 🏗️ Core Architecture
+---
 
-### 1. Orchestration Layer (The Brain)
-- **AI Cognitive Nexus**: Team grouping and hierarchical command.
-- **GitHub Nexus**: Repository management and synchronization.
-- **Quantum Context**: Infinite-loop reasoning and semantic compression.
+## 🏗️ Core Architectural Layers
 
-### 2. Operational Layer (The Muscle)
-- **Mastermind Protocol**: Forensic Analyst, Security Auditor, Legal Automator.
-- **Super-Agent Orchestrator**: Full-loop autonomous execution.
-- **Repo Operator 2.0**: Universal completion, validation, and deployment.
+### 🧠 Orchestration (The Brain)
+*   **AI Cognitive Nexus**: Multi-agent team grouping & hierarchical command.
+*   **GitHub Nexus**: Cross-repo synchronization and production deployment.
+*   **Quantum Context**: Semantic compression logic for infinite-reasoning loops.
 
-### 3. Meta Layer (The Forge)
-- **Universal Skill Factory**: On-the-fly skill generation and manifest injection.
-- **Universal MCP Factory**: OpenAPI-to-MCP bridging and dynamic tool registration.
+### ⚔️ Operations (The Muscle)
+*   **Mastermind Protocol**: A suite of 9 specialized agents (Forensics, Legal, Security, etc.).
+*   **Super-Agent Orchestrator**: The autonomous entry point for full-loop repo management.
+*   **Repo Operator 2.0**: Automated analysis, completion, and validation protocol.
 
-### 4. Speed Layer (The Microwave)
-- **Stealth Ghosting**: High-speed ephemeral worker provisioning.
-- **Microwave Mode**: Parallel execution of background audits and security tasks.
+### 🛠️ Meta-Forge (The Evolution)
+*   **Universal Skill Factory**: Dynamically provisions new capabilities on-demand.
+*   **Universal MCP Factory**: Bridges any OpenAPI spec into a functional MCP server.
 
-## 🚀 Commands & Controls
-- **Core Execution**: `omni-engine/core/microwave_master.sh`
-- **System Audit**: `omni-engine/core/system_check_final.py`
-- **Dashboard**: `dashboard/mission_control.md`
+### ⚡ Speed (The Microwave)
+*   **Stealth Ghosting**: Low-footprint, high-throughput execution core.
+*   **Microwave Mode**: Parallelized background processing for audits and security.
 
-## 🛰️ Status
-- **Ready State**: 105% (Overclocked)
-- **Connectivity**: 100% Verified
-- **Ecosystem**: Fully Synchronized (GlacierEQ/MCP)
+---
 
-## 🛡️ Stability Protocol
-The Omni_Engine employs a zero-trust credential policy. All local tokens are redacted before staging.
+## 🚀 Mission Critical Commands
+
+| Action | Command |
+| :--- | :--- |
+| **System Health Check** | `python3 omni-engine/core/system_check_final.py` |
+| **Parallel Optimization** | `./omni-engine/core/microwave_master.sh` |
+| **Autonomous Flow** | `python3 skills/super-agent-orchestrator/scripts/autonomous_flow.py` |
+| **Skill Generation** | `python3 skills/universal-skill/scripts/factory.py "Name" "Desc"` |
+
+---
+
+## 🛡️ Security & Zero-Trust
+The Omni_Engine implements **Strict Redaction Protocols**. All logs and commits are automatically scrubbed of sensitive tokens (Perplexity, OpenAI, etc.) before reaching the persistent layer.
+
+## 🛰️ Monitoring
+Track all live missions via the **[Mission Control Dashboard](../dashboard/mission_control.md)**.
