@@ -12,7 +12,7 @@
     "start:utility": "node servers/utility-interface-server.js"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^0.4.0"
+    "@modelcontextprotocol/sdk": "^1.24.0"
   },
   "keywords": ["mcp", "operator-code", "agent-swarm", "hyper-speed"],
   "author": "Operator Code Integration",
